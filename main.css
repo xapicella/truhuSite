@@ -2,7 +2,7 @@ body {
 	height: 100%;
 	margin: 0;
 	text-align: left;
-	width: 100%;
+	width: 200%;
   background-color: #303041;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
@@ -59,9 +59,16 @@ h1 {
   background-color: #adc7b9;
 }
 
+img {
+  padding: 8px 22px;
+  float: left;
+  width: 20rem;
+}
+
 p {
-  padding: 8px 400px;
+  padding: 8px 380px;
   color: white;
   font-size: 1.25rem;
   width: 400px;
+
 }
