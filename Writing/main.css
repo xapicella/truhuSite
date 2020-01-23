@@ -66,6 +66,11 @@ img {
   width: 20rem;
 }
 
+.piece {
+	padding: 8px 16px;
+  color: #a3d0ff;
+}
+
 p {
   padding: 8px 16px;
   color: white;
