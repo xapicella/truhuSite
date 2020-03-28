@@ -3,12 +3,12 @@ body {
 	margin: 0;
 	text-align: left;
 	width: 200%;
-  background-color: #303041;
+  background-color: white;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 /* Style The Dropdown Button */
 .dropbtn {
-  background-color: #adc7b9;
+  background-color: #00cc00;
   color: black;
   padding: 16px;
   font-size: 16px;
@@ -57,18 +57,12 @@ body {
 
 h1 {
   padding: 8px 16px;
-  background-color: #adc7b9;
-}
-
-img {
-  padding: 8px 22px;
-  float: left;
-  width: 20rem;
+  background-color: #00cc00;
 }
 
 p {
   padding: 8px 380px;
-  color: white;
+  color: black;
   font-size: 1.25rem;
   width: 400px;
 }
