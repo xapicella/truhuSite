@@ -195,6 +195,7 @@ footer {
 .custom-navbar {
     margin-bottom: 0;
     background-color: #101010;
+	max-height: 100%;
 }
 
 .custom-navbar .navbar-brand {
@@ -255,12 +256,6 @@ footer {
     }
 
 }
-
-#logo img {
-	width: 15px;
-	height: 5px;
-}
-
 
 /*---------------------------------------
     Intro section              
