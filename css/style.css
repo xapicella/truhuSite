@@ -7,10 +7,10 @@ http://www.templatemo.com/tm-486-new-event
 */
 
 body {
-		background: #ffffff;
+	background: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-		font-weight: 400;
+	font-weight: 400;
 }
 
 
@@ -251,7 +251,13 @@ footer {
         background: 0 0; 
     }
     .custom-navbar.top-nav-collapse {
-        background: #101010;
+        background: #e00000;
+		#truBlu {
+			color: #66ccff;
+		}
+		#huGrn {
+			color: #00e095;
+		}
         padding: 0
     }
 
