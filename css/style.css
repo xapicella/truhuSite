@@ -251,13 +251,14 @@ footer {
         background: 0 0; 
     }
     .custom-navbar.top-nav-collapse {
-        background: #e00000;
+        background: #101010;
+		/* This didn't work, explore later
 		#truBlu {
 			color: #66ccff;
 		}
 		#huGrn {
 			color: #00e095;
-		}
+		}*/
         padding: 0
     }
 
