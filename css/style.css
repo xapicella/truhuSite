@@ -200,8 +200,9 @@ footer {
 
 .custom-navbar .navbar-brand {
     color: #ffffff;
+	font-weight: 600;	
+    font-size: 3rem;
     line-height: 40px;
-	max-height: 40px;
 }
 
 .custom-navbar .nav li a {
