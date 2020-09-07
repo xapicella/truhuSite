@@ -240,7 +240,7 @@ footer {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #f54298;
+    background: #ffffff;
     border-color: transparent;
 }
 
@@ -251,8 +251,8 @@ footer {
         background: 0 0; 
     }
     .custom-navbar.top-nav-collapse {
-        background: #101010;
-        padding: 0;
+        background: #f54298;
+        padding: 0
     }
 
 }
