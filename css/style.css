@@ -309,11 +309,16 @@ footer {
     color: #ffffff;
 }
 
+/* OG css from when we used old fa icons 
 #detail .fa {
   color: #54f2b0;
   font-size: 48px;
 }
+*/
 
+#icon {
+  color: #54f2b0;
+}
 
 
 /*---------------------------------------
