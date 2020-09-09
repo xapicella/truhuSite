@@ -48,7 +48,7 @@ $(document).ready(function() {
   
   /* Text Rotation Section
   -------------------------------------------------- */
-  var TxtRotate = function(el, toRotate, period) {
+var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
@@ -56,9 +56,9 @@ $(document).ready(function() {
   this.txt = '';
   this.tick();
   this.isDeleting = false;
-  };
+};
 
-  TxtRotate.prototype.tick = function() {
+TxtRotate.prototype.tick = function() {
   var i = this.loopNum % this.toRotate.length;
   var fullTxt = this.toRotate[i];
 
@@ -87,9 +87,9 @@ $(document).ready(function() {
   setTimeout(function() {
     that.tick();
   }, delta);
-  };
+};
 
-  window.onload = function() {
+window.onload = function() {
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i=0; i<elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-rotate');
@@ -103,7 +103,7 @@ $(document).ready(function() {
   css.type = "text/css";
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
-  };
+};
   
   /* Owl Carousel
   -----------------------------------------------*/
