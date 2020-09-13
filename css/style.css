@@ -655,7 +655,7 @@ footer {
     list-style: none;
 }
 
-.social-icon li a {
+.social-icon li i {
     color: #666;
     border-radius: 100px;
     font-size: 16px;
@@ -668,7 +668,7 @@ footer {
     vertical-align: middle;
 }
 
-.social-icon li a:hover {
+.social-icon li i:hover {
     background: #00e09d;
     color: #ffffff;
 }
