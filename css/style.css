@@ -246,15 +246,14 @@ footer {
     }
     .custom-navbar.top-nav-collapse {
         background: #101010;
-		/* This didn't work, explore later
-		#truBlu {
-			color: #66ccff;
-		}
-		#huGrn {
-			color: #00e095;
-		}*/
         padding: 0
     }
+	.truBlu {
+		color: #66ccff;
+	}
+	.huGrn {
+		color: #00e095;
+	}
 
 }
 
@@ -643,7 +642,7 @@ footer {
 
 /*---------------------------------------
    Social icon             
------------------------------------------*/
+-----------------------------------------
 .social-icon {
     position: relative;
     padding: 0;
@@ -672,7 +671,7 @@ footer {
     background: #00e09d;
     color: #ffffff;
 }
-
+*/
 
 
 /*---------------------------------------
