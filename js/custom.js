@@ -1,5 +1,4 @@
-
- /* jQuery Pre loader
+/* jQuery Pre loader
   -----------------------------------------------*/
 $(window).load(function(){
     $('.preloader').fadeOut(1000); // set duration in brackets    
@@ -47,7 +46,7 @@ $(document).ready(function() {
   initParallax();
   
   /* Text Rotation Section
-  -------------------------------------------------- */
+  -------------------------------------------------- 
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -104,6 +103,8 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
+*/
   
   /* Owl Carousel
   -----------------------------------------------*/
