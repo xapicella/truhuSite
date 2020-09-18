@@ -364,7 +364,7 @@ footer {
 
 /*---------------------------------------
    Program section              
------------------------------------------*/
+-----------------------------------------
 #program h4 {
     color: #808080;
     font-size: 12px;
@@ -422,8 +422,42 @@ footer {
 
 
 /*---------------------------------------
-    Regsiter section              
+    Plans section              
 -----------------------------------------*/
+
+.cd-pricing-header {
+  height: 80px;
+  pointer-events: none;
+}
+
+.cd-pricing-body {
+  overflow-x: auto;
+  /* smooth scrolling on touch devices */
+  -webkit-overflow-scrolling: touch;
+}
+
+.cd-pricing-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.cd-select {
+  display: block;
+  height: 100%;
+  /* hide button text on mobile */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  color: transparent;
+}
+
+/*---------------------------------------
+    Register section              
+-----------------------------------------*/
+
 #register {
     background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
@@ -461,6 +495,34 @@ footer {
 }
 
 
+.cd-pricing-header {
+  height: 80px;
+  pointer-events: none;
+}
+
+.cd-pricing-body {
+  overflow-x: auto;
+  /* smooth scrolling on touch devices */
+  -webkit-overflow-scrolling: touch;
+}
+
+.cd-pricing-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.cd-select {
+  display: block;
+  height: 100%;
+  /* hide button text on mobile */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  color: transparent;
+}
 
 /*---------------------------------------
    Faq section              
