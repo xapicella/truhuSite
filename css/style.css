@@ -258,13 +258,6 @@ footer {
         background: #101010;
         padding: 0
     }
-	.truBlu {
-		color: #66ccff;
-	}
-	.huGrn {
-		color: #00e095;
-	}
-
 }
 
 /*---------------------------------------
@@ -320,7 +313,7 @@ footer {
 */
 
 #icon {
-  color: #54f2b0;
+  color: #adf700/*#54f2b0*/;
 	font-size: 48px;
 }
 
@@ -460,7 +453,7 @@ footer {
 }
 
 #register input[type="submit"] {
-  background: #00e09d;
+  background: #adf700/*#00e09d*/;
   border-radius: 100px;
   border: none;
   color: #ffffff;
@@ -646,7 +639,7 @@ footer {
 }
 
 #contact input[type="submit"]:hover {
-  background: #00e09d;
+  background: #adf700/*#00e09d*/;
 }
 
 
@@ -678,7 +671,7 @@ footer {
 }
 
 .go-top:hover {
-    background: #00e09d;
+    background: #adf700 /*#00e09d*/;
     color: #ffffff;
 }
 
