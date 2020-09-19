@@ -105,7 +105,7 @@ footer {
 
 #intro .btn-danger,
 #contact .btn-danger {
-    background: @greenTheme/*#9bde00/*#adf700/*#00e09d*/;
+    background: @greenTheme;/*#9bde00/*#adf700/*#00e09d*/
     border-color: transparent;
 }
 
