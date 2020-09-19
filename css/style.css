@@ -201,8 +201,10 @@ footer {
 	/* For image instead of text*/
 	height: auto;
     width: auto;
-    max-height: 80px;
+    max-height: 70px;
     max-width: 400px;
+	line-height: 40px; /* whatever the fixed height of the bar is */
+	vertical-align: middle;
 }
 
 
