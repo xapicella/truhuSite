@@ -203,7 +203,7 @@ footer {
 	width: auto;
 	max-height: 70px;
 	max-width: 400px;
-	line-height: 40px; /* whatever the fixed height of the bar is */
+	line-height: 35px; /* whatever the fixed height of the bar is */
 	vertical-align: middle;
 }
 
