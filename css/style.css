@@ -193,16 +193,16 @@ footer {
 }
 
 .custom-navbar .navbar-brand {
-    color: #ffffff;
+    /*color: #ffffff;
 	font-weight: 600;	
     font-size: 3rem;
-    line-height: 40px;
+    line-height: 40px;*/
 	
 	/* For image instead of text*/
-	/*height: auto;
+	height: auto;
     width: auto;
     max-height: 40px;
-    max-width: 160px;*/
+    max-width: 160px;
 }
 
 
@@ -269,7 +269,7 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro1.png') 50% 0 repeat-y fixed;
+    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
