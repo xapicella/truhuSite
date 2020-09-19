@@ -104,7 +104,7 @@ footer {
 
 #intro .btn-danger,
 #contact .btn-danger {
-    background: #00e09d;
+    background: #adf700/*#00e09d*/;
     border-color: transparent;
 }
 
