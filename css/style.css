@@ -197,7 +197,15 @@ footer {
 	font-weight: 600;	
     font-size: 3rem;
     line-height: 40px;
+	
+	/* For image instead of text*/
+	/*height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 160px;*/
 }
+
+
 
 .custom-navbar .nav li a {
     color: #ddd;
