@@ -104,7 +104,7 @@ footer {
 
 #intro .btn-danger,
 #contact .btn-danger {
-    background: #adf700/*#00e09d*/;
+    background: #9bde00/*#adf700/*#00e09d*/;
     border-color: transparent;
 }
 
@@ -313,7 +313,7 @@ footer {
 */
 
 #icon {
-  color: #adf700/*#54f2b0*/;
+  color: #9bde00/*#adf700/*#54f2b0*/;
 	font-size: 48px;
 }
 
@@ -453,7 +453,7 @@ footer {
 }
 
 #register input[type="submit"] {
-  background: #adf700/*#00e09d*/;
+  background: #9bde00/*#adf700/*#00e09d*/;
   border-radius: 100px;
   border: none;
   color: #ffffff;
@@ -639,7 +639,7 @@ footer {
 }
 
 #contact input[type="submit"]:hover {
-  background: #adf700/*#00e09d*/;
+  background: #9bde00/*#adf700/*#00e09d*/;
 }
 
 
@@ -671,7 +671,7 @@ footer {
 }
 
 .go-top:hover {
-    background: #adf700 /*#00e09d*/;
+    background: #9bde00/*#adf700 /*#00e09d*/;
     color: #ffffff;
 }
 
