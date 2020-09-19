@@ -201,7 +201,7 @@ footer {
 	/* For image instead of text*/
 	height: auto;
     width: auto;
-    max-height: 40px;
+    max-height: 80px;
     max-width: 400px;
 }
 
