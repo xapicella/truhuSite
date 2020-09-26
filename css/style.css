@@ -1,21 +1,14 @@
-/*
-
-New Event
-
-http://www.templatemo.com/tm-486-new-event
-
-*/
+/* Made using New Event template: http://www.templatemo.com/tm-486-new-event */
 
 body {
-		background: #ffffff;
+	background: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-		font-weight: 400;
+	font-weight: 400;
+
 }
-
-
 /*---------------------------------------
-    Typorgraphy              
+    Typography              
 -----------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
@@ -110,7 +103,7 @@ footer {
 
 #intro .btn-danger,
 #contact .btn-danger {
-    background: #54f2b0;
+    background: #00de0b;/*#9bde00/*#adf700/*#00e09d*/
     border-color: transparent;
 }
 
@@ -195,14 +188,25 @@ footer {
 .custom-navbar {
     margin-bottom: 0;
     background-color: #101010;
+	max-height: 100%;
 }
 
 .custom-navbar .navbar-brand {
-    color: #ffffff;
-    font-weight: 600;
+    /*color: #ffffff;
+	font-weight: 600;	
     font-size: 3rem;
-    line-height: 40px;
+    line-height: 40px;*/
+	
+	/* For image instead of text*/
+	height: auto;
+	width: auto;
+	max-height: 70px;
+	max-width: 400px;
+	line-height: 35px; /* whatever the fixed height of the bar is */
+	vertical-align: middle;
 }
+
+
 
 .custom-navbar .nav li a {
     color: #ddd;
@@ -253,10 +257,7 @@ footer {
         background: #101010;
         padding: 0;
     }
-
 }
-
-
 
 /*---------------------------------------
     Intro section              
@@ -303,20 +304,26 @@ footer {
     color: #ffffff;
 }
 
+/* OG css from when we used old fa icons 
 #detail .fa {
   color: #54f2b0;
   font-size: 48px;
 }
+*/
 
+#icon {
+  color: #00de0b/*#9bde00/*#adf700/*#54f2b0*/;
+	font-size: 48px;
+}
 
 
 /*---------------------------------------
-    Video section              
------------------------------------------*/
+    Video section - as of now not needed             
+-----------------------------------------
 #video iframe {
   border: none;
 }
-
+*/
 
 
 /*---------------------------------------
@@ -359,7 +366,7 @@ footer {
 
 /*---------------------------------------
    Program section              
------------------------------------------*/
+-----------------------------------------
 #program h4 {
     color: #808080;
     font-size: 12px;
@@ -404,7 +411,7 @@ footer {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #54f2b0;
+  color: #00e09d;
   cursor: default;
   background-color: transparent;
   border: 1px solid transparent;
@@ -417,8 +424,13 @@ footer {
 
 
 /*---------------------------------------
-    Regsiter section              
+    Plans & Pricing section              
 -----------------------------------------*/
+
+/*---------------------------------------
+    Register section              
+-----------------------------------------*/
+
 #register {
     background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
@@ -440,7 +452,7 @@ footer {
 }
 
 #register input[type="submit"] {
-  background: #54f2b0;
+  background: #00de0b/*#9bde00/*#adf700/*#00e09d*/;
   border-radius: 100px;
   border: none;
   color: #ffffff;
@@ -456,6 +468,34 @@ footer {
 }
 
 
+.cd-pricing-header {
+  height: 80px;
+  pointer-events: none;
+}
+
+.cd-pricing-body {
+  overflow-x: auto;
+  /* smooth scrolling on touch devices */
+  -webkit-overflow-scrolling: touch;
+}
+
+.cd-pricing-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.cd-select {
+  display: block;
+  height: 100%;
+  /* hide button text on mobile */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  color: transparent;
+}
 
 /*---------------------------------------
    Faq section              
@@ -598,7 +638,7 @@ footer {
 }
 
 #contact input[type="submit"]:hover {
-  background: #54f2b0;
+  background: #00de0b/*#9bde00/*#adf700/*#00e09d*/;
 }
 
 
@@ -630,14 +670,14 @@ footer {
 }
 
 .go-top:hover {
-    background: #54f2b0;
+    background: #00de0b/*#9bde00/*#adf700 /*#00e09d*/;
     color: #ffffff;
 }
 
 
 /*---------------------------------------
    Social icon             
------------------------------------------*/
+-----------------------------------------
 .social-icon {
     position: relative;
     padding: 0;
@@ -663,10 +703,10 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #54f2b0;
+    background: #00e09d;
     color: #ffffff;
 }
-
+*/
 
 
 /*---------------------------------------
