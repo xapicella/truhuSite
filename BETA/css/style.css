@@ -336,6 +336,8 @@ footer {
 	 text-align: center;
 }
 .tabs ul li label {
+	 font-family: "Poppins";
+	 text-align: center;
 	 transition: all 0.3s ease-in-out;
 	 color: #929daf;
 	 /*padding: 5px auto;*/
