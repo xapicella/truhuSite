@@ -200,8 +200,6 @@ footer {
 	vertical-align: middle;
 }
 
-
-
 .custom-navbar .nav li a {
 	color: #ddd;
 	font-size: 12px;
@@ -219,12 +217,12 @@ footer {
 
 .custom-navbar .navbar-nav > li > a:hover,
 .custom-navbar .navbar-nav > li > a:focus {
-/*  background-color: transparent; */
+	background-color: transparent;
 }
 
 .custom-navbar .nav li.active > a {
-/*    background-color: transparent; */
-    color: #66ccff;
+	background-color: transparent;
+	color: #66ccff;
 }
 
 .custom-navbar .navbar-toggle {
@@ -233,7 +231,7 @@ footer {
 }
 
 .custom-navbar .navbar-toggle {
-/*    background-color: transparent; */
+	background-color: transparent;
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
