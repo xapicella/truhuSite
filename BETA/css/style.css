@@ -185,12 +185,6 @@ footer {
 /*---------------------------------------
     Navigation Links section              
 -----------------------------------------*/
-.page-navbar {
-	margin-bottom: 0;
-	background-color: #101010;
-	max-height: 100%;
-}
-
 .custom-navbar {
 	margin-bottom: 0;
 	background-color: #101010;
@@ -721,8 +715,8 @@ footer {
   }
 
   .custom-navbar .nav li a {
-    font-size: 11px;
-	line-height: 20px;
+		font-size: 11px;
+		line-height: 20px;
   }
 
   #intro { height: 65vh; }
