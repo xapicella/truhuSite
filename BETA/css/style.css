@@ -185,37 +185,37 @@ footer {
 /*---------------------------------------
     Navigation Links section              
 -----------------------------------------*/
+.page-navbar {
+	margin-bottom: 0;
+	background-color: #101010;
+	max-height: 100%;
+}
+
 .custom-navbar {
-    margin-bottom: 0;
-    background-color: #101010;
+	margin-bottom: 0;
+	background-color: #101010;
 	max-height: 100%;
 }
 
 .custom-navbar .navbar-brand {
-    /*color: #ffffff;
-	font-weight: 600;	
-    font-size: 3rem;
-    line-height: 40px;*/
-	
-	/* For image instead of text*/
 	height: auto;
 	width: auto;
 	max-height: 70px;
 	max-width: 400px;
-	line-height: 35px; /* whatever the fixed height of the bar is */
+	line-height: 35px; 
 	vertical-align: middle;
 }
 
 
 
 .custom-navbar .nav li a {
-    color: #ddd;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-    line-height: 40px;
-    transition: all 0.4s ease-in-out;
+	color: #ddd;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+	line-height: 40px;
+	transition: all 0.4s ease-in-out;
 }
 
 .custom-navbar .nav li a:hover {
