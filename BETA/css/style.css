@@ -276,6 +276,13 @@ footer {
   letter-spacing: 2px;
 }
 
+/*---------------------------------------
+   Page Top  section              
+-----------------------------------------*/
+
+#page-top {
+	background: #101010;
+}
 
 /*---------------------------------------
    Overview  section              
@@ -288,8 +295,6 @@ footer {
    Product  section              
 -----------------------------------------*/
 .product-headings {
-	background: #101010;
-	color: #00de0b;
 	text-align: center;
 }
 
