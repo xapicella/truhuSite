@@ -308,6 +308,20 @@ footer {
     color: #ffffff;
 }
 
+.square-button {
+    border: transparent;
+    background-color: #222;
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+    color: #00de0b;
+}
+
+.square-button:hover {
+   background-color: #4a4a4a;
+   color: white;
+}
+
 /* OG css from when we used old fa icons 
 #detail .fa {
   color: #54f2b0;
