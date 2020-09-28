@@ -132,7 +132,9 @@ footer {
   background-size: cover !important;
 }
 
-
+#overview .parallax-section {
+	background: #ffffff;
+}
 
 /*---------------------------------------
     Preloader section              
