@@ -2,8 +2,8 @@
 
 body {
 	background: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
 	font-weight: 400;
 
 }
@@ -19,8 +19,8 @@ h3,h5 {
 }
 
 h1 {
-    font-size: 40px;
-    letter-spacing: 2px;
+	font-size: 40px;
+	letter-spacing: 2px;
 }
 
 h2 {
@@ -33,14 +33,14 @@ h3 {
 }
 
 h5 {
-    letter-spacing: 1px;
-    padding-top: 10px;
+	letter-spacing: 1px;
+	padding-top: 10px;
 }
 
 p {
-    color: #707070;
-    font-size: 14px;
-    line-height: 24px;
+	color: #707070;
+	font-size: 14px;
+	line-height: 24px;
 }
 
 a {
@@ -219,11 +219,11 @@ footer {
 
 .custom-navbar .navbar-nav > li > a:hover,
 .custom-navbar .navbar-nav > li > a:focus {
-  background-color: transparent;
+/*  background-color: transparent; */
 }
 
 .custom-navbar .nav li.active > a {
-    background-color: transparent;
+/*    background-color: transparent; */
     color: #66ccff;
 }
 
@@ -233,7 +233,7 @@ footer {
 }
 
 .custom-navbar .navbar-toggle {
-    background-color: transparent;
+/*    background-color: transparent; */
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
