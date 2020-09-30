@@ -111,7 +111,7 @@ footer {
   border-radius: 100px;
 }
 
-#intro .btn-danger:hover {
+#intro, #detail .btn-danger:hover {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
@@ -133,6 +133,7 @@ footer {
 }
 
 #page-top {
+	padding-top: 14rem;
 	background: #101010;
 }
 
