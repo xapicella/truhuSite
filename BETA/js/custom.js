@@ -7,7 +7,20 @@ $(window).load(function(){
 
 /* Keep Top Navbar fixed
     -----------------------------------------------*/
-$(".navbar-fixed-top").addClass("top-nav-collapse");
+
+if (window.location.pathname=='/') {
+	
+	$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+	});
+	
+else {
+	$(".navbar-fixed-top").addClass("top-nav-collapse");
+}
 
 
 
