@@ -103,7 +103,7 @@ footer {
 
 #intro .btn-danger,
 #contact .btn-danger {
-    background: #00de0b;/*#9bde00/*#adf700/*#00e09d*/
+    background: #00de0b;
     border-color: transparent;
 }
 
@@ -133,7 +133,6 @@ footer {
 }
 
 #page-top {
-	padding-top: 14rem;
 	background: #101010;
 }
 
