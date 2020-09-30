@@ -132,6 +132,10 @@ footer {
   background-size: cover !important;
 }
 
+#page-top {
+	background: #101010;
+}
+
 .ov-background {
 	background: #ffffff;
 }
