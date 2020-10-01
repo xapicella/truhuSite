@@ -9,23 +9,16 @@ $(window).load(function(){
     -----------------------------------------------*/
 
 $(window).scroll(function() {
-	// If in the home path
-	if (window.location.href == 'https://xapicella.github.io/BETA/') 
-	{
-		// Trigger topnav collapse on 50 unit offset from the top of the page
-    if ($(".navbar").offset().top > 50) 
-		{
-			$(".navbar-fixed-top").addClass("top-nav-collapse");
-    } 
-		else 
-		{
-			$(".navbar-fixed-top").removeClass("top-nav-collapse");
-    }
-	// Else, trigger navcollapse immediately.
-	else 
-	{
-		$(".navbar-fixed-top").addClass("top-nav-collapse");
-	}
+	
+// Trigger topnav collapse on 50 unit offset from the top of the page
+if ($(".navbar").offset().top > 50) 
+{
+	$(".navbar-fixed-top").addClass("top-nav-collapse");
+} 
+else 
+{
+	$(".navbar-fixed-top").removeClass("top-nav-collapse");
+}
 });
 	
 
