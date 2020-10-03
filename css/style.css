@@ -102,10 +102,13 @@ footer {
 
 #intro .btn-danger,
 #detail .btn-danger,
-#pInfo .btn-danger,
 #contact .btn-danger {
     background: #00de0b;
     border-color: transparent;
+}
+
+#pInfo .btn-danger {
+	background: #4287f5;
 }
 
 #contact .btn {
