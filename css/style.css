@@ -111,7 +111,7 @@ footer {
   border-radius: 100px;
 }
 
-#intro, #detail, #pInfo .btn-danger:hover {
+#intro, #detail .btn-danger:hover {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
@@ -608,6 +608,12 @@ footer {
 #pInfo .btn-danger {
 	background: #4287f5;
 	border-color: transparent;
+}
+
+#pInfo .btn-danger:hover {
+  background: transparent;
+  border-color: #4287f5;
+  color: #4287f5;
 }
 
 #iconPa {
