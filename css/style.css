@@ -446,11 +446,6 @@ footer {
 }
 
 
-
-/*---------------------------------------
-    Plans & Pricing section              
------------------------------------------*/
-
 /*---------------------------------------
     Register section              
 -----------------------------------------*/
@@ -611,6 +606,40 @@ footer {
   margin-top: 18px;
 }
 
+
+/*---------------------------------------
+    Partner Types section              
+-----------------------------------------*/
+#pInfo {
+    background: #d4d4d4;
+    color: #ffffff;
+}
+
+.square-button {
+    border: transparent;
+    background-color: #d4d4d4; /* light gray */
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+    color: #4287f5;
+}
+
+.square-button:hover {
+   background-color: #4a4a4a;
+   color: white;
+}
+
+/* OG css from when we used old fa icons 
+#detail .fa {
+  color: #54f2b0;
+  font-size: 48px;
+}
+*/
+
+#icon {
+  color: #4287f5/*#9bde00/*#adf700/*#54f2b0*/;
+	font-size: 48px;
+}
 
 
 /*---------------------------------------
