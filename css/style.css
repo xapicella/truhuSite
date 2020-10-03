@@ -107,10 +107,6 @@ footer {
     border-color: transparent;
 }
 
-#pInfo .btn-danger {
-	background: #4287f5;
-}
-
 #contact .btn {
   border-radius: 100px;
 }
@@ -618,29 +614,16 @@ footer {
     color: #ffffff;
 }
 
-.square-button {
-    border: transparent;
-    background-color: #d4d4d4; /* light gray */
-    height: 250px;
-    width: 250px;
-    cursor: pointer;
-    color: #4287f5;
+#pInfo h3 {
+	color: #101010;
 }
 
-.square-button:hover {
-   background-color: #4a4a4a;
-   color: white;
+#pInfo .btn-danger {
+	background: #4287f5;
 }
-
-/* OG css from when we used old fa icons 
-#detail .fa {
-  color: #54f2b0;
-  font-size: 48px;
-}
-*/
 
 #icon {
-  color: #4287f5/*#9bde00/*#adf700/*#54f2b0*/;
+  color: #4287f5;
 	font-size: 48px;
 }
 
