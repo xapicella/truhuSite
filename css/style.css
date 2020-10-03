@@ -63,32 +63,28 @@ a {
   padding-bottom: 14rem;
 }
 
-#detail, #video,
-#speakers, 
-#program,
-#sponsors, 
-#contact, footer {
+#detail, #video, #speakers, #program,
+#sponsors, #pInfo, #contact, 
+footer {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
-#detail,
+#detail, #pInfo,
 #speakers, #sponsors,
 footer {
   text-align: center;
 }
 
-#overview h3,
-#prodInfo h3,
-#detail h3, #video h3,
-#register h3,
-#venue h3,
-#contact h3 {
+#overview h3, #prodInfo h3,
+#detail h3, #pInfo h3, #video h3,
+#register h3, #venue h3, #contact h3 {
     padding-bottom: 12px;
 }
 
 #intro .btn,
 #detail .btn,
+#pInfo .btn,
 #contact .btn {
     background: transparent;
     border: 2px solid #ffffff;
@@ -106,6 +102,7 @@ footer {
 
 #intro .btn-danger,
 #detail .btn-danger,
+#pInfo .btn-danger,
 #contact .btn-danger {
     background: #00de0b;
     border-color: transparent;
@@ -115,7 +112,7 @@ footer {
   border-radius: 100px;
 }
 
-#intro, #detail .btn-danger:hover {
+#intro, #detail, #pInfo .btn-danger:hover {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
