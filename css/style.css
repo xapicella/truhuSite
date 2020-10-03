@@ -64,14 +64,14 @@ a {
 }
 
 #detail, #video, #speakers, #program,
-#sponsors, #pInfo, #contact, 
+#partners, #pInfo, #contact, 
 footer {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
 #detail, #pInfo,
-#speakers, #sponsors,
+#speakers, #partners,
 footer {
   text-align: center;
 }
@@ -602,7 +602,7 @@ footer {
 /*---------------------------------------
    Sponsors section              
 -----------------------------------------*/
-#sponsors img {
+#partners img {
   margin-top: 18px;
 }
 
