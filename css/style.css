@@ -103,11 +103,13 @@ footer {
 #intro .btn-danger,
 #detail .btn-danger,
 #contact .btn-danger {
-    background: #00de0b;
+    background: #66ccff;
     border-color: transparent;
 }
 
-#contact .btn {
+#contact .btn,
+#detail .btn
+{
   border-radius: 100px;
 }
 
@@ -219,7 +221,7 @@ footer {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #66ccff;
+    color: #00de0b;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -229,7 +231,7 @@ footer {
 
 .custom-navbar .nav li.active > a {
 	background-color: transparent;
-	color: #66ccff;
+	color: #00de0b;
 }
 
 .custom-navbar .navbar-toggle {
@@ -313,7 +315,6 @@ footer {
     color: #ffffff;
 }
 
-
 /* OG css from when we used old fa icons 
 #detail .fa {
   color: #54f2b0;
@@ -322,7 +323,7 @@ footer {
 */
 
 #icon {
-  color: #00de0b/*#9bde00/*#adf700/*#54f2b0*/;
+  color: #66ccff;
 	font-size: 48px;
 }
 
@@ -457,7 +458,7 @@ footer {
 }
 
 #register input[type="submit"] {
-  background: #00de0b/*#9bde00/*#adf700/*#00e09d*/;
+  background: #66ccff;
   border-radius: 100px;
   border: none;
   color: #ffffff;
@@ -569,7 +570,7 @@ footer {
 
 /*---------------------------------------
    Venue section              
------------------------------------------*/
+-----------------------------------------
 #venue {
     background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
@@ -592,12 +593,7 @@ footer {
   margin-top: 18px;
 }
 
-
-/*---------------------------------------
-    Partner Types section              
------------------------------------------*/
 #pInfo {
-    background: #d4d4d4;
     color: #ffffff;
 }
 
