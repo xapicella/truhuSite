@@ -685,8 +685,8 @@ footer {
 /* Back top */
 .go-top {
   background-color: #222;
-  bottom: 1em;
-  left: 1em;
+  bottom: 0.5em;
+  left: 0.5em;
   color: #ffffff;
   font-size: 32px;
   display: none;
