@@ -685,8 +685,8 @@ footer {
 /* Back top */
 .go-top {
   background-color: #222;
-  bottom: 2em;
-  right: 2em;
+  bottom: 1em;
+  left: 1em;
   color: #ffffff;
   font-size: 32px;
   display: none;
@@ -700,7 +700,7 @@ footer {
 }
 
 .go-top:hover {
-    background: #00de0b/*#9bde00/*#adf700 /*#00e09d*/;
+    background: #66ccff/*#00de0b*/;
     color: #ffffff;
 }
 
