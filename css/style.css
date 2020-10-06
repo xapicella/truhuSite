@@ -57,8 +57,7 @@ a {
 }
 
 #overview,
-#prodInfo,
-#register {
+#demo {
 	padding-top: 14rem;
   padding-bottom: 14rem;
 }
@@ -76,9 +75,8 @@ footer {
   text-align: center;
 }
 
-#overview h3, #prodInfo h3,
-#detail h3, #pInfo h3, #video h3,
-#register h3, #venue h3, #contact h3 {
+#overview h3, #detail h3, #pInfo h3, #video h3,
+#demo h3, #venue h3, #contact h3 {
     padding-bottom: 12px;
 }
 
@@ -298,13 +296,6 @@ footer {
     color: #ffffff;
 }
 
-/* OG css from when we used old fa icons 
-#detail .fa {
-  color: #54f2b0;
-  font-size: 48px;
-}
-*/
-
 #icon {
   color: #66ccff;
 	font-size: 48px;
@@ -323,27 +314,27 @@ footer {
 /*---------------------------------------
    Speakers section              
 -----------------------------------------*/
-#speakers {
+/*#overview .portraits {
     background: #f9f9f9;
-}
+} */
 
-#speakers h3 {
+#overview .portraits h3 {
     font-size: 18px;
     margin-bottom: 0px;
 }
 
-#speakers h6 {
+#overview .portraits h6 {
   color: #666;
   margin-top: 4px;
 }
 
-#speakers img {
+#overview .portraits img {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
-#speakers .col-md-3 {
+#overview .portraits .col-md-3 {
     display: block;
     width: 100%;
     padding-top: 30px;
@@ -351,7 +342,7 @@ footer {
     margin-bottom: 22px;
 }
 
-#speakers .speakers-wrapper {
+#overview .portraits .speakers-wrapper {
     background: #ffffff;
     padding-bottom: 22px;
 }
@@ -417,10 +408,10 @@ footer {
 
 
 /*---------------------------------------
-    Register section              
+    Demo section              
 -----------------------------------------*/
 
-#register {
+#demo {
     background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -428,7 +419,7 @@ footer {
     color: #ffffff;
 }
 
-#register .form-control {
+#demo .form-control {
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 0px;
@@ -436,11 +427,11 @@ footer {
   margin-bottom: 16px;
 }
 
-#register input {
+#demo input {
   height: 45px;
 }
 
-#register input[type="submit"] {
+#demo input[type="submit"] {
   background: #66ccff;
   border-radius: 100px;
   border: none;
@@ -451,7 +442,7 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-#register input[type="submit"]:hover {
+#demo input[type="submit"]:hover {
   background: #ffffff;
   color: #222;
 }
