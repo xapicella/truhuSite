@@ -573,6 +573,7 @@ footer {
    Partners section              
 -----------------------------------------*/
 #partners {
+  background: #999;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
@@ -586,8 +587,9 @@ footer {
 }
 
 #pInfo {
+	padding-top: 5rem;
 	padding-bottom: 5rem;
-	background: #888;
+	background: #999;
 	color: #111;
 }
 
@@ -597,15 +599,18 @@ footer {
 	border-color: transparent;
 }
 
+
+#iconPa {
+	color: #66ccff;
+	font-size: 48px;
+}
+
 #pInfo .btn-danger:hover {
-  background: #555;
+  background: #66ccff;
   border-color: transparent;
   color: #ffffff;
 }
 
-#iconPa {
-	font-size: 48px;
-}
 
 /*---------------------------------------
    Contact section              
