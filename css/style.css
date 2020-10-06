@@ -56,8 +56,7 @@ a {
   margin-bottom: 32px;
 }
 
-#overview,
-#demo {
+#overview, #demo {
 	padding-top: 14rem;
   padding-bottom: 14rem;
 }
@@ -69,20 +68,19 @@ footer {
     padding-bottom: 10rem;
 }
 
-#detail, #pInfo,
-#speakers, #partners,
+#detail, #speakers, #partners,
 footer {
   text-align: center;
 }
 
-#overview h3, #detail h3, #pInfo h3, #video h3,
+#overview h3, #detail h3, #partners h3, #video h3,
 #demo h3, #venue h3, #contact h3 {
     padding-bottom: 12px;
 }
 
 #intro .btn,
 #detail .btn,
-#pInfo .btn,
+#partners .btn,
 #contact .btn {
     background: transparent;
     border: 2px solid #ffffff;
@@ -562,6 +560,7 @@ footer {
 #partners {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+	color: #111;
 }
 
 #partners img {
@@ -572,24 +571,17 @@ footer {
 	margin-bottom: 5rem;
 }
 
-#pInfo {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-	color: #111;
+#iconPa {
+	font-size: 48px;
 }
 
-#pInfo .btn-danger {
+#partner .btn-danger {
 	background: transparent;
 	color: #101010;
 	border-color: transparent;
 }
 
-
-#iconPa {
-	font-size: 48px;
-}
-
-#pInfo .btn-danger:hover {
+#partner .btn-danger:hover {
   background: #66ccff;
   border-color: transparent;
   color: #ffffff;
