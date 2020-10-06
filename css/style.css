@@ -134,15 +134,6 @@ footer {
   background-size: cover !important;
 }
 
-#page-top {
-	padding-top: 7rem;
-	background: #101010;
-}
-
-.ov-background {
-	background: #ffffff;
-}
-
 /*---------------------------------------
     Preloader section              
 -----------------------------------------*/
@@ -283,14 +274,6 @@ footer {
 
 #intro h3 {
   letter-spacing: 2px;
-}
-
-/*---------------------------------------
-   Page Top  section              
------------------------------------------*/
-
-.everything {
-	background: #101010;
 }
 
 /*---------------------------------------
@@ -593,11 +576,12 @@ footer {
   margin-top: 18px;
 }
 
-#pInfo {
-    color: #999;
+#partners h4 {
+	margin-bottom: 5px;
 }
 
-#pInfo .section-tile {
+#pInfo {
+	background: #888;
 	color: #111;
 }
 
@@ -609,7 +593,7 @@ footer {
 
 #pInfo .btn-danger:hover {
   background: #555;
-  border-color: #555;
+  border-color: transparent;
   color: #ffffff;
 }
 
