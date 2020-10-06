@@ -63,8 +63,8 @@ a {
   padding-bottom: 14rem;
 }
 
-#detail, #video, #speakers, #program,
-#partners, #contact, 
+#detail, #video, #speakers, 
+#program, #contact, 
 footer {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -572,15 +572,21 @@ footer {
 /*---------------------------------------
    Partners section              
 -----------------------------------------*/
+#partners {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
 #partners img {
   margin-top: 18px;
 }
 
-#partners h4 {
-	margin-bottom: 5px;
+#partners h1 {
+	margin-bottom: 5rem;
 }
 
 #pInfo {
+	padding-bottom: 5rem;
 	background: #888;
 	color: #111;
 }
