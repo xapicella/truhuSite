@@ -573,7 +573,6 @@ footer {
    Partners section              
 -----------------------------------------*/
 #partners {
-  background: #999;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
@@ -589,7 +588,6 @@ footer {
 #pInfo {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-	background: #999;
 	color: #111;
 }
 
@@ -601,7 +599,6 @@ footer {
 
 
 #iconPa {
-	color: #66ccff;
 	font-size: 48px;
 }
 
