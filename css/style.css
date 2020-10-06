@@ -111,14 +111,10 @@ footer {
   border-radius: 100px;
 }
 
-#intro, #detail .btn-danger:hover {
+#intro .btn-danger:hover, #detail .btn-danger:hover {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
-}
-
-#contact .btn-danger:hover {
-  background: #222;
 }
 
 #intro .btn-default:hover {
@@ -313,28 +309,28 @@ footer {
 
 /*---------------------------------------
    Speakers section              
------------------------------------------*/
-/*#overview .portraits {
+-----------------------------------------
+#speakers {
     background: #f9f9f9;
-} */
+}
 
-#overview .portraits h3 {
+#speakers h3 {
     font-size: 18px;
     margin-bottom: 0px;
 }
 
-#overview .portraits h6 {
+#speakers h6 {
   color: #666;
   margin-top: 4px;
 }
 
-#overview .portraits img {
+#speakers img {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
-#overview .portraits .col-md-3 {
+#speakers .col-md-3 {
     display: block;
     width: 100%;
     padding-top: 30px;
@@ -342,7 +338,7 @@ footer {
     margin-bottom: 22px;
 }
 
-#overview .portraits .speakers-wrapper {
+#speakers .speakers-wrapper {
     background: #ffffff;
     padding-bottom: 22px;
 }
