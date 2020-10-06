@@ -594,7 +594,11 @@ footer {
 }
 
 #pInfo {
-    color: #ddd;
+    color: #999;
+}
+
+#pInfo .section-tile {
+	color: #111;
 }
 
 #pInfo .btn-danger {
@@ -604,8 +608,8 @@ footer {
 }
 
 #pInfo .btn-danger:hover {
-  background: #222;
-  border-color: #222;
+  background: #555;
+  border-color: #555;
   color: #ffffff;
 }
 
