@@ -38,7 +38,7 @@ h5 {
 }
 
 p {
-	color: #707070;
+	color: #808080;
 	font-size: 14px;
 	line-height: 24px;
 }
@@ -56,39 +56,31 @@ a {
   margin-bottom: 32px;
 }
 
-#overview,
-#prodInfo,
-#register {
+#overview, #demo {
 	padding-top: 14rem;
   padding-bottom: 14rem;
 }
 
-#detail, #video,
-#speakers, 
-#program,
-#sponsors, 
-#contact, footer {
+#detail, #video, #speakers, 
+#program, #contact, 
+footer {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
-#detail,
-#speakers, #sponsors,
+#detail, #speakers, #partners,
 footer {
   text-align: center;
 }
 
-#overview h3,
-#prodInfo h3,
-#detail h3, #video h3,
-#register h3,
-#venue h3,
-#contact h3 {
+#overview h3, #detail h3, #partners h3, #video h3,
+#demo h3, #venue h3, #contact h3 {
     padding-bottom: 12px;
 }
 
 #intro .btn,
 #detail .btn,
+#partners .btn,
 #contact .btn {
     background: transparent;
     border: 2px solid #ffffff;
@@ -107,22 +99,20 @@ footer {
 #intro .btn-danger,
 #detail .btn-danger,
 #contact .btn-danger {
-    background: #00de0b;
+    background: #66ccff;
     border-color: transparent;
 }
 
-#contact .btn {
+#contact .btn,
+#detail .btn
+{
   border-radius: 100px;
 }
 
-#intro, #detail .btn-danger:hover {
+#intro .btn-danger:hover, #detail .btn-danger:hover {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
-}
-
-#contact .btn-danger:hover {
-  background: #222;
 }
 
 #intro .btn-default:hover {
@@ -134,15 +124,6 @@ footer {
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
-}
-
-#page-top {
-	padding-top: 7rem;
-	background: #101010;
-}
-
-.ov-background {
-	background: #ffffff;
 }
 
 /*---------------------------------------
@@ -223,7 +204,7 @@ footer {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #66ccff;
+    color: #00de0b;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -233,7 +214,7 @@ footer {
 
 .custom-navbar .nav li.active > a {
 	background-color: transparent;
-	color: #66ccff;
+	color: #00de0b;
 }
 
 .custom-navbar .navbar-toggle {
@@ -266,7 +247,7 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/intro.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -285,14 +266,6 @@ footer {
 
 #intro h3 {
   letter-spacing: 2px;
-}
-
-/*---------------------------------------
-   Page Top  section              
------------------------------------------*/
-
-.everything {
-	background: #101010;
 }
 
 /*---------------------------------------
@@ -317,29 +290,8 @@ footer {
     color: #ffffff;
 }
 
-.square-button {
-    border: transparent;
-    background-color: #222;
-    height: 250px;
-    width: 250px;
-    cursor: pointer;
-    color: #00de0b;
-}
-
-.square-button:hover {
-   background-color: #4a4a4a;
-   color: white;
-}
-
-/* OG css from when we used old fa icons 
-#detail .fa {
-  color: #54f2b0;
-  font-size: 48px;
-}
-*/
-
 #icon {
-  color: #00de0b/*#9bde00/*#adf700/*#54f2b0*/;
+  color: #66ccff;
 	font-size: 48px;
 }
 
@@ -355,7 +307,7 @@ footer {
 
 /*---------------------------------------
    Speakers section              
------------------------------------------*/
+-----------------------------------------
 #speakers {
     background: #f9f9f9;
 }
@@ -449,16 +401,11 @@ footer {
 }
 
 
-
 /*---------------------------------------
-    Plans & Pricing section              
+    Demo section              
 -----------------------------------------*/
 
-/*---------------------------------------
-    Register section              
------------------------------------------*/
-
-#register {
+#demo {
     background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -466,7 +413,7 @@ footer {
     color: #ffffff;
 }
 
-#register .form-control {
+#demo .form-control {
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 0px;
@@ -474,12 +421,12 @@ footer {
   margin-bottom: 16px;
 }
 
-#register input {
+#demo input {
   height: 45px;
 }
 
-#register input[type="submit"] {
-  background: #00de0b/*#9bde00/*#adf700/*#00e09d*/;
+#demo input[type="submit"] {
+  background: #66ccff;
   border-radius: 100px;
   border: none;
   color: #ffffff;
@@ -489,7 +436,7 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-#register input[type="submit"]:hover {
+#demo input[type="submit"]:hover {
   background: #ffffff;
   color: #222;
 }
@@ -526,7 +473,7 @@ footer {
 
 /*---------------------------------------
    Faq section              
------------------------------------------*/
+-----------------------------------------
 #faq {
   background: #f9f9f9;
   padding-top: 8rem;
@@ -591,7 +538,7 @@ footer {
 
 /*---------------------------------------
    Venue section              
------------------------------------------*/
+-----------------------------------------
 #venue {
     background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
@@ -608,17 +555,42 @@ footer {
 
 
 /*---------------------------------------
-   Sponsors section              
+   Partners section              
 -----------------------------------------*/
-#sponsors img {
+#partners {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	color: #111;
+}
+
+#partners img {
   margin-top: 18px;
 }
 
+#partners h3 {
+	margin-bottom: 5rem;
+}
+
+#iconPa {
+	font-size: 48px;
+}
+
+#partner .btn-danger {
+	background: transparent;
+	color: #101010;
+	border-color: transparent;
+}
+
+#partner .btn-danger:hover {
+  background: #66ccff;
+  border-color: transparent;
+  color: #ffffff;
+}
 
 
 /*---------------------------------------
    Contact section              
------------------------------------------*/
+-----------------------------------------
 #contact {
     background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
@@ -677,13 +649,11 @@ footer {
   background-attachment: fixed;
 }
 
-
-
 /* Back top */
 .go-top {
   background-color: #222;
-  bottom: 2em;
-  right: 2em;
+  bottom: 0.9em;
+  left: 0.9em;
   color: #ffffff;
   font-size: 32px;
   display: none;
@@ -697,7 +667,7 @@ footer {
 }
 
 .go-top:hover {
-    background: #00de0b/*#9bde00/*#adf700 /*#00e09d*/;
+    background: #66ccff/*#00de0b*/;
     color: #ffffff;
 }
 
@@ -783,11 +753,7 @@ footer {
 
   #program img {
     padding-bottom: 32px;
-  }
-
-  #sponsors img {
-    padding-top: 22px;
-  }
+	}
 
   #contact .contact_detail {
     margin-top: 82px;
