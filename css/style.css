@@ -637,8 +637,8 @@ footer {
 }
 
 #contact input[type="submit"]:hover {
-  background: #00de0b/*#9bde00/*#adf700/*#00e09d*/;
-}
+  background: #00de0b/*#9bde00#adf700#00e09d*//*;
+}*/
 
 
 
@@ -652,8 +652,8 @@ footer {
 /* Back top */
 .go-top {
   background-color: #222;
-  bottom: 0.9em;
-  left: 0.9em;
+  bottom: 2em;
+  right: 2em;
   color: #ffffff;
   font-size: 32px;
   display: none;
