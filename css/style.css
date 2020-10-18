@@ -79,7 +79,7 @@ footer {
 }
 
 #intro .btn,
-#pulsHero .btn;
+#pulsHero .btn,
 #detail .btn,
 #partners .btn,
 #contact .btn {
@@ -98,7 +98,7 @@ footer {
 }
 
 #intro .btn-danger,
-#pulsHero .btn-danger;
+#pulsHero .btn-danger,
 #detail .btn-danger,
 #contact .btn-danger {
     background: #66ccff;
@@ -112,7 +112,7 @@ footer {
 }
 
 #intro .btn-danger:hover,
-#pulsHero .btn-danger:hover;
+#pulsHero .btn-danger:hover,
 #detail .btn-danger:hover {
   background: transparent;
   border-color: #66ccff;
