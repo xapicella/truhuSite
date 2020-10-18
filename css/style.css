@@ -79,6 +79,7 @@ footer {
 }
 
 #intro .btn,
+#pulsHero .btn;
 #detail .btn,
 #partners .btn,
 #contact .btn {
@@ -97,6 +98,7 @@ footer {
 }
 
 #intro .btn-danger,
+#pulsHero .btn-danger;
 #detail .btn-danger,
 #contact .btn-danger {
     background: #66ccff;
@@ -109,10 +111,12 @@ footer {
   border-radius: 100px;
 }
 
-#intro .btn-danger:hover, #detail .btn-danger:hover {
+#intro .btn-danger:hover,
+#pulsHero .btn-danger:hover;
+#detail .btn-danger:hover {
   background: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
+  border-color: #66ccff;
+  color: #66ccff;
 }
 
 #intro .btn-default:hover {
@@ -267,6 +271,32 @@ footer {
 #intro h3 {
   letter-spacing: 2px;
 }
+/*---------------------------------------
+    Pulse section              
+-----------------------------------------*/
+#pulsHero {
+    background: url('../../images/pulsHero.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    text-align: right;
+}
+
+#intro h3 {
+  letter-spacing: 2px;
+}
+
+
 
 /*---------------------------------------
    Overview  section              
@@ -294,16 +324,6 @@ footer {
   color: #66ccff;
 	font-size: 48px;
 }
-
-
-/*---------------------------------------
-    Video section - as of now not needed             
------------------------------------------
-#video iframe {
-  border: none;
-}
-*/
-
 
 /*---------------------------------------
    Speakers section              
@@ -340,66 +360,6 @@ footer {
     background: #ffffff;
     padding-bottom: 22px;
 }
-
-
-
-/*---------------------------------------
-   Program section              
------------------------------------------
-#program h4 {
-    color: #808080;
-    font-size: 12px;
-}
-
-#program h3 {
-  margin-top: 16px;
-}
-
-#program .program-divider {
-    border: 1px solid #f9f9f9;
-    margin-top: 32px;
-    margin-bottom: 42px;
-}
-
-#program span {
-    padding-right: 12px;
-}
-
-#program img {
-  border-radius: 50%;
-}
-
-.nav-tabs {
-  margin-bottom: 20px;
-}
-.nav-tabs > li {
-  float: left;
-  margin-bottom: -1px;
-}
-.nav-tabs > li > a {
-  color: #000000;
-  font-weight: 600;
-  margin-right: 2px;
-  line-height: 1.42857143;
-  border: none;
-  border-radius: 0px;
-}
-.nav-tabs > li > a:hover {
-  background-color: transparent;
-}
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  color: #00e09d;
-  cursor: default;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-bottom-color: #999;
-}
-.tab-content {
-  padding-top: 20px;
-}
-
 
 /*---------------------------------------
     Demo section              
@@ -470,89 +430,6 @@ footer {
   white-space: nowrap;
   color: transparent;
 }
-
-/*---------------------------------------
-   Faq section              
------------------------------------------
-#faq {
-  background: #f9f9f9;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-#faq .panel-group {
-  margin-top: 32px;
-}
-
-#faq .panel-group .panel {
-  margin-bottom: 8px;
-}
-
-#faq .panel-default {
-  border: none;
-}
-
-#faq .panel-default>.panel-heading {
-  background: #f0f0f0;
-  color: #505050;
-}
-
-#faq .panel-heading {
-  border: none;
-  padding-top: 8px;
-  padding-bottom: 6px;
-}
-
-#faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
-  border-top: none;
-  padding-top: 22px;
-  padding-left: 32px;
-  padding-bottom: 22px;
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"] {
-  font-size: 18px;
-  font-weight: 500;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 10px 15px;
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"]::after {
-  content: "-";
-  display: block;
-  position: absolute;
-  line-height: 1;
-  right: 1em;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"].collapsed::after {
-  content: "+";
-}
-
-
-
-/*---------------------------------------
-   Venue section              
------------------------------------------
-#venue {
-    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-}
-
-#venue p {
-  padding-top: 12px;
-  padding-bottom: 18px;
-}
-
-
 
 /*---------------------------------------
    Partners section              
