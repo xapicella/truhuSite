@@ -291,13 +291,7 @@ a {
 .zpat {
 	padding-top: 32px;
 	padding-bottom: 32px;
-}
-
-
-.vcenter {
-   display: inline-block;
-   vertical-align: middle;
-   float: none;
+	vertical-align: middle;
 }
 
 /*---------------------------------------
