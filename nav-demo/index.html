@@ -1,4 +1,159 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+	body {
+		background: #ffffff;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+		font-weight: 400;
+
+	}
+	/*---------------------------------------
+	    Typography              
+	-----------------------------------------*/
+	h1,h2,h3,h4,h5,h6 {
+	  font-weight: 600;
+	}
+
+	h3,h5 {
+	  font-weight: 500;
+	}
+
+	h1 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+
+
+
+	/*---------------------------------------
+	    General               
+	-----------------------------------------*/
+	.section-title {
+	  margin-bottom: 32px;
+	}
+
+	.parallax-section {
+	  background-attachment: fixed !important;
+	  background-size: cover !important;
+	}
+	/*---------------------------------------
+	    Intro section              
+	-----------------------------------------*/
+
+
+	#intro {
+	    background: url('../images/intro.jpg') 50% 0 repeat-y fixed;
+	    -webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center center;
+	    color: #ffffff;
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	     display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-align: center;
+	     -webkit-align-items: center;
+	      -ms-flex-align: center;
+		  align-items: center;
+	    height: 100vh;
+	    text-align: center;
+	}
+
+	#intro h3 {
+	  letter-spacing: 2px;
+	}
+		
+	.custom-navbar {
+		margin-bottom: 0;
+		background-color: #101010;
+		max-height: 100%;
+	}
+
+	.custom-navbar .navbar-brand {
+		height: auto;
+		width: auto;
+		max-height: 70px;
+		max-width: 400px;
+		line-height: 35px; 
+		vertical-align: middle;
+	}
+
+	.custom-navbar .nav li a {
+		color: #ddd;
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: 0.6px;
+		text-transform: uppercase;
+		line-height: 40px;
+		transition: all 0.4s ease-in-out;
+	}
+
+	.custom-navbar .nav li a:hover {
+	    background: transparent;
+	    color: #00de0b;
+	}
+
+	/*.custom-navbar .navbar-nav > li > a:hover,
+	.custom-navbar .navbar-nav > li > a:focus {
+		background-color: transparent;
+	}
+	.custom-navbar .nav li.active > a {
+		background-color: transparent;
+		color: #00de0b;
+	}*/
+
+	.custom-navbar .navbar-toggler {
+	    border: none;
+	    padding-top: 10px;
+	}
+
+	.custom-navbar .navbar-toggler {
+		background-color: transparent;
+	}
+
+	.custom-navbar .navbar-toggler .icon-bar {
+	    background: #ffffff;
+	    border-color: transparent;
+	}
+
+	@media(min-width:768px) {
+	    .custom-navbar {
+		padding: 20px 0;
+		border-bottom: 0;
+		background: 0 0; 
+	    }
+	    .custom-navbar.top-nav-collapse {
+		background: #101010;
+		padding: 0;
+	    }
+	}
+
+	/*---------------------------------------
+	   Responsive styles            
+	-----------------------------------------*/
+	@media (max-width: 980px) {
+
+	  p {font-size: 13px;}
+
+	  .custom-navbar .navbar-brand {
+	    font-size: 2rem;
+	  }
+
+	  .custom-navbar .nav li a {
+			font-size: 11px;
+			line-height: 20px;
+	  }
+
+	}
+	</style>
+	
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,600' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
 
 <div class="navbar fixed-top custom-navbar navbar-expand-md" role="navigation">
     <div class="container">
@@ -82,6 +237,31 @@
 	</div>
 
 </section>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- =========================
+     SCRIPTS   
+============================== -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+	$(window).scroll(function() {
+	    if ($(".navbar").offset().top > 50) {
+		$(".navbar-fixed-top").addClass("top-nav-collapse");
+	    } else {
+		$(".navbar-fixed-top").removeClass("top-nav-collapse");
+	    }
+	});
+
+	$(document).ready(function() {
+
+	  /* Hide mobile menu after clicking on a link
+	    -----------------------------------------------*/
+	    $('.navbar-collapse a').click(function(){
+		$(".navbar-collapse").collapse('hide');
+	    });
+	});
+</script>
+
+</body>
+</html>
