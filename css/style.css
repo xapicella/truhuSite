@@ -307,6 +307,9 @@ a {
 	font-size: 48px;
 }
 
+#quote {
+	background: #999;
+}
 /*---------------------------------------
    Partners section              
 -----------------------------------------*/
@@ -329,7 +332,7 @@ a {
 }
 
 #partner .btn-danger {
-	background: transparent;
+	background: #66ccff;
 	color: #101010;
 	border-color: transparent;
 }
