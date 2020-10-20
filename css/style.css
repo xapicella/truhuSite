@@ -108,6 +108,19 @@ a {
   color: #66ccff;
 }
 
+#partner .btn-danger {
+	background: #66ccff;
+	border-color: transparent;
+	color: #101010;
+}
+
+#partner .btn-danger:hover {
+  background: #66ccff;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+
 #intro .btn-default:hover {
     background: #ffffff;
     color: #333333;
@@ -361,11 +374,6 @@ about
 	font-size: 48px;
 }
 
-.quote {
-	background: #ffffff;
-	text-align: left;
-	color: #101010;
-}
 /*---------------------------------------
    Partners section              
 -----------------------------------------*/
@@ -385,18 +393,6 @@ about
 
 #iconPa {
 	font-size: 48px;
-}
-
-#partner .btn-danger {
-	background: #66ccff;
-	color: #101010;
-	border-color: transparent;
-}
-
-#partner .btn-danger:hover {
-  background: #66ccff;
-  border-color: transparent;
-  color: #ffffff;
 }
 
 /*---------------------------------------
