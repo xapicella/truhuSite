@@ -284,14 +284,20 @@ a {
 /*---------------------------------------
    Overview  section              
 -----------------------------------------*/
-#overview img {
+#overview .ovimg {
   padding-bottom: 32px;
 }
-/*---------------------------------------
-   Product  section              
------------------------------------------*/
-.product-headings {
-	text-align: center;
+
+.zpat {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+
+.vcenter {
+   display: inline-block;
+   vertical-align: middle;
+   float: none;
 }
 
 /*---------------------------------------
@@ -307,8 +313,9 @@ a {
 	font-size: 48px;
 }
 
-#quote {
+.quote {
 	background: #999;
+	text-align: left;
 }
 /*---------------------------------------
    Partners section              
