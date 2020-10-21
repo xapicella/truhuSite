@@ -49,8 +49,8 @@ a {
 }
 
 #overview {
-	padding-top: 14rem;
-  padding-bottom: 14rem;
+	padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 #detail, footer {
@@ -356,9 +356,10 @@ a {
 ---------------------------------------------*/
 
 #testimonials {
-  padding: 100px 0px;
+  /*padding: 100px 0px;*/
   position: relative;
   z-index: 9;
+	color: #101010;
 }
 
 @media (max-width: 992px) {
