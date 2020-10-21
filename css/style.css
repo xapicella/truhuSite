@@ -300,11 +300,9 @@ a {
 ---------------------------------------------*/
 
 #about {
-    background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
+    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
-    color: #ffffff;
 }
 
 @media (max-width: 992px) {
