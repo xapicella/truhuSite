@@ -10,14 +10,6 @@ body {
 /*---------------------------------------
     Typography              
 -----------------------------------------*/
-h1,h2,h4,h6 {
-  font-weight: 600;
-}
-
-h3,h5 {
-  font-weight: 500;
-}
-
 h1 {
 	font-size: 40px;
 	letter-spacing: 2px;
@@ -308,9 +300,11 @@ a {
 ---------------------------------------------*/
 
 #about {
-  padding: 100px 0px;
-  position: relative;
-  z-index: 9;
+    background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
 }
 
 @media (max-width: 992px) {
