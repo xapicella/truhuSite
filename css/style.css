@@ -293,7 +293,11 @@ a {
 .zpat {
 	padding-top: 32px;
 	padding-bottom: 32px;
-	vertical-align: middle;
+}
+
+.zpat img {
+	max-height: 400px;
+	max-width: 1200px;
 }
 
 /*---------------------------------------------
