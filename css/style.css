@@ -66,7 +66,7 @@ a {
     padding-bottom: 10rem;
 }
 
-#detail, #partners, footer {
+#detail, footer {
   text-align: center;
 }
 
@@ -85,13 +85,13 @@ a {
     font-size: 12px;
     padding: 14px 42px;
     margin-top: 42px;
-    margin-right: 12px;
+    /*margin-right: 12px;*/
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
 
 #intro .btn-danger, #pulsHero .btn-danger,
-#detail .btn-danger {
+#detail .btn-danger, #partner .btn-danger {
     background: #66ccff;
     border-color: transparent;
 }
@@ -102,7 +102,8 @@ a {
 
 #intro .btn-danger:hover,
 #pulsHero .btn-danger:hover,
-#detail .btn-danger:hover {
+#detail .btn-danger:hover,
+#partner .btn-danger:hover {
   background: transparent;
   border-color: #66ccff;
   color: #66ccff;
@@ -282,12 +283,12 @@ a {
     text-align: right;
 }
 
+#pulsHero h2 {
+	color: #66ccff
+}
 /*---------------------------------------
    Overview  section              
 -----------------------------------------*/
-#overview .ovimg {
-  padding-bottom: 32px;
-}
 
 .zpat {
 	padding-top: 32px;
@@ -295,11 +296,9 @@ a {
 	vertical-align: middle;
 }
 
-/*
----------------------------------------------
-about
----------------------------------------------
-*/
+/*---------------------------------------------
+		About Partners
+---------------------------------------------*/
 
 #about {
   padding: 100px 0px;
@@ -344,7 +343,59 @@ about
   margin-bottom: 25px;
 }
 
-.features-item .main-button {
+.features-item .btn-danger {
+  margin-top: 35px;
+  display: inline-block;
+}
+
+/*---------------------------------------------
+		Testimonials
+---------------------------------------------*/
+
+#testimonials {
+  padding: 100px 0px;
+  position: relative;
+  z-index: 9;
+}
+
+@media (max-width: 992px) {
+  .quoteBox {
+    margin-bottom: 45px;
+  }
+}
+
+.quoteBox {
+  border-radius: 5px;
+  padding: 60px 30px;
+	background: #999;
+  /*box-shadow: 0px 0px 10px rgba(0,0,0,0.1);*/
+}
+
+.quoteBox h2 {
+  z-index: 9;
+  position: absolute;
+  top: 15px;
+  left: 45px;
+  font-size: 100px;
+  font-weight: 600;
+  color: #fdefe9;
+}
+
+.quoteBox img {
+  z-index: 10;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.quoteBox h4 {
+  margin-top: 0px;
+  font-size: 22px;
+  color: #1e1e1e;
+  margin-bottom: 25px;
+}
+
+.quoteBox .btn-danger {
   margin-top: 35px;
   display: inline-block;
 }
