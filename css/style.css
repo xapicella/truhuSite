@@ -362,6 +362,10 @@ a {
 	color: #101010;
 }
 
+#testimonials h1 {
+	text-align: center;
+}
+
 @media (max-width: 992px) {
   .quoteBox {
     margin-bottom: 45px;
