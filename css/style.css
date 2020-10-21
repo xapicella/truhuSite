@@ -56,7 +56,7 @@ a {
   margin-bottom: 32px;
 }
 
-#overview, #demo {
+#overview, #about {
 	padding-top: 14rem;
   padding-bottom: 14rem;
 }
@@ -70,12 +70,12 @@ a {
   text-align: center;
 }
 
-#overview h3, #detail h3, #partners h3 {
+#overview h3, #detail h3, #partners h3, #about h3 {
     padding-bottom: 12px;
 }
 
 #intro .btn, #pulsHero .btn,
-#detail .btn, #partners .btn {
+#detail .btn, #about .btn {
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 0px;
@@ -91,19 +91,19 @@ a {
 }
 
 #intro .btn-danger, #pulsHero .btn-danger,
-#detail .btn-danger, #partner .btn-danger {
+#detail .btn-danger, #about .btn-danger {
     background: #66ccff;
     border-color: transparent;
 }
 
-#detail .btn, #partner .btn {
+#detail .btn, #about .btn {
   border-radius: 100px;
 }
 
 #intro .btn-danger:hover,
 #pulsHero .btn-danger:hover,
 #detail .btn-danger:hover,
-#partner .btn-danger:hover {
+#about .btn-danger:hover {
   background: transparent;
   border-color: #66ccff;
   color: #66ccff;
@@ -374,19 +374,10 @@ a {
 .quoteBox {
   border-radius: 5px;
   padding: 60px 30px;
-	background: #999;
+	background: #e0e0e0;
   /*box-shadow: 0px 0px 10px rgba(0,0,0,0.1);*/
 }
 
-.quoteBox h2 {
-  z-index: 9;
-  position: absolute;
-  top: 15px;
-  left: 45px;
-  font-size: 100px;
-  font-weight: 600;
-  color: #fdefe9;
-}
 
 .quoteBox img {
   z-index: 10;
@@ -398,13 +389,8 @@ a {
 .quoteBox h4 {
   margin-top: 0px;
   font-size: 22px;
-  color: #1e1e1e;
+  color: #ffffff;
   margin-bottom: 25px;
-}
-
-.quoteBox .btn-danger {
-  margin-top: 35px;
-  display: inline-block;
 }
 
 /*---------------------------------------
