@@ -346,7 +346,7 @@ footer {
 }
 
 #about .btn-danger:hover {
-  background: 00eb0d;
+  background-color: 00eb0d;
   border-color: transparent;
   color: #101010;
 }
