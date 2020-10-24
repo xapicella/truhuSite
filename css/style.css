@@ -1,4 +1,4 @@
-/* Made using New Event template: http://www.templatemo.com/tm-486-new-event */
+/*--------------------------------------- Universal Styles -----------------------------------------*/
 
 body {
 	background: #ffffff;
@@ -48,21 +48,16 @@ a {
   margin-bottom: 32px;
 }
 
-#detail, footer {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-}
-
-#detail, footer {
+#products, footer {
   text-align: center;
 }
 
-#overview h3, #detail h3, #partners h3, #about h3 {
+#overview h3, #products h3, #partners h3, #about h3 {
     padding-bottom: 12px;
 }
 
 #intro .btn, #pulsHero .btn,
-#detail .btn, #about .btn {
+#products .btn, #about .btn {
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 0px;
@@ -78,24 +73,22 @@ a {
 }
 
 #intro .btn-danger, #pulsHero .btn-danger,
-#detail .btn-danger, #about .btn-danger {
+#products .btn-danger {
     background: #66ccff;
     border-color: transparent;
 }
 
-#detail .btn, #about .btn {
+#products .btn, #about .btn {
   border-radius: 100px;
 }
 
 #intro .btn-danger:hover,
 #pulsHero .btn-danger:hover,
-#detail .btn-danger:hover,
-#about .btn-danger:hover {
+#products .btn-danger:hover {
   background: transparent;
   border-color: #66ccff;
   color: #66ccff;
 }
-
 
 #intro .btn-default:hover {
     background: #ffffff;
@@ -226,7 +219,40 @@ a {
 }
 
 /*---------------------------------------
-    Intro section              
+   Footer section              
+-----------------------------------------*/
+footer {
+  background-attachment: fixed;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+/* Back top */
+.go-top {
+  background-color: #222;
+  bottom: 2em;
+  right: 2em;
+  color: #ffffff;
+  font-size: 32px;
+  display: none;
+  position: fixed;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.go-top:hover {
+    background: #66ccff/*#00de0b*/;
+    color: #ffffff;
+}
+
+/*--------------------------------------- Home Page Styles -----------------------------------------*/ 
+
+/*---------------------------------------
+    Home Hero Section              
 -----------------------------------------*/
 #intro {
     background: url('../images/intro.jpg') 50% 0 repeat-y fixed;
@@ -251,63 +277,52 @@ a {
 }
 
 /*---------------------------------------
-    Pulse section              
------------------------------------------*/
-#pulsHero {
-    background: url('../../images/pulsHero.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-     -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-    height: 100vh;
-    text-align: right;
-}
-
-#pulsHero h2 {
-	color: #66ccff
-}
-/*---------------------------------------
    Overview  section              
 -----------------------------------------*/
-
 #overview {
 	padding-top: 10rem;
   padding-bottom: 10rem;
 }
 
 /*---------------------------------------
-   Pulse Features  section              
+    Products Section              
 -----------------------------------------*/
-#plsFtrs {
+#products {
+    background: #222;
+    color: #ffffff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#icon {
+  color: #66ccff;
+	font-size: 48px;
+}
+
+/*---------------------------------------
+   Partners Section              
+-----------------------------------------*/
+#partners {
 	padding-top: 5rem;
-  padding-bottom: 5rem;
+	padding-bottom: 5rem;
+	color: #111;
 }
 
-.zpat {
-	padding-top: 32px;
-	padding-bottom: 32px;
+#partners img {
+  margin-top: 18px;
 }
 
-.zpat img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-height: 400px;
-	max-width: 1200px;
+#partners h3 {
+	margin-bottom: 5rem;
+}
+
+#iconPa {
+	font-size: 48px;
 }
 
 /*---------------------------------------------
-		About Partners
+		About Partners Section
 ---------------------------------------------*/
-
 #about {
 	background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
 	background-size: cover;
@@ -323,6 +338,17 @@ a {
 
 #about h3 {
 	text-align: center;
+}
+
+#about .btn-danger {
+    background: #101010;
+    border-color: transparent;
+}
+
+#about .btn-danger:hover {
+  background: 00eb0d;
+  border-color: transparent;
+  color: #101010;
 }
 
 @media (max-width: 992px) {
@@ -365,11 +391,59 @@ a {
 
 .ptnrBox .btn-danger {
   margin-top: 35px;
-  display: inline-block;
+  display: inline-block;	
+}
+
+/* -------------------------------------- Pulse Page Styles -------------------------------------- */
+
+/*---------------------------------------
+    Pulse Hero Section              
+-----------------------------------------*/
+#pulsHero {
+    background: url('../../images/pulsHero.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    text-align: right;
+}
+
+#pulsHero h2 {
+	color: #66ccff
+}
+
+/*---------------------------------------
+   Pulse Features Section              
+-----------------------------------------*/
+#plsFtrs {
+	padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.zpat {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.zpat img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 400px;
+	max-width: 1200px;
 }
 
 /*---------------------------------------------
-		Testimonials
+		Testimonials Section
 ---------------------------------------------*/
 
 #testimonials {
@@ -409,72 +483,8 @@ a {
   margin-bottom: 25px;
 }
 
-/*---------------------------------------
-    Detail section              
------------------------------------------*/
-#detail {
-    background: #222;
-    color: #ffffff;
-}
+/*--------------------------------------- Responsive Styles -----------------------------------------*/
 
-#icon {
-  color: #66ccff;
-	font-size: 48px;
-}
-
-/*---------------------------------------
-   Partners section              
------------------------------------------*/
-#partners {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-	color: #111;
-}
-
-#partners img {
-  margin-top: 18px;
-}
-
-#partners h3 {
-	margin-bottom: 5rem;
-}
-
-#iconPa {
-	font-size: 48px;
-}
-
-/*---------------------------------------
-   Footer section              
------------------------------------------*/
-footer {
-  background-attachment: fixed;
-}
-
-/* Back top */
-.go-top {
-  background-color: #222;
-  bottom: 2em;
-  right: 2em;
-  color: #ffffff;
-  font-size: 32px;
-  display: none;
-  position: fixed;
-  text-decoration: none;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  transition: all 0.4s ease-in-out;
-}
-
-.go-top:hover {
-    background: #66ccff/*#00de0b*/;
-    color: #ffffff;
-}
-
-/*---------------------------------------
-   Responsive styles            
------------------------------------------*/
 @media (max-width: 980px) {
 
   p {font-size: 13px;}
