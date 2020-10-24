@@ -48,11 +48,6 @@ a {
   margin-bottom: 32px;
 }
 
-#overview {
-	padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 #detail, footer {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -282,6 +277,20 @@ a {
 /*---------------------------------------
    Overview  section              
 -----------------------------------------*/
+
+#overview {
+	padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+/*---------------------------------------
+   Pulse Features  section              
+-----------------------------------------*/
+#plsFtrs {
+	padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .zpat {
 	padding-top: 32px;
 	padding-bottom: 32px;
@@ -308,13 +317,21 @@ a {
 	padding-bottom: 5rem;
 }
 
+#about h1 {
+	text-align: center;
+}
+
+#about h3 {
+	text-align: center;
+}
+
 @media (max-width: 992px) {
-  .features-item {
+  .ptnrBox {
     margin-bottom: 45px;
   }
 }
 
-.features-item {
+.ptnrBox {
   border-radius: 5px;
   padding: 60px 30px;
   text-align: center;
@@ -322,7 +339,7 @@ a {
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
-.features-item h2 {
+.ptnrBox h2 {
   z-index: 9;
   position: absolute;
   top: 15px;
@@ -332,21 +349,21 @@ a {
   color: #fdefe9;
 }
 
-.features-item img {
+.ptnrBox img {
   z-index: 10;
   position: relative;
   max-width: 100%;
   margin-bottom: 40px;
 }
 
-.features-item h4 {
+.ptnrBox h4 {
   margin-top: 0px;
   font-size: 22px;
   color: #1e1e1e;
   margin-bottom: 25px;
 }
 
-.features-item .btn-danger {
+.ptnrBox .btn-danger {
   margin-top: 35px;
   display: inline-block;
 }
@@ -375,10 +392,8 @@ a {
 .quoteBox {
   border-radius: 5px;
   padding: 60px 30px;
-	background: #e0e0e0;
-  /*box-shadow: 0px 0px 10px rgba(0,0,0,0.1);*/
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
-
 
 .quoteBox img {
   z-index: 10;
