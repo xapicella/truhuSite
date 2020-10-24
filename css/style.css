@@ -346,9 +346,9 @@ footer {
 }
 
 #about .btn-danger:hover {
-  background-color: 00eb0d;
+  background: #00de0b;
   border-color: transparent;
-  text-color: #101010;
+  color: #101010;
 }
 
 @media (max-width: 992px) {
