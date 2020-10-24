@@ -417,6 +417,9 @@ footer {
     text-align: right;
 }
 
+#pulsHero {
+	color: #ffffff;
+}
 #pulsHero h2 {
 	color: #66ccff
 }
