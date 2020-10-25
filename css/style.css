@@ -294,6 +294,12 @@ footer {
     padding-bottom: 5rem;
 }
 
+@media (max-width: 992px) {
+  .product {
+    margin-bottom: 45px;
+  }
+}
+
 #icon {
   color: #66ccff;
 	font-size: 48px;
