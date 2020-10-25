@@ -507,7 +507,7 @@ footer {
 		line-height: 20px;
   }
 
-  #intro { height: 65vh; }
+  #intro, #pulsHero { height: 65vh; }
 
   #video iframe {
     margin-top: 42px;
@@ -527,7 +527,7 @@ footer {
   }
 
   #overview img,
-  #detail .col-md-4 {
+  #products .col-md-4 {
     padding-top: 32px;
   }
 
@@ -539,7 +539,7 @@ footer {
 
 @media (max-width: 760px) {
 
-  #intro {
+  #intro, #pulsHero {
     height: 100vh;
   }
 
