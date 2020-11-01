@@ -67,7 +67,6 @@ a {
     font-size: 12px;
     padding: 14px 42px;
     margin-top: 42px;
-    /*margin-right: 12px;*/
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
@@ -91,9 +90,10 @@ a {
 }
 
 #intro .btn-default:hover {
-    background: #ffffff;
-    color: #333333;
-    border-color: transparent;
+	margin-right: 12px;
+	background: #ffffff;
+	color: #333333;
+	border-color: transparent;
 }
 
 .btn-blocked { 
