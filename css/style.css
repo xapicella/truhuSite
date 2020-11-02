@@ -48,7 +48,7 @@ a {
   margin-bottom: 32px;
 }
 
-#products, footer {
+#products, #plsPerks, footer {
   text-align: center;
 }
 
@@ -443,13 +443,15 @@ footer {
 -----------------------------------------*/
 
 #plsPerks {
-	background: #222;
+	background: #b5b5b5;
 	color: #ffffff;
 	text-align: center;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 #plsPerks .icons {
-	font-size: 36px;
+	font-size: 42px;
 }
 
 /*---------------------------------------
