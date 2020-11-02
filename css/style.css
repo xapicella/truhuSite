@@ -439,6 +439,20 @@ footer {
 }
 
 /*---------------------------------------
+   Pulse Perks Section              
+-----------------------------------------*/
+
+#plsPerks {
+	background: #222;
+	color: #ffffff;
+	text-align: center;
+}
+
+#plsPerks .icons {
+	font-size: 36px;
+}
+
+/*---------------------------------------
    Pulse Features Section              
 -----------------------------------------*/
 #plsFtrs {
