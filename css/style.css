@@ -408,6 +408,16 @@ footer {
   margin-top: 35px;
   display: inline-block;	
 }
+/* -------------------------------------- About Us Page Styles -------------------------------------- */
+
+#our {
+	padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+#our h1 { 
+	text-align: center;
+}
 
 /* -------------------------------------- Pulse Page Styles -------------------------------------- */
 
@@ -435,6 +445,7 @@ footer {
 #pulsHero {
 	color: #ffffff;
 }
+
 #pulsHero h2 {
 	color: #66ccff
 }
