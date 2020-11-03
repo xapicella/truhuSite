@@ -410,13 +410,19 @@ footer {
 }
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 
-#our {
-	padding-top: 15rem;
-  padding-bottom: 15rem;
+#vision h1,
+#story h1 { 
+	text-align: center;
 }
 
-#our h1 { 
-	text-align: center;
+#vision {
+	padding-top: 15rem;
+	padding-bottom: 5rem;
+}
+
+#story {
+	padding-top: 5rem;
+	padding-bottom: 15rem;
 }
 
 /* -------------------------------------- Pulse Page Styles -------------------------------------- */
