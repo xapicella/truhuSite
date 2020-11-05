@@ -411,7 +411,8 @@ footer {
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 
 #vision h1,
-#story h1 { 
+#story h1,
+#founders h1 { 
 	text-align: center;
 }
 
@@ -420,52 +421,69 @@ footer {
 	padding-bottom: 5rem;
 }
 
-#story {
+#story,
+#founders {
 	padding-top: 5rem;
-	padding-bottom: 15rem;
+	padding-bottom: 5rem;
 }
 
-.about {
-    background: var(--about-bg-color);
-  }
+.founders {
+	background: #f2f2f2;
+}
 
-  .about-working-hours {
-    border-left: 2px solid;
-    padding-left: 3.5rem;
-  }
+.about-working-hours {
+	border-left: 2px solid;
+	padding-left: 3.5rem;
+}
 
-  .about-working-hours strong {
-    color: var(--white-color);
-    opacity: 0.85;
-  }
+.about-working-hours strong {
+	color: #ffffff;
+	opacity: 0.85;
+}
 
-  .team-thumb {
-    position: relative;
-  }
+.team-thumb {
+	position: relative;
+}
 
-  .team-info {
-    background: var(--white-color);
-    border-radius: 0 0 2px 2px;
-    box-shadow: 6px 0 38px rgba(20,20,20,0.10);
-    padding: 20px;
-    position: relative;
-  }
+.team-info {
+	background: #ffffff;
+	border-radius: 0 0 2px 2px;
+	box-shadow: 6px 0 38px rgba(20,20,20,0.10);
+	padding: 20px;
+	position: relative;
+}
 
-  .team-info span {
-    font-weight: var(--font-weight-light);
-    opacity: 0.85;
-  }
+.team-info span {
+	font-weight: 400;
+	opacity: 0.85;
+}
 
-  .team-info .social-icon {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-  }
+.team-info .social-icon {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
 
-  .team-info .social-icon li {
-    display: block;
-  }
+.team-info .social-icon {
+	display: block;
+}
 
+.social-icon {
+	position: relative;
+	padding: 0;
+	margin: 5px 0 0 0;
+	display: inline-block;
+	text-decoration: none;
+	display: inline-block;
+	color: #101010;
+	font-size: 24px;
+	margin: 5px 10px;
+	text-align: center;
+}
+
+.social-icon li a:hover {
+	color: #66ccff;
+}
 /* -------------------------------------- Pulse Page Styles -------------------------------------- */
 
 /*---------------------------------------
@@ -616,6 +634,11 @@ footer {
   .nav-tabs > li > a {
     font-size: 13px;
   }
+	
+	.about-working-hours {
+      border-left: 0;
+      padding: 22px 0 0 0;
+	}
 
 }
 
