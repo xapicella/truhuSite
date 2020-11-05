@@ -415,6 +415,12 @@ footer {
 	text-align: center;
 }
 
+#mission h1 {
+	text-align: center;
+	font-size: 48px;
+	font-weight: 300;
+}
+
 #founders h1 {
 	text-align: center;
 	padding-bottom: 5rem;
