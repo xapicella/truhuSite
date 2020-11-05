@@ -418,7 +418,6 @@ footer {
 #mission h1 {
 	color: #ffffff;
 	text-align: center;
-	font-size: 48px;
 	font-weight: 300;
 }
 
@@ -461,6 +460,12 @@ footer {
 	text-weight: 600;
 	color: #66ccff;
 }
+
+.trublu {
+	font-size: 48px;
+	color: #66ccff
+}
+	
 
 .signature {
 	max-height: 100px;
