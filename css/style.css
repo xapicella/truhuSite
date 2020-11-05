@@ -463,7 +463,7 @@ footer {
 
 .trublu {
 	font-size: 48px;
-	color: #66ccff
+	color: #66ccff;
 }
 	
 
@@ -472,7 +472,7 @@ footer {
 	max-width: 1200px;
 }
 
-.social-icon h3:hover {
+.social-icon:hover {
 	color: #66ccff;
 }
 /* -------------------------------------- Pulse Page Styles -------------------------------------- */
