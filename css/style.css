@@ -411,9 +411,12 @@ footer {
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 
 #vision h1,
-#story h1,
-#founders h1 { 
+#story h1 { 
 	text-align: center;
+}
+
+#founders h1 {
+	padding-bottom: 5rem;
 }
 
 #vision p,
@@ -461,30 +464,8 @@ footer {
 	background: #f2f2f2;
 }
 
-.team-info .social-icon {
-	position: absolute;
-	top: 10px;
-	right: 20px;
-}
 
-.team-info .social-icon {
-	display: block;
-}
-
-.social-icon {
-	position: relative;
-	padding: 0;
-	margin: 5px 0 0 0;
-	display: inline-block;
-	text-decoration: none;
-	display: inline-block;
-	color: #101010;
-	font-size: 24px;
-	margin: 5px 10px;
-	text-align: center;
-}
-
-.social-icon li a:hover {
+.social-icon h3:hover {
 	color: #66ccff;
 }
 /* -------------------------------------- Pulse Page Styles -------------------------------------- */
