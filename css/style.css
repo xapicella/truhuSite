@@ -166,7 +166,7 @@ a {
 }
 
 .custom-navbar .nav li a {
-	color: #101010;
+	color: #66ccff;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.6px;
@@ -425,6 +425,24 @@ footer {
 #founders {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+}
+
+#mission {
+    background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    text-align: center;
 }
 
 .founders {
