@@ -461,6 +461,11 @@ footer {
 	background: #f2f2f2;
 }
 
+.emphasize { 
+	text-weight: 500;
+	color: #66ccff;
+}
+
 .signature {
 	max-height: 100px;
 	max-width: 1200px;
