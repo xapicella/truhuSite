@@ -473,8 +473,9 @@ footer {
 }
 
 .signature {
-	max-height: 60px;
-	max-width: 1000px;
+	max-height: 100px;
+	max-width: 1200px;
+}
 
 .social-icon h3:hover {
 	color: #66ccff;
