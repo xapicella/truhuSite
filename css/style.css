@@ -416,8 +416,13 @@ footer {
 	text-align: center;
 }
 
-#vision {
+#mission {
 	padding-top: 15rem;
+	padding-bottom: 5rem;
+}
+
+#vision {
+	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
 
@@ -430,7 +435,7 @@ footer {
 #mission {
     background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: 100% 30%;
     background-position: center center;
     color: #ffffff;
     display: -webkit-box;
