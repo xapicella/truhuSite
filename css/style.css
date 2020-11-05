@@ -410,12 +410,8 @@ footer {
 }
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 
-#space {
-	padding-top: 15rem;
-}
-
-#vision h1,
-#story h1 { 
+#story h1,
+#vision h1 { 
 	text-align: center;
 }
 
@@ -431,8 +427,8 @@ footer {
 	padding-bottom: 5rem;
 }
 
-#vision p,
 #story p,
+#vision p,
 #founders p { 
 	font-size: 18px;
 	color: #101010;
@@ -446,14 +442,14 @@ footer {
 	padding-bottom: 7rem;
 }
 
-#vision {
-	padding-top: 20rem;
+#story {
+	padding-top: 15rem;
 	padding-bottom: 5rem;
 }
 
-#story,
+#vision,
 #founders {
-	padding-top: 5rem;
+	padding-top: 15rem;
 	padding-bottom: 5rem;
 }
 
