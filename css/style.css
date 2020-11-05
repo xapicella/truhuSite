@@ -416,6 +416,13 @@ footer {
 	text-align: center;
 }
 
+#vision p,
+#story p,
+#founders p { 
+	font-size: 18px;
+	color: #101010;
+}
+
 #mission {
 	padding-top: 15rem;
 	padding-bottom: 5rem;
@@ -452,33 +459,6 @@ footer {
 
 .founders {
 	background: #f2f2f2;
-}
-
-.about-working-hours {
-	border-left: 2px solid;
-	padding-left: 3.5rem;
-}
-
-.about-working-hours strong {
-	color: #ffffff;
-	opacity: 0.85;
-}
-
-.team-thumb {
-	position: relative;
-}
-
-.team-info {
-	background: #ffffff;
-	border-radius: 0 0 2px 2px;
-	box-shadow: 6px 0 38px rgba(20,20,20,0.10);
-	padding: 20px;
-	position: relative;
-}
-
-.team-info span {
-	font-weight: 400;
-	opacity: 0.85;
 }
 
 .team-info .social-icon {
