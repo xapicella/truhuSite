@@ -152,7 +152,8 @@ a {
 -----------------------------------------*/
 .custom-navbar {
 	margin-bottom: 0;
-	background-color: #101010;
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	max-height: 100%;
 }
 
@@ -414,7 +415,7 @@ footer {
 	text-align: center;
 }
 
-#story img {
+.storyHead {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
