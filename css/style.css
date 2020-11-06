@@ -414,6 +414,12 @@ footer {
 	text-align: center;
 }
 
+#story img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #mission h1 {
 	color: #ffffff;
 	text-align: center;
