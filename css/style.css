@@ -409,7 +409,6 @@ footer {
   display: inline-block;	
 }
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
-
 #story h1,
 #vision h1 { 
 	text-align: center;
@@ -432,6 +431,7 @@ footer {
 	font-size: 18px;
 	color: #101010;
 	line-height: 27px;
+	padding-bottom: 10px;
 }
 
 #mission {
@@ -454,7 +454,6 @@ footer {
 
 .emphasize { 
 	text-weight: 600;
-	color: #66ccff;
 }
 
 .trublu {
