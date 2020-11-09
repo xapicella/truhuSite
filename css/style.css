@@ -226,7 +226,8 @@ a {
    Footer section              
 -----------------------------------------*/
 footer {
-  background-attachment: fixed;
+	background: #101010;
+	background-attachment: fixed;
 	padding-top: 10rem;
 	padding-bottom: 10rem;
 }
