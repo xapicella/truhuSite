@@ -446,11 +446,14 @@ footer {
 	padding-bottom: 10px;
 }
 
-#mission {
+#story-img {
+	background: url('../images/teambreak.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+}
+
+#vision-img {
 	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
 }
 
 #story, 
