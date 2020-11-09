@@ -446,12 +446,12 @@ footer {
 	padding-bottom: 10px;
 }
 
-#story-img {
+.story-img {
 	background: url('../images/teambreak.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 }
 
-#vision-img {
+.vision-img {
 	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 }
