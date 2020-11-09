@@ -457,6 +457,7 @@ footer {
 }
 
 #vision-img {
+	color: #ffffff;
 	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 }
