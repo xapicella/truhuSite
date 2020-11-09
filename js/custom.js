@@ -7,7 +7,7 @@ $(window).load(function(){
 
 /* Mobile Navigation
     -----------------------------------------------*/
-if (window.location.pathname=='../About') 
+if (window.location.href=='https://xapicella.github.io/About') 
 {
   $(".navbar-fixed-top").addClass("top-nav-collapse");
 } 
