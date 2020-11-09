@@ -426,6 +426,11 @@ footer {
 	margin-right: auto;
 }
 
+.side-title {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+
 #mission h1 {
 	color: #ffffff;
 	text-align: center;
