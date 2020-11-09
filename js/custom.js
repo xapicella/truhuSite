@@ -7,14 +7,14 @@ $(window).load(function(){
 
 /* Mobile Navigation
     -----------------------------------------------*/
-if (window.location.pathname=='/About') 
+if (window.location.pathname=='../About') 
 {
   $(".navbar-fixed-top").addClass("top-nav-collapse");
 } 
 else 
 { 
   $(window).scroll(function() {
-		if ($(".navbar").offset().top > 50) {
+		if ($(".navbar").offset().top > 30) {
 				$(".navbar-fixed-top").addClass("top-nav-collapse");
 		} else {
 				$(".navbar-fixed-top").removeClass("top-nav-collapse");
