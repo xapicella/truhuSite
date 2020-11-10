@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
 	
-	<!-- Links the page to font awesome for icon support and the like -->
+	<!-- Links the page to font awesome for icon support -->
 	<script src="https://kit.fontawesome.com/9fa4c9c319.js" crossorigin="anonymous"></script>
-
-	<!-- Developed From New Event; http://www.templatemo.com/tm-486-new-event-->
 
 	<title>TruHu Landing Page</title>
 	<meta name="description" content="">
@@ -14,7 +12,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/owl.theme.css">
@@ -24,23 +22,20 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Google Font -->
-	<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
-
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,600' rel='stylesheet' type='text/css'>
+	
 </head>
-<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+<body><!-- data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 
 <!-- =========================
-     PRE LOADER       
+     Pre-loader Section   
 ============================== -->
 <div class="preloader">
-
 	<div class="sk-rotating-plane"></div>
-
 </div>
 
-
 <!-- =========================
-     NAVIGATION LINKS     
+     Navigation Section     
 ============================== -->
 <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
 	<div class="container">
@@ -52,25 +47,19 @@
 				<span class="icon icon-bar"></span>
 				<span class="icon icon-bar"></span>
 			</button>
-			<!--<image href="#" class="navbar-brand"><span class="truBlu">tru</span><span class="huGrn">hu</span></a>-->
+			
 			<div>
-				<image src="images/THlogoBrite2.png" class="navbar-brand" alt="Intro">
+				<image src="images/THlogoBrite2.png" class="navbar-brand" alt="Intro"></image>
 			</div>
 		</div>
 
 		<div class="collapse navbar-collapse">
 
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#intro" class="smoothScroll">Intro</a></li>
-				<li><a href="#overview" class="smoothScroll">Overview</a></li>
-				<li><a href="#detail" class="smoothScroll">Features</a></li>
-				<li><a href="#speakers" class="smoothScroll">Our Team</a></li>
-				<!--<li><a href="#program" class="smoothScroll">Testimonials</a></li>-->
-				<!--<li><a href="#contact" class="smoothScroll">Early Access</a></li>-->
-				<!--<li><a href="#venue" class="smoothScroll">Venue</a></li>-->
-				<li><a href="#contact" class="smoothScroll">FAQs</a></li>
-				<li><a href="#register" class="smoothScroll">Register</a></li>
-				<li><a href="#partners" class="smoothScroll">Partners</a></li>
+				<li><a href="#intro" class="smoothScroll nav-item active">Home</a></li>
+				<li><a href="/Pulse">Products</a></li>
+				<li><a href="/Benefits">Partners</a></li>
+				<li><a href="/About">About Us</a></li>
 				<li><a href="https://apps.truhu.com/Login.aspx">Login</a></li>
 			</ul>
 			
@@ -81,17 +70,17 @@
 
 
 <!-- =========================
-    INTRO SECTION   
+    Intro Section  
 ============================== -->
 <section id="intro" class="parallax-section">
 	<div class="container">
 		<div class="row">
 
 			<div class="col-md-12 col-sm-12">
-				<h3 class="wow fadeInDown" data-wow-delay="0.9s">Keep Your Team</h3>
+				<h1 class="wow fadeInDown" data-wow-delay="0.9s">Keep Your Team</h1>
 				<h1 class="wow fadeInUp" data-wow-delay="1.6s">Connected, Committed, and Engaged</h1>
 				<a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">LEARN MORE</a>
-				<a href="#register" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">REGISTER NOW</a>
+				<a href="#demo" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">GET A DEMO</a>
 			</div>
 			
 		</div>
@@ -100,7 +89,7 @@
 
 
 <!-- =========================
-    OVERVIEW SECTION   
+    Overview Section   
 ============================== -->
 <section id="overview" class="parallax-section">
 	<div class="container">
@@ -113,504 +102,124 @@
 			</div>
 					
 			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
-				<img src="images/overview-img.jpg" class="img-responsive" alt="Overview">
+				<img src="images/overv.jpg" class="img-responsive ovimg" alt="Overview">
 			</div>
-
 		</div>
 	</div>
 </section>
 
 
 <!-- =========================
-    DETAIL SECTION   
+    Products Section  
 ============================== -->
-<section id="detail" class="parallax-section">
+<section id="products" class="parallax-section">
 	<div class="container">
 		<div class="row">
-
-			<div class="wow fadeInLeft col-md-4 col-sm-4" data-wow-delay="0.3s">
-				<span id="icon"><i class="fas fa-home fa"></i></span>
-				<h3>My HR Portal</h3>
-				<p>My HR Portal is the resource center for all employees using TruHu. In it they can view their important documents, trainings, benefits, and more. All these modules and more can be added or removed quickly from the employee interface.</p>
+		
+			<div class="col-md-1 col-sm-1">
+			</div>
+			<div class="product wow fadeInLeft col-md-5 col-sm-5" data-wow-delay="0.3s">
+				<span id="icon"><i class="fas fa-chart-line fa"></i></span>
+				<h3>Pulse</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit. Tellus pellentesque eu tincidunt tortor aliquam. Dictum at tempor commodo ullamcorper a lacus vestibulum. Gibberish etcetera ipsum.</p>
+				<a href="Pulse" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="0.75s">GET A DEMO</a>
 			</div>
 
-			<div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s">
+			<div class="product wow fadeInRight col-md-5 col-sm-5" data-wow-delay="0.6s">
 				<span id="icon"><i class="fas fa-heartbeat"></i></span>
-				<h3>Pulse Surveys</h3>
-				<p>Pulse Surveys provide employer with means to gauge employee engagement, enthusiasm, and company culture. Make your own questions or leverage TruHu's HR-approved examples to give your employees more agency and motivation.</p>
+				<h3>PulsePro</h3>
+				<p>Dui faucibus in ornare quam viverra orci sagittis. Cras pulvinar mattis nunc sed blandit libero. Dignissim sodales ut eu sem. Sed turpis tincidunt id aliquet risus feugiat. Vitae et leo duis ut. Enim neque volutpat ac tincidunt. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque.</p>
+				<a class="btn btn-lg btn-danger btn-blocked smoothScroll wow fadeInUp" data-wow-delay="0.75s">COMING SOON</a>
 			</div>
-
-			<div class="wow fadeInRight col-md-4 col-sm-4" data-wow-delay="0.9s">
-				<span id="icon"><i class="fas fa-poll-h"></i></span>
-				<h3>Dynamic Messaging &amp; More </h3>
-				<p>Create texts or emails that track views with links to PDFs, videos, and websites. Send them to specifics departments, locations, and groups and easily resend to those who haven't opened them.</p>
+			<div class="col-md-1 col-sm-1">
 			</div>
-
-		</div>
-	</div>
-</section>
-
-
-<!-- =========================
-    VIDEO SECTION - as of now not needed
-==============================
-<section id="video" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.3s">
-				<h2>Watch Video</h2>
-				<h3>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.</p>
-			</div>
-			<div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.6s">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XDPwXQjAlB0" allowfullscreen></iframe>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
--->
-
-<!-- =========================
-    OUR TEAM SECTION - still has speakers tags, should be there until further redesign
-============================== -->
-<section id="speakers" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-12 col-sm-12 wow fadeInLeft">
-				<div class="section-title">
-					<h2>Our Team</h2>
-					<p>Below are the members of our team here at TruHu.</p>
-				</div>
-			</div>
-
-			<!-- Testimonial Owl Carousel section
-			================================================== -->
-			<div id="owl-speakers" class="owl-carousel">
-
-				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
-					<div class="speakers-wrapper">
-						<img src="images/team-img1.jpg" class="img-responsive" alt="speakers">
-							<div class="speakers-thumb">
-								<h3>Peter</h3>
-								<h6>Founder &amp; CEO</h6>
-							</div>
-					</div>
-				</div>
-
-				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
-					<div class="speakers-wrapper">
-						<img src="images/team-img1.jpg" class="img-responsive" alt="speakers">
-							<div class="speakers-thumb">
-								<h3>Cathy</h3>
-								<h6>Founder &amp; Chief Knowledge Officer</h6>
-							</div>
-					</div>
-				</div>
-
-				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
-					<div class="speakers-wrapper">
-						<img src="images/team-img1.jpg" class="img-responsive" alt="speakers">
-							<div class="speakers-thumb">
-								<h3>Tim</h3>
-								<h6>Chief Technology Officer</h6>
-							</div>
-					</div>
-				</div>
-				
-				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
-					<div class="speakers-wrapper">
-						<img src="images/team-img1.jpg" class="img-responsive" alt="speakers">
-							<div class="speakers-thumb">
-								<h3>Chris</h3>
-								<h6>Director, Marketing &amp; Customer Success</h6>
-							</div>
-					</div>
-				</div>
-
-				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
-					<div class="speakers-wrapper">
-						<img src="images/team-img1.jpg" class="img-responsive" alt="speakers">
-							<div class="speakers-thumb">
-								<h3>Laura</h3>
-								<h6>Head of Product Testing</h6>
-							</div>
-					</div>
-				</div>
-
-				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
-					<div class="speakers-wrapper">
-						<img src="images/team-img1.jpg" class="img-responsive" alt="speakers">
-							<div class="speakers-thumb">
-								<h3>Paul</h3>
-								<h6>Head of Programming</h6>
-							</div>
-					</div>
-				</div>
-				
-			</div>
-
+		
 		</div>
 	</div>
 </section>
 
 <!-- =========================
-    Plans & Pricing Option
-		https://codyhouse.co/gem/pricing-tables
-==============================
-<section id="venue" class="parallax-section">
-	<div class="container">
-		<div class="row">
-			
-
-		</div>		
-	</div>
-</section>
-
-<!-- =========================
-    Testimonials SECTION - commented out for now
-============================== -->
-<!--
-<section id="program" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
-				<div class="section-title">
-					<h2>Testimonials</h2>
-					<p>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
-				</div>
-			</div>
-
-			<div class="wow fadeInUp col-md-10 col-sm-10" data-wow-delay="0.9s">
-				<!-- Nav tabs --><!--
-				<ul class="nav nav-tabs" role="tablist">
-					<li class="active"><a href="#fday" aria-controls="fday" role="tab" data-toggle="tab">FIRST DAY</a></li>
-					<li><a href="#sday" aria-controls="sday" role="tab" data-toggle="tab">SECOND DAY</a></li>
-					<li><a href="#tday" aria-controls="tday" role="tab" data-toggle="tab">THIRD DAY</a></li>
-				</ul>
-				<!-- tab panes --><!--
-				<div class="tab-content">
-
-					<div role="tabpanel" class="tab-pane active" id="fday">
-						<!-- program speaker here --> <!--
-						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img1.jpg" class="img-responsive" alt="program">
-						</div>
-						<div class="col-md-10 col-sm-10">
-							<h3>Introduction to Design</h3>
-							<h4>By Jenny Green</h4>
-							<p>Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum.</p>
-						</div>
-
-						<!-- program divider --><!--
-						<div class="program-divider col-md-12 col-sm-12"></div>
-
-						<!-- program speaker here --><!--
-						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img2.jpg" class="img-responsive" alt="program">
-						</div>
-						<div class="col-md-10 col-sm-10">
-							<h3>Front-End Development</h3>
-							<h4>By Johnathan Mark</h4>
-							<p>Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum. Praesent ullamcorper mauris fermentum turpis scelerisque rutrum eget eget turpis.</p>
-						</div>
-
-						<!-- program divider --><!--
-						<div class="program-divider col-md-12 col-sm-12"></div>
-
-						<!-- program speaker here --><!--
-						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img3.jpg" class="img-responsive" alt="program">
-						</div>
-						<div class="col-md-10 col-sm-10">
-							<h6>
-							</h6>
-							<h3>Social Media Marketing</h3>
-							<h4>By Johnathan Doe</h4>
-							<p>Nam pulvinar, elit vitae rhoncus pretium, massa urna bibendum ex, aliquam efficitur lorem odio vitae erat. Integer rutrum viverra magna, nec ultrices risus rutrum nec.</p>
-						</div>
-					</div>
-
-					<div role="tabpanel" class="tab-pane" id="sday">
-						<!-- program speaker here --><!--
-						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img4.jpg" class="img-responsive" alt="program">
-						</div>
-						<div class="col-md-10 col-sm-10">
-							<h3>Backend Development</h3>
-							<h4>By Matt Lee</h4>
-							<p>Integer rutrum viverra magna, nec ultrices risus rutrum nec. Pellentesque interdum vel nisi nec tincidunt. Quisque facilisis scelerisque venenatis. Nam vulputate ultricies luctus.</p>
-						</div>
-
-						<!-- program divider --><!--
-						<div class="program-divider col-md-12 col-sm-12"></div>
-
-						<!-- program speaker here --><!--
-						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img5.jpg" class="img-responsive" alt="program">
-						</div>
-						<div class="col-md-10 col-sm-10">
-							<h3>Web Application Lite</h3>
-							<h4>By David Orlando</h4>
-							<p>Aliquam faucibus lobortis dolor, id pellentesque eros pretium in. Aenean in erat ut quam aliquet commodo. Vivamus aliquam pulvinar ipsum ut sollicitudin. Suspendisse quis sollicitudin mauris.</p>
-						</div>
-
-						<!-- program divider --><!--
-						<div class="program-divider col-md-12 col-sm-12"></div>
-
-						<!-- program speaker here --><!--
-						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img6.jpg" class="img-responsive" alt="program">
-						</div>
-						<div class="col-md-10 col-sm-10">
-							<h3>Professional UX Design</h3>
-							<h4>By James Lee Mark</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
-						</div>
-					</div>
-
-					<div role="tabpanel" class="tab-pane" id="tday">
-						<!-- program speaker here --><!--
-						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img7.jpg" class="img-responsive" alt="program">
-						</div>
-						<div class="col-md-10 col-sm-10">
-							<h3>Online Shopping Business</h3>
-							<h4>By Michael Walker</h4>
-							<p>Aliquam faucibus lobortis dolor, id pellentesque eros pretium in. Aenean in erat ut quam aliquet commodo. Vivamus aliquam pulvinar ipsum ut sollicitudin. Suspendisse quis sollicitudin mauris.</p>
-						</div>
-
-						<!-- program divider --><!--
-						<div class="program-divider col-md-12 col-sm-12"></div>
-
-						<!-- program speaker here --><!--
-						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img8.jpg" class="img-responsive" alt="program">
-						</div>
-						<div class="col-md-10 col-sm-10">
-							<h3>Introduction to Mobile App</h3>
-							<h4>By Cherry Stella</h4>
-							<p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
-						</div>
-
-						<!-- program divider --><!--
-						<div class="program-divider col-md-12 col-sm-12"></div>
-
-						<!-- program speaker here --><!--
-						<div class="col-md-2 col-sm-2">
-							<img src="images/program-img9.jpg" class="img-responsive" alt="program">
-						</div>
-						<div class="col-md-10 col-sm-10">
-							<h3>Bootstrap UI Design</h3>
-							<h4>By John David</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
-						</div>
-					</div>
-
-				</div>
-
-		</div>
-	</div>
-</section>
--->
-
-<!-- =========================
-    FAQ SECTION   
-============================== -->
-<section id="contact" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section title
-			================================================== -->
-			<div class="wow fadeInRight col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center">
-				<div class="section-title">
-					<h2>Do you have Questions?</h2>
-					<p>Some of our most frequently asked questions are below.</p>
-				</div>
-			</div>
-
-			<div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s">
-				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-  					<div class="panel panel-default">
-   						<div class="panel-heading" role="tab" id="headingOne">
-      						<h4 class="panel-title">
-        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          							 What is Responsive Design?
-        						</a>
-      						</h4>
-    					</div>
-   						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      						<div class="panel-body">
-        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
-								<p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
-      						</div>
-   						 </div>
- 					</div>
-
-    				<div class="panel panel-default">
-   						<div class="panel-heading" role="tab" id="headingTwo">
-      						<h4 class="panel-title">
-        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          							What are latest UX Developments?
-        						</a>
-      						</h4>
-    					</div>
-   						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      						<div class="panel-body">
-                            	<p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
-        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
-      						</div>
-   						 </div>
- 					</div>
-
- 					<div class="panel panel-default">
-   						<div class="panel-heading" role="tab" id="headingThree">
-      						<h4 class="panel-title">
-        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          							What things about Social Media will be discussed?
-        						</a>
-      						</h4>
-    					</div>
-   						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      						<div class="panel-body">
-                            	<p>Aenean vulputate finibus justo et feugiat. Ut turpis lacus, dapibus quis justo id, porttitor tempor justo. Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa.</p>
-        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
-      						</div>
-   						 </div>
- 					 </div>
-
- 				 </div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-<!-- =========================
-    VENUE SECTION - commented out until a use is found
-============================== 
-<section id="venue" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<div class="wow fadeInLeft col-md-offset-1 col-md-5 col-sm-8" data-wow-delay="0.9s">
-				<h2>Venue</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
-				<h4>New Event</h4>
-  				<h4>120 Market Street, Suite 110</h4>
-  				<h4>San Francisco, CA 10110</h4>
-				<h4>Tel: 010-020-0120</h4>		
-			</div>
-
-		</div>
-	</div>
-</section>
--->
-
-<!-- =========================
-    REGISTER SECTION
-============================== -->
-<section id="register" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
-				<h3>Register Your Company on TruHu</h3>
-				<p>Thanks for accepting our invitation! Your account will be created with administrative privileges. Additional accounts can be added upon logging into your account.</p>
-				<p></p>
-			</div>
-			
-			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="1s">
-				<form action="#" method="post">
-					<input name="company" type="text" class="form-control" id="company" placeholder="Company Name">
-				</form>
-			</div>
-			
-			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="1s">
-				<form action="#" method="post">
-					<input name="firstname" type="text" class="form-control" id="firstname" placeholder="First Name">
-					<input name="lastname" type="text" class="form-control" id="lastname" placeholder="Last Name">
-				</form>
-			</div>
-			
-			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="1s">
-				<form action="#" method="post">
-					<input name="email" type="email" class="form-control" id="email" placeholder="Email Address">
-					<input name="phone" type="telephone" class="form-control" id="phone" placeholder="Phone Number">
-				</form>
-			</div>
-			
-			<div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
-			</div>
-			<div class="wow fadeInUp col-md-2 col-sm-2" data-wow-delay="1s">
-				<input name="submit" type="submit" class="form-control" id="submit" value="REGISTER">
-			</div>
-			<div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
-			</div>
-			
-			<div class="col-md-1"></div>
-
-		</div>
-	</div>
-</section>
-
-<!-- =========================
-    PARTNERS (once SPONSORS) SECTION   
+    Partners Section
 ============================== -->
 <section id="partners" class="parallax-section">
 	<div class="container">
 		<div class="row">
-			<div class="wow fadeInRight col-md-12 col-sm-12">
-				<div class="section-title">
-					<h2>Our Partners</h2>
-					<p>Some of the partners working with us to bring TruHu to companies everywhere.</p>
+			<div class="wow fadeInDown">
+			
+				<div class="col-md-12 col-sm-12">
+					<h1>Our Partners</h1>
+					<h4>TruHu is working with these parners and more to etcetera fake latin yep still going hsjdkf lksdfie ieri eres thesf sej sakskjhd kdskoea.</h4>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-6">
+					<img src="images/partner-img1.jpg" class="img-responsive" alt="sponsors">	
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-6">
+					<img src="images/partner-img3.jpg" class="img-responsive" alt="sponsors">	
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-6">
+					<img src="images/partner-img4.jpg" class="img-responsive" alt="sponsors">	
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+
+<!-- =========================
+    About Partners Section
+============================== -->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			
+			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.3">
+				<h1>Join Them</h1> 
+				<h3>Select your industry below.</h3>
+			</div>
+		
+			<div class="wow fadeInLeft col-lg-4 col-md-6 col-sm-12 col-xs-12" data-wow-delay="0.6">
+				<div class="ptnrBox wow fadeInUp">
+					<span id="iconPa"><i class="fas fa-shield-alt"></i></span>
+					<h3>Benefits</h3>
+					<p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+					<a href="Benefits" class="btn btn-lg btn-danger">Discover More</a>
 				</div>
 			</div>
 
-			<div class="wow fadeInUp col-md-4 col-sm-6 col-xs-6" data-wow-delay="0.3s">
-				<img src="images/partner-img1.jpg" class="img-responsive" alt="sponsors">	
+			<div class="wow fadeInUp col-lg-4 col-md-6 col-sm-12 col-xs-12" data-wow-delay="0.9">
+				<div class="ptnrBox wow fadeInUp">
+					<span id="iconPa"><i class="fas fa-hands-helping"></i></span>
+					<h3>PEO</h3>
+					<p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+					<a class="btn btn-lg btn-danger btn-blocked">Coming Soon</a>
+				</div>
 			</div>
 
-			<div class="wow fadeInUp col-md-4 col-sm-6 col-xs-6" data-wow-delay="0.9s">
-				<img src="images/partner-img3.jpg" class="img-responsive" alt="sponsors">	
-			</div>
-
-			<div class="wow fadeInUp col-md-4 col-sm-6 col-xs-6" data-wow-delay="1s">
-				<img src="images/partner-img4.jpg" class="img-responsive" alt="sponsors">	
+			<div class="wow fadeInRight col-lg-4 col-md-6 col-sm-12 col-xs-12" data-wow-delay="1.2">
+				<div class="ptnrBox wow fadeInUp">
+					<span id="iconPa"><i class="fas fa-coins"></i></span>
+					<h3>Payroll</h3>
+					<p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+					<a class="btn btn-lg btn-danger btn-blocked">Coming Soon</a>
+				</div>
 			</div>
 			
-			</div>
 		</div>
 	</div>
 </section>
 
 <!-- =========================
-    FOOTER SECTION   
+    Footer Section
 ============================== -->
 <footer>
 	<div class="container">
 		<div class="row">
 
 			<div class="col-md-12 col-sm-12">
-				<p class="wow fadeInUp" data-wow-delay="0.6s">Copyright &copy; 2020 TruHu
-                    
-                    | Design: <a rel="nofollow" href="http://www.templatemo.com/page/1" target="_parent">Templatemo</a></p>
-
-				<!--<ul class="social-icon">
-					<li><a class="fab fa-facebook wow fadeInUp" data-wow-delay="1.6s"></a></li>
-					<li><a class="fab fa-twitter wow fadeInUp" data-wow-delay="1.7s"></a></li>
-					<li><a class="fab fa-instagram wow fadeInUp" data-wow-delay="1.8s"></a></li>
-					<li><a class="fab fa-linkedin wow fadeInUp" data-wow-delay="1.9s"></a></li>
-				</ul>-->
-
+				<p class="wow fadeInUp" data-wow-delay="0.6s">Copyright &copy; 2020 TruHu</p>
 			</div>
 			
 		</div>
@@ -618,15 +227,15 @@
 </footer>
 
 
-<!-- Back top -->
-<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+<!-- Back top
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a> -->
 
 
 <!-- =========================
-     SCRIPTS   
+     Scripts   
 ============================== -->
 <script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="js/jquery.parallax.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/smoothscroll.js"></script>

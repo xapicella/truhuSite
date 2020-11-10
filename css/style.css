@@ -1,26 +1,18 @@
-/* Made using New Event template: http://www.templatemo.com/tm-486-new-event */
+/*--------------------------------------- Universal Styles -----------------------------------------*/
 
 body {
 	background: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
+	font-family: 'Tahoma', sans-serif;
+	font-style: normal;
 	font-weight: 400;
 
 }
 /*---------------------------------------
     Typography              
 -----------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
-  font-weight: 600;
-}
-
-h3,h5 {
-  font-weight: 500;
-}
-
 h1 {
-    font-size: 40px;
-    letter-spacing: 2px;
+	font-size: 40px;
+	letter-spacing: 2px;
 }
 
 h2 {
@@ -33,14 +25,14 @@ h3 {
 }
 
 h5 {
-    letter-spacing: 1px;
-    padding-top: 10px;
+	letter-spacing: 1px;
+	padding-top: 10px;
 }
 
 p {
-    color: #707070;
-    font-size: 14px;
-    line-height: 24px;
+	color: #808080;
+	font-size: 14px;
+	line-height: 24px;
 }
 
 a {
@@ -56,37 +48,16 @@ a {
   margin-bottom: 32px;
 }
 
-#overview,
-#register {
-  padding-top: 14rem;
-  padding-bottom: 14rem;
-}
-
-#detail, #video,
-#speakers, 
-#program,
-#sponsors, 
-#contact, footer {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-}
-
-#detail,
-#speakers, #sponsors,
-footer {
+#products, #plsPerks, footer {
   text-align: center;
 }
 
-#overview h3,
-#detail h3, #video h3,
-#register h3,
-#venue h3,
-#contact h3 {
+#overview h3, #products h3, #partners h3, #about h3 {
     padding-bottom: 12px;
 }
 
-#intro .btn,
-#contact .btn {
+#intro .btn, #pulsHero .btn,
+#products .btn, #about .btn {
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 0px;
@@ -96,43 +67,37 @@ footer {
     font-size: 12px;
     padding: 14px 42px;
     margin-top: 42px;
-    margin-right: 12px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
 
-#intro .btn-danger,
-#contact .btn-danger {
-    background: #00de0b;/*#9bde00/*#adf700/*#00e09d*/
+#intro .btn-danger, #pulsHero .btn-danger,
+#products .btn-danger {
+    background: #66ccff;
     border-color: transparent;
 }
 
-#contact .btn {
+#products .btn, #about .btn {
   border-radius: 100px;
 }
 
-#intro .btn-danger:hover {
+#intro .btn-danger:hover,
+#pulsHero .btn-danger:hover,
+#products .btn-danger:hover {
   background: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
+  border-color: #66ccff;
+  color: #66ccff;
 }
 
-#contact .btn-danger:hover {
-  background: #222;
-}
-
-#intro .btn-default:hover {
-    background: #ffffff;
-    color: #333333;
-    border-color: transparent;
+.btn-blocked { 
+	opacity: 0.6;
+	cursor: not-allowed;
 }
 
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
 }
-
-
 
 /*---------------------------------------
     Preloader section              
@@ -186,60 +151,53 @@ footer {
     Navigation Links section              
 -----------------------------------------*/
 .custom-navbar {
-    margin-bottom: 0;
-    background-color: #101010;
+	margin-bottom: 0;
+	background-color: #101010;
 	max-height: 100%;
 }
 
 .custom-navbar .navbar-brand {
-    /*color: #ffffff;
-	font-weight: 600;	
-    font-size: 3rem;
-    line-height: 40px;*/
-	
-	/* For image instead of text*/
 	height: auto;
 	width: auto;
 	max-height: 70px;
 	max-width: 400px;
-	line-height: 35px; /* whatever the fixed height of the bar is */
+	line-height: 35px; 
 	vertical-align: middle;
 }
 
-
-
 .custom-navbar .nav li a {
-    color: #ddd;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-    line-height: 40px;
-    transition: all 0.4s ease-in-out;
+	color: #66ccff;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+	line-height: 40px;
+	transition: all 0.4s ease-in-out;
 }
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #66ccff;
+    color: #00de0b;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
 .custom-navbar .navbar-nav > li > a:focus {
-  background-color: transparent;
+	background-color: transparent;
 }
 
 .custom-navbar .nav li.active > a {
-    background-color: transparent;
-    color: #66ccff;
+	background-color: transparent;
+	color: #00de0b;
 }
 
 .custom-navbar .navbar-toggle {
-    border: none;
-    padding-top: 10px;
+	color: #ddd;
+	border: none;
+	padding-top: 10px;
 }
 
 .custom-navbar .navbar-toggle {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
@@ -248,409 +206,31 @@ footer {
 }
 
 @media(min-width:768px) {
-    .custom-navbar {
-        padding: 20px 0;
-        border-bottom: 0;
-        background: 0 0; 
-    }
-    .custom-navbar.top-nav-collapse {
-        background: #101010;
-        padding: 0;
-    }
+    
+	.custom-navbar {
+		padding: 20px 0;
+		border-bottom: 0;
+		background: 0 0; 
+	}
+
+	/* Controls nav styles upon collapse */
+	.custom-navbar.top-nav-collapse {
+		background: #101010;
+		box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+		padding: 0;
+	}
+	
 }
-
-/*---------------------------------------
-    Intro section              
------------------------------------------*/
-#intro {
-    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-     -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-    height: 100vh;
-    text-align: center;
-}
-
-#intro h3 {
-  letter-spacing: 2px;
-}
-
-
-
-/*---------------------------------------
-   Overview  section              
------------------------------------------*/
-#overview img {
-  position: relative;
-  padding-bottom: 32px;
-}
-
-
-
-/*---------------------------------------
-    Detail section              
------------------------------------------*/
-#detail {
-    background: #222;
-    color: #ffffff;
-}
-
-/* OG css from when we used old fa icons 
-#detail .fa {
-  color: #54f2b0;
-  font-size: 48px;
-}
-*/
-
-#icon {
-  color: #00de0b/*#9bde00/*#adf700/*#54f2b0*/;
-	font-size: 48px;
-}
-
-
-/*---------------------------------------
-    Video section - as of now not needed             
------------------------------------------
-#video iframe {
-  border: none;
-}
-*/
-
-
-/*---------------------------------------
-   Speakers section              
------------------------------------------*/
-#speakers {
-    background: #f9f9f9;
-}
-
-#speakers h3 {
-    font-size: 18px;
-    margin-bottom: 0px;
-}
-
-#speakers h6 {
-  color: #666;
-  margin-top: 4px;
-}
-
-#speakers img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-
-#speakers .col-md-3 {
-    display: block;
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin-bottom: 22px;
-}
-
-#speakers .speakers-wrapper {
-    background: #ffffff;
-    padding-bottom: 22px;
-}
-
-
-
-/*---------------------------------------
-   Program section              
------------------------------------------
-#program h4 {
-    color: #808080;
-    font-size: 12px;
-}
-
-#program h3 {
-  margin-top: 16px;
-}
-
-#program .program-divider {
-    border: 1px solid #f9f9f9;
-    margin-top: 32px;
-    margin-bottom: 42px;
-}
-
-#program span {
-    padding-right: 12px;
-}
-
-#program img {
-  border-radius: 50%;
-}
-
-.nav-tabs {
-  margin-bottom: 20px;
-}
-.nav-tabs > li {
-  float: left;
-  margin-bottom: -1px;
-}
-.nav-tabs > li > a {
-  color: #000000;
-  font-weight: 600;
-  margin-right: 2px;
-  line-height: 1.42857143;
-  border: none;
-  border-radius: 0px;
-}
-.nav-tabs > li > a:hover {
-  background-color: transparent;
-}
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  color: #00e09d;
-  cursor: default;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-bottom-color: #999;
-}
-.tab-content {
-  padding-top: 20px;
-}
-
-
-
-/*---------------------------------------
-    Plans & Pricing section              
------------------------------------------*/
-
-/*---------------------------------------
-    Register section              
------------------------------------------*/
-
-#register {
-    background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-}
-
-#register .form-control {
-  background: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 0px;
-  color: #ffffff;
-  margin-bottom: 16px;
-}
-
-#register input {
-  height: 45px;
-}
-
-#register input[type="submit"] {
-  background: #00de0b/*#9bde00/*#adf700/*#00e09d*/;
-  border-radius: 100px;
-  border: none;
-  color: #ffffff;
-  letter-spacing: 2px;
-  height: 50px;
-  margin-top: 12px;
-  transition: all 0.4s ease-in-out;
-}
-
-#register input[type="submit"]:hover {
-  background: #ffffff;
-  color: #222;
-}
-
-
-.cd-pricing-header {
-  height: 80px;
-  pointer-events: none;
-}
-
-.cd-pricing-body {
-  overflow-x: auto;
-  /* smooth scrolling on touch devices */
-  -webkit-overflow-scrolling: touch;
-}
-
-.cd-pricing-footer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 80px;
-  width: 100%;
-}
-
-.cd-select {
-  display: block;
-  height: 100%;
-  /* hide button text on mobile */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  color: transparent;
-}
-
-/*---------------------------------------
-   Faq section              
------------------------------------------*/
-#faq {
-  background: #f9f9f9;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-#faq .panel-group {
-  margin-top: 32px;
-}
-
-#faq .panel-group .panel {
-  margin-bottom: 8px;
-}
-
-#faq .panel-default {
-  border: none;
-}
-
-#faq .panel-default>.panel-heading {
-  background: #f0f0f0;
-  color: #505050;
-}
-
-#faq .panel-heading {
-  border: none;
-  padding-top: 8px;
-  padding-bottom: 6px;
-}
-
-#faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
-  border-top: none;
-  padding-top: 22px;
-  padding-left: 32px;
-  padding-bottom: 22px;
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"] {
-  font-size: 18px;
-  font-weight: 500;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 10px 15px;
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"]::after {
-  content: "-";
-  display: block;
-  position: absolute;
-  line-height: 1;
-  right: 1em;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"].collapsed::after {
-  content: "+";
-}
-
-
-
-/*---------------------------------------
-   Venue section              
------------------------------------------*/
-#venue {
-    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-}
-
-#venue p {
-  padding-top: 12px;
-  padding-bottom: 18px;
-}
-
-
-
-/*---------------------------------------
-   Sponsors section              
------------------------------------------*/
-#sponsors img {
-  margin-top: 18px;
-}
-
-
-
-/*---------------------------------------
-   Contact section              
------------------------------------------*/
-#contact {
-    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-}
-
-#contact .contact_des {
-  padding-top: 3rem;
-  padding-right: 2rem;
-}
-
-#contact .contact_detail {
-  background: #ffffff;
-  padding: 5rem 5rem 12rem 5rem;
-}
-
-#contact .form-control {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #f0f0f0;
-  border-radius: 0px;
-  box-shadow: none;
-  margin-bottom: 16px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:focus {
-  border-bottom-color: #999;
-}
-
-#contact input {
-  height: 45px;
-}
-
-#contact input[type="submit"] {
-  background: #222;
-  border-radius: 100px;
-  border: none;
-  color: #ffffff;
-  letter-spacing: 2px;
-  height: 50px;
-  margin-top: 12px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact input[type="submit"]:hover {
-  background: #00de0b/*#9bde00/*#adf700/*#00e09d*/;
-}
-
-
 
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
 footer {
-  background-attachment: fixed;
+	background: #101010;
+	background-attachment: fixed;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
-
-
 
 /* Back top */
 .go-top {
@@ -670,48 +250,358 @@ footer {
 }
 
 .go-top:hover {
-    background: #00de0b/*#9bde00/*#adf700 /*#00e09d*/;
+    background: #66ccff/*#00de0b*/;
     color: #ffffff;
 }
 
+/*--------------------------------------- Home Page Styles -----------------------------------------*/ 
 
 /*---------------------------------------
-   Social icon             
------------------------------------------
-.social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
-}
-
-.social-icon li {
-    display: inline-block;
-    list-style: none;
-}
-
-.social-icon li a {
-    color: #666;
-    border-radius: 100px;
-    font-size: 16px;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.social-icon li a:hover {
-    background: #00e09d;
-    color: #ffffff;
-}
-*/
-
-
-/*---------------------------------------
-   Responsive styles            
+    Home Hero Section              
 -----------------------------------------*/
+#intro {
+    background: url('../images/intro.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#intro .btn-default {
+	margin-right: 12px;
+}
+
+#intro .btn-default:hover {
+	background: #ffffff;
+	color: #333333;
+	border-color: transparent;
+}
+
+#intro h3 {
+  letter-spacing: 2px;
+}
+
+/*---------------------------------------
+   Overview  section              
+-----------------------------------------*/
+#overview {
+	padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+/*---------------------------------------
+    Products Section              
+-----------------------------------------*/
+#products {
+    background: #222;
+    color: #ffffff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@media (max-width: 992px) {
+  .product {
+    margin-bottom: 45px;
+  }
+}
+
+#icon {
+  color: #66ccff;
+	font-size: 48px;
+}
+
+/*---------------------------------------
+   Partners Section              
+-----------------------------------------*/
+#partners {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	color: #111;
+}
+
+#partners img {
+  margin-top: 18px;
+}
+
+#partners h3 {
+	margin-bottom: 5rem;
+}
+
+#iconPa {
+	font-size: 48px;
+}
+
+/*---------------------------------------------
+		About Partners Section
+---------------------------------------------*/
+#about {
+	background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+	background-size: cover;
+	background-position: center center;
+	color: #101010;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#about h1 {
+	text-align: center;
+}
+
+#about h3 {
+	text-align: center;
+}
+
+#about .btn-danger {
+    background: #101010;
+    border-color: transparent;
+}
+
+#about .btn-danger:hover {
+  background: #66ccff;
+  border-color: transparent;
+  color: #101010;
+}
+
+@media (max-width: 992px) {
+  .ptnrBox {
+    margin-bottom: 45px;
+  }
+}
+
+.ptnrBox {
+  border-radius: 5px;
+  padding: 60px 30px;
+  text-align: center;
+	background: rgba(161, 161, 161, 0.42);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.ptnrBox h2 {
+  z-index: 9;
+  position: absolute;
+  top: 15px;
+  left: 45px;
+  font-size: 100px;
+  font-weight: 600;
+  color: #fdefe9;
+}
+
+.ptnrBox img {
+  z-index: 10;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.ptnrBox h4 {
+  margin-top: 0px;
+  font-size: 22px;
+  color: #1e1e1e;
+  margin-bottom: 25px;
+}
+
+.ptnrBox .btn-danger {
+  margin-top: 35px;
+  display: inline-block;	
+}
+/* -------------------------------------- About Us Page Styles -------------------------------------- */
+#story h1,
+#vision h1 { 
+	text-align: center;
+}
+
+.storyHead {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.side-title {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+
+#mission h1 {
+	color: #ffffff;
+	text-align: center;
+	font-weight: 300;
+}
+
+#founders h1 {
+	text-align: center;
+	padding-bottom: 5rem;
+}
+
+#story p,
+#vision p,
+#founders p { 
+	font-size: 18px;
+	color: #101010;
+	line-height: 27px;
+	padding-bottom: 10px;
+}
+
+#story-img {
+	background: url('../images/teambreak.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+}
+
+#vision-img {
+	color: #ffffff;
+	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+}
+
+#mission {
+	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#story {
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+}
+
+#vision,
+#founders {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.founders {
+	background: #f2f2f2;
+}	
+
+.signature {
+	max-height: 100px;
+	max-width: 1200px;
+}
+
+.social-icon:hover {
+	color: #66ccff;
+}
+/* -------------------------------------- Pulse Page Styles -------------------------------------- */
+
+/*---------------------------------------
+    Pulse Hero Section              
+-----------------------------------------*/
+#pulsHero {
+    background: url('../../images/pulsHero.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    text-align: right;
+}
+
+#pulsHero {
+	color: #ffffff;
+}
+
+#pulsHero h2 {
+	color: #66ccff
+}
+
+/*---------------------------------------
+   Pulse Perks Section              
+-----------------------------------------*/
+
+#plsPerks {
+	color: #66ccff;
+	text-align: center;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+#iconPrk {
+	font-size: 38px;
+}
+
+/*---------------------------------------
+   Pulse Features Section              
+-----------------------------------------*/
+#plsFtrs {
+	padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.zpat {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.zpat img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 400px;
+	max-width: 1200px;
+}
+
+/*---------------------------------------------
+		Testimonials Section
+---------------------------------------------*/
+
+#testimonials {
+  /*padding: 100px 0px;*/
+  position: relative;
+  z-index: 9;
+	color: #101010;
+}
+
+#testimonials h1 {
+	text-align: center;
+}
+
+@media (max-width: 992px) {
+  .quoteBox {
+    margin-bottom: 45px;
+  }
+}
+
+.quoteBox {
+  border-radius: 5px;
+  padding: 60px 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.quoteBox img {
+  z-index: 10;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.quoteBox h4 {
+  margin-top: 0px;
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+/*--------------------------------------- Responsive Styles -----------------------------------------*/
+
 @media (max-width: 980px) {
 
   p {font-size: 13px;}
@@ -721,11 +611,11 @@ footer {
   }
 
   .custom-navbar .nav li a {
-    font-size: 11px;
-	line-height: 20px;
+		font-size: 11px;
+		line-height: 20px;
   }
 
-  #intro { height: 65vh; }
+  #intro, #pulsHero { height: 65vh; }
 
   #video iframe {
     margin-top: 42px;
@@ -745,34 +635,25 @@ footer {
   }
 
   #overview img,
-  #detail .col-md-4,
-  #register form {
+  #products .col-md-4 {
     padding-top: 32px;
   }
 
   .nav-tabs > li > a {
     font-size: 13px;
   }
-
-  #program img {
-    padding-bottom: 32px;
-  }
-
-  #sponsors img {
-    padding-top: 22px;
-  }
-
-  #contact .contact_detail {
-    margin-top: 82px;
-  }
+	
+	.about-working-hours {
+      border-left: 0;
+      padding: 22px 0 0 0;
+	}
 
 }
 
 @media (max-width: 760px) {
 
-  #intro {
+  #intro, #pulsHero {
     height: 100vh;
   }
 
 }
-

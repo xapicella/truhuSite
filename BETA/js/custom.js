@@ -5,18 +5,25 @@ $(window).load(function(){
 });
 
 
-/* Mobile Navigation
+/* Keep Top Navbar fixed
     -----------------------------------------------*/
-$(".navbar-fixed-top").addClass("top-nav-collapse");
 
-/*$(window).scroll(function() {
-		if ($(".navbar").offset().top > 30) {
-				$(".navbar-fixed-top").addClass("top-nav-collapse");
-		} else {
-				$(".navbar-fixed-top").removeClass("top-nav-collapse");
-		}
-  });
-}*/
+$(window).scroll(function() {
+	
+// Trigger topnav collapse on 50 unit offset from the top of the page
+if ($(".navbar").offset().top > 50) 
+{
+	$(".navbar-fixed-top").addClass("top-nav-collapse");
+} 
+else 
+{
+	$(".navbar-fixed-top").removeClass("top-nav-collapse");
+}
+});
+	
+
+
+
 
 /* HTML document is loaded. DOM is ready. 
 -------------------------------------------*/
@@ -46,8 +53,6 @@ $(document).ready(function() {
 
   }
   initParallax();
-  
- 
   
   /* Owl Carousel
   -----------------------------------------------*/
