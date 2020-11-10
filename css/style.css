@@ -490,54 +490,9 @@ footer {
 }
 
 /* --------------------------------------
-	Split Screen CSS
--------------------------------------- */
-/* Split the screen in half */
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-/* Control the left side */
-.left {
-	color: #ffffff;
-	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
-  left: 0;
-  background-color: #111;
-}
-
-/* Control the right side */
-.right {
-  right: 0;
-  background-color: #66ccff;
-}
-
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
-
-
-/* --------------------------------------
 	Founders Section
 -------------------------------------- */
-founders {
+#founders {
 	background: #f2f2f2;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
@@ -615,8 +570,6 @@ founders {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-height: 400px;
-	max-width: 1200px;
 }
 
 /*---------------------------------------------
