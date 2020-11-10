@@ -415,9 +415,29 @@ footer {
   display: inline-block;	
 }
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
+
 #story h1,
 #vision h1 { 
 	text-align: center;
+}
+
+#story p,
+#vision p,
+#founders p { 
+	font-size: 18px;
+	color: #101010;
+	line-height: 27px;
+	padding-bottom: 10px;
+}
+
+/* --------------------------------------
+	Story Section
+-------------------------------------- */
+#story{
+	background: url('../images/teambreak.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;'
+	padding-top: 10rem;
+	padding-bottom: 5rem;
 }
 
 .storyHead {
@@ -431,35 +451,29 @@ footer {
 	text-orientation: mixed;
 }
 
+.signature {
+	max-height: 100px;
+	max-width: 1200px;
+}
+
+/* --------------------------------------
+	Vision Section
+-------------------------------------- */
+#vision {
+	color: #ffffff;
+	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+/* --------------------------------------
+	Optional Mission Section
+-------------------------------------- */
 #mission h1 {
 	color: #ffffff;
 	text-align: center;
 	font-weight: 300;
-}
-
-#founders h1 {
-	text-align: center;
-	padding-bottom: 5rem;
-}
-
-#story p,
-#vision p,
-#founders p { 
-	font-size: 18px;
-	color: #101010;
-	line-height: 27px;
-	padding-bottom: 10px;
-}
-
-#story-img {
-	background: url('../images/teambreak.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
-}
-
-#vision-img {
-	color: #ffffff;
-	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
 }
 
 #mission {
@@ -469,29 +483,24 @@ footer {
 	padding-bottom: 5rem;
 }
 
-#story {
-	padding-top: 10rem;
-	padding-bottom: 5rem;
-}
-
-#vision,
-#founders {
+/* --------------------------------------
+	Founders Section
+-------------------------------------- */
+founders {
+	background: #f2f2f2;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
 
-.founders {
-	background: #f2f2f2;
-}	
-
-.signature {
-	max-height: 100px;
-	max-width: 1200px;
+#founders h1 {
+	text-align: center;
+	padding-bottom: 5rem;
 }
 
 .social-icon:hover {
 	color: #66ccff;
 }
+
 /* -------------------------------------- Pulse Page Styles -------------------------------------- */
 
 /*---------------------------------------
