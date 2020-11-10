@@ -236,8 +236,8 @@ a {
 footer {
 	background: #101010;
 	background-attachment: fixed;
-	padding-top: 10rem;
-	padding-bottom: 10rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
 /* Back top */
@@ -543,7 +543,8 @@ footer {
 -----------------------------------------*/
 
 #plsPerks {
-	color: #66ccff;
+	color: #101010;
+	background: #66ccff;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -588,6 +589,8 @@ footer {
   position: relative;
   z-index: 9;
 	color: #101010;
+	padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 #testimonials h1 {
