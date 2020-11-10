@@ -7,7 +7,7 @@ $(window).load(function(){
 
 /* Mobile Navigation
     -----------------------------------------------*/
-//$(".navbar-fixed-top").addClass("top-nav-collapse");
+
 
 /*$(window).scroll(function() {
 		if ($(".navbar").offset().top > 30) {
