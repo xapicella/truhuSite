@@ -545,8 +545,13 @@ footer {
 #plsPerks {
 	color: #66ccff;
 	text-align: center;
-	padding-top: 32px;
-	padding-bottom: 32px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#plsPerks .row {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #iconPrk {
