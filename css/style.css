@@ -561,12 +561,12 @@ footer {
   padding-bottom: 5rem;
 }
 
-.zpat {
+#plsFtrs .row {
 	padding-top: 32px;
 	padding-bottom: 32px;
 }
 
-.zpat img {
+#plsFtrs img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
