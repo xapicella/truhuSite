@@ -595,28 +595,32 @@ footer {
 
 /**** Story Demo ****/
 .flexy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 #story2 h1 {
-  font-size: 1.75rem;
-  margin: 0 0 0.75rem 0;
+	font-size: 1.75rem;
+	margin: 0 0 0.75rem 0;
 }
 
 /* Pattern styles */
 #story2 .container {
-  display: flex;
+	display: flex;
 }
 
 #story2 .left-half {
-  flex: 5;
+	flex: 5;
+	background: url('../images/teambreak.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;'
+	padding-top: 20rem;
+	padding-bottom: 5rem;
 }
 
 #story2 .right-half {
-  background-color: #ffffff;
-  flex: 7;
+	background-color: #ffffff;
+	flex: 7;
 }
 
 /* --------------------------------------
