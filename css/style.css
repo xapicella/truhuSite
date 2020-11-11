@@ -469,8 +469,8 @@ footer {
 }
 
 #plsFtrs .row {
-	padding-top: 32px;
-	padding-bottom: 32px;
+	padding-top: 10rem
+	padding-bottom: 10rem;
 }
 
 #plsFtrs img {
