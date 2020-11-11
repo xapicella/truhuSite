@@ -428,7 +428,6 @@ footer {
 	padding-bottom: 10px;
 }
 
-
 /* --------------------------------------
 	Story Section
 -------------------------------------- */
@@ -473,6 +472,7 @@ footer {
 #vision .colBlock {
 	background: #66ccff/*rgba(161, 161, 161, 0.42)*/;
 }
+
 /* --------------------------------------
 	Optional Mission Section
 -------------------------------------- */
@@ -551,10 +551,9 @@ footer {
 	padding-bottom: 5rem;
 }
 
-#plsPerks p {
+#plsPerks h5 {
 	color: #ffffff;	
 }
-
 
 #plsPerks h1 {
 	color: #ffffff;	
@@ -574,6 +573,23 @@ footer {
 #plsFtrs {
 	padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+#plsFtrs h1 { 
+	text-align: center;
+}
+
+#plsFtrs h3 { 
+	color: #04378a;
+}
+
+#plsFtrs p {
+	font-size: 20px;
+	line-height: 40px;
+}
+
+#iconPrk {
+	color: #04378a;
 }
 
 #plsFtrs .row {
