@@ -574,7 +574,7 @@ footer {
 #story{
 	background: url('../images/teambreak.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;'
-	padding-top: 10rem;
+	padding-top: 20rem;
 	padding-bottom: 5rem;
 }
 
@@ -588,14 +588,38 @@ footer {
 	margin-right: auto;
 }
 
-.side-title {
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
-}
-
 .signature {
 	max-height: 100px;
 	max-width: 400px;
+}
+
+/**** Story Demo ****/
+.flexy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#story2 h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+#story2 .container {
+  display: flex;
+}
+
+#story2 .left-half {
+  background-color: #ff9e2c;
+  flex: 5;
+  padding: 1rem;
+}
+
+#story2 .right-half {
+  background-color: #b6701e;
+  flex: 7;
+  padding: 1rem;
 }
 
 /* --------------------------------------
