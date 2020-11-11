@@ -583,9 +583,9 @@ footer {
 	color: #04378a;
 }
 
-#plsFtrs p {
-	font-size: 25px;
-	line-height: 50px;
+#plsFtrs li {
+	font-size: 18px;
+	line-height: 36px;
 }
 
 .fa-li {
