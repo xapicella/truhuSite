@@ -468,9 +468,9 @@ footer {
 	color: #04378a;
 }
 
-#zpat {
-	padding-top: 10rem
-	padding-bottom: 10rem;
+#plsFtrs .row {
+	margin-top: 10rem
+	margin-bottom: 10rem;
 }
 
 #plsFtrs img {
