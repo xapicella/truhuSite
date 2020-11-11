@@ -611,15 +611,12 @@ footer {
 }
 
 #story2 .left-half {
-  background-color: #ff9e2c;
   flex: 5;
-  padding: 1rem;
 }
 
 #story2 .right-half {
-  background-color: #b6701e;
+  background-color: #ffffff;
   flex: 7;
-  padding: 1rem;
 }
 
 /* --------------------------------------
