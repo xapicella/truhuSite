@@ -541,18 +541,18 @@ footer {
 /*---------------------------------------
    Pulse Perks Section              
 -----------------------------------------*/
+/* gunmetal color: #82959e */
 
 #plsPerks {
-	color: #ffffff;
-	background: #82959e;
+	color: #66ccff;
+	background: #101010;
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
-#plsPerks .row {
-	padding-top: 10px;
-	padding-bottom: 10px;
+.row-break {
+	padding-top: 5rem;
 }
 
 #iconPrk {
