@@ -468,9 +468,8 @@ footer {
 	color: #04378a;
 }
 
-#plsFtrs .row {
-	margin-top: 10rem
-	margin-bottom: 10rem;
+.big-row-break {
+	margin-top: 30rem
 }
 
 #plsFtrs img {
@@ -503,7 +502,7 @@ footer {
 }
 
 .row-break {
-	padding-top: 5rem;
+	margin-top: 5rem;
 }
 
 #iconPrk {
