@@ -412,6 +412,147 @@ footer {
   margin-top: 35px;
   display: inline-block;	
 }
+
+/* -------------------------------------- Pulse Page Styles -------------------------------------- */
+/*---------------------------------------
+    Pulse Hero Section              
+-----------------------------------------*/
+#pulsHero {
+    background: url('../../images/pulsHero.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    text-align: right;
+}
+
+#pulsHero {
+	color: #ffffff;
+}
+
+#pulsHero h2 {
+	color: #66ccff
+}
+
+/*---------------------------------------
+   Pulse Features Section              
+-----------------------------------------*/
+#plsFtrs {
+	padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#plsFtrs h1 { 
+	text-align: center;
+}
+
+#plsFtrs h3 { 
+	color: #04378a;
+}
+
+#plsFtrs li {
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.fa-li {
+	color: #04378a;
+}
+
+#plsFtrs .row {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+#plsFtrs img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 400px;
+	max-width: 600px;
+}
+
+/*---------------------------------------
+   Pulse Perks Section              
+-----------------------------------------*/
+/* bluemetal color: #82959e */
+
+#plsPerks {
+	color: #66ccff;
+	background: #101010;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#plsPerks .section-title {
+	color: #ffffff;	
+}
+
+#plsPerks h5 {
+	color: #ffffff;	
+}
+
+.row-break {
+	padding-top: 5rem;
+}
+
+#iconPrk {
+	font-size: 38px;
+}
+
+/*---------------------------------------------
+		Testimonials Section
+---------------------------------------------*/
+
+#testimonials {
+  /*padding: 100px 0px;*/
+  position: relative;
+  z-index: 9;
+	color: #101010;
+	padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#testimonials h1 {
+	text-align: center;
+}
+
+@media (max-width: 992px) {
+  .quoteBox {
+    margin-bottom: 45px;
+  }
+}
+
+.quoteBox {
+  border-radius: 5px;
+  padding: 60px 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.quoteBox img {
+  z-index: 10;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.quoteBox h4 {
+  margin-top: 0px;
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 
 #story h1,
@@ -505,147 +646,6 @@ footer {
 
 .social-icon:hover {
 	color: #66ccff;
-}
-
-/* -------------------------------------- Pulse Page Styles -------------------------------------- */
-
-/*---------------------------------------
-    Pulse Hero Section              
------------------------------------------*/
-#pulsHero {
-    background: url('../../images/pulsHero.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-     -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-    height: 100vh;
-    text-align: right;
-}
-
-#pulsHero {
-	color: #ffffff;
-}
-
-#pulsHero h2 {
-	color: #66ccff
-}
-
-/*---------------------------------------
-   Pulse Perks Section              
------------------------------------------*/
-/* gunmetal color: #82959e */
-
-#plsPerks {
-	color: #66ccff;
-	background: #101010;
-	text-align: center;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-#plsPerks .section-title {
-	color: #ffffff;	
-}
-
-#plsPerks h5 {
-	color: #ffffff;	
-}
-
-.row-break {
-	padding-top: 5rem;
-}
-
-#iconPrk {
-	font-size: 38px;
-}
-
-/*---------------------------------------
-   Pulse Features Section              
------------------------------------------*/
-#plsFtrs {
-	padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-#plsFtrs h1 { 
-	text-align: center;
-}
-
-#plsFtrs h3 { 
-	color: #04378a;
-}
-
-#plsFtrs li {
-	font-size: 18px;
-	line-height: 36px;
-}
-
-.fa-li {
-	color: #04378a;
-}
-
-#plsFtrs .row {
-	padding-top: 32px;
-	padding-bottom: 32px;
-}
-
-#plsFtrs img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-height: 400px;
-	max-width: 600px;
-}
-
-/*---------------------------------------------
-		Testimonials Section
----------------------------------------------*/
-
-#testimonials {
-  /*padding: 100px 0px;*/
-  position: relative;
-  z-index: 9;
-	color: #101010;
-	padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-#testimonials h1 {
-	text-align: center;
-}
-
-@media (max-width: 992px) {
-  .quoteBox {
-    margin-bottom: 45px;
-  }
-}
-
-.quoteBox {
-  border-radius: 5px;
-  padding: 60px 30px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-}
-
-.quoteBox img {
-  z-index: 10;
-  position: relative;
-  max-width: 100%;
-  margin-bottom: 40px;
-}
-
-.quoteBox h4 {
-  margin-top: 0px;
-  font-size: 22px;
-  color: #ffffff;
-  margin-bottom: 25px;
 }
 
 /*--------------------------------------- Responsive Styles -----------------------------------------*/
