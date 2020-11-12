@@ -554,7 +554,9 @@ footer {
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 
 #story h1,
-#vision h1 { 
+#vision h1,
+#mission h1 { 
+	font-weight: 600;
 	text-align: center;
 }
 
@@ -644,8 +646,6 @@ footer {
 -------------------------------------- */
 #mission h1 {
 	color: #ffffff;
-	text-align: center;
-	font-weight: 300;
 }
 
 #mission p {
