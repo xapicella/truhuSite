@@ -718,11 +718,11 @@ footer {
 	Mission 3 Section
 -------------------------------------- */
 #mission3 h1 {
-	color: #ffffff;
+	color: #101010;
 }
 
 #mission3 p {
-	color: #ffffff;
+	color: #101010;
 }
 
 #mission3 h3 {
@@ -732,7 +732,7 @@ footer {
 }
 
 #mission3 {
-	background: url('../images/team_in.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/hands_in.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
@@ -742,11 +742,11 @@ footer {
 	Mission 4 Section
 -------------------------------------- */
 #mission4 h1 {
-	color: #ffffff;
+	color: #101010;
 }
 
 #mission4 p {
-	color: #ffffff;
+	color: #101010;
 }
 
 #mission4 h3 {
@@ -756,7 +756,7 @@ footer {
 }
 
 #mission4 {
-	background: url('../images/team_in.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/hands_in.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
