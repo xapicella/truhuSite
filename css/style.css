@@ -554,13 +554,19 @@ footer {
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 
 #story h1,
+#story3 h1,
+#story4 h1,
 #vision h1,
-#mission h1 { 
+#mission h1,
+#mission3 h1,
+#mission4 h1 { 
 	font-weight: 600;
 	text-align: center;
 }
 
 #story p,
+#story3 p,
+#story4 p,
 #vision p,
 #founders p { 
 	font-size: 18px;
@@ -595,6 +601,35 @@ footer {
 	max-height: 100px;
 	max-width: 400px;
 }
+
+/* --------------------------------------
+	Story Section
+-------------------------------------- */
+#story3 {
+	background: url('../images/light_blue.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+}
+
+#story3 h1 {
+	color: #101010;
+}
+
+/* --------------------------------------
+	Story Section
+-------------------------------------- */
+#story4 {
+	background: url('../images/light_blue.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+}
+
+#story4 h1 {
+	color: #101010;
+}
+
 
 /**** Story Demo ****/
 .flexy {
@@ -642,7 +677,7 @@ footer {
 }
 
 /* --------------------------------------
-	Optional Mission Section
+	Mission 1 Section
 -------------------------------------- */
 #mission h1 {
 	color: #ffffff;
@@ -658,17 +693,32 @@ footer {
 	font-size: 32px;
 }
 
-.vl {
-  border-left: 2px solid;
-  height: 500px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
-}
-
 #mission {
 	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+/* --------------------------------------
+	Mission 3 Section
+-------------------------------------- */
+#mission3 h1 {
+	color: #ffffff;
+}
+
+#mission3 p {
+	color: #ffffff;
+}
+
+#mission3 h3 {
+	color: #ffffff;
+	text-align: center; 
+	font-size: 32px;
+}
+
+#mission3 {
+	background: url('../images/team_in.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
