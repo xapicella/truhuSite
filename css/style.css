@@ -56,8 +56,9 @@ a {
     padding-bottom: 12px;
 }
 
-#intro .btn, #pulsHero .btn,
-#products .btn, #about .btn {
+/*#intro .btn, #pulsHero .btn,
+#products .btn, #about */
+.btn {
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 0px;
@@ -71,19 +72,21 @@ a {
     transition: all 0.4s ease-in-out;
 }
 
-#intro .btn-danger, #pulsHero .btn-danger,
-#products .btn-danger {
+.btn-danger {
     background: #66ccff;
     border-color: transparent;
 }
 
-#products .btn, #about .btn {
+#products .btn,
+#about .btn,
+#plsPerks .btn {
   border-radius: 100px;
 }
 
-#intro .btn-danger:hover,
+/*#intro .btn-danger:hover,
 #pulsHero .btn-danger:hover,
-#products .btn-danger:hover {
+#products */
+.btn-danger:hover {
   background: transparent;
   border-color: #66ccff;
   color: #66ccff;
@@ -502,6 +505,10 @@ footer {
 
 .row-break {
 	margin-top: 5rem;
+}
+
+#plsPerks .btn {
+	top-margin: 5rem;
 }
 
 #iconPrk {
