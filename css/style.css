@@ -423,11 +423,6 @@ footer {
 }
 
 /* -------------------------------------- Pulse Page Styles -------------------------------------- */
-hr {
-	border: 3px solid #507cb5;
-	border-radius: 5px;
-	width:50%;
-}
 /*---------------------------------------
     Pulse Hero Section              
 -----------------------------------------*/
@@ -474,17 +469,14 @@ hr {
 	text-align: center;
 }
 
+hr {
+	border: 3px solid #00aaff;
+	border-radius: 5px;
+	width:50%;
+}
+
 #plsFtrs p {
 	color: #101010;
-}
-
-#plsFtrs li {
-	font-size: 18px;
-	line-height: 36px;
-}
-
-.fa-li {
-	color: #04378a;
 }
 
 .big-row-break {
