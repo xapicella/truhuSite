@@ -642,12 +642,12 @@ footer {
 	Optional Mission Section
 -------------------------------------- */
 #mission h1 {
-	color: #ffffff;
 	text-align: center;
 	font-weight: 300;
 }
 
 #mission {
+	color: #ffffff;
 	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 5rem;
