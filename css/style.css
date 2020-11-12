@@ -13,11 +13,11 @@ body {
 h1 {
 	font-size: 40px;
 	letter-spacing: 2px;
+	font-weight: 700;
 }
 
 h2 {
   font-size: 30px;
-  text-transform: uppercase;
 }
 
 h3 {
@@ -563,7 +563,6 @@ footer {
 #mission4 h1,
 #mission5 h1,
 #founders h1 { 
-	font-weight: 600;
 	text-align: center;
 }
 
