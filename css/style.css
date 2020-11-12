@@ -423,7 +423,7 @@ footer {
 }
 
 /* -------------------------------------- Pulse Page Styles -------------------------------------- */
-.hr {
+hr {
 	border: 3px solid #66ccff;
 	border-radius: 5px;
 	width:50%;
