@@ -658,6 +658,15 @@ footer {
 	font-size: 32px;
 }
 
+.vl {
+  border-left: 2px solid;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
 #mission {
 	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
