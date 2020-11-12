@@ -559,7 +559,8 @@ footer {
 #vision h1,
 #mission h1,
 #mission3 h1,
-#mission4 h1 { 
+#mission4 h1,
+#founders h1 { 
 	font-weight: 600;
 	text-align: center;
 }
