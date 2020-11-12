@@ -460,17 +460,21 @@ hr {
 /*---------------------------------------
    Pulse Features Section              
 -----------------------------------------*/
+/* toodarkblue: #04378a */
+
 #plsFtrs {
 	padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-#plsFtrs h1 { 
+#plsFtrs h1,
+#plsFtrs h2 {
+	color: #507cb5;
 	text-align: center;
 }
 
-#plsFtrs h2 { 
-	color: #04378a;
+#plsFtrs p {
+	color: #101010;
 }
 
 #plsFtrs li {
