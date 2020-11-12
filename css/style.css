@@ -102,6 +102,12 @@ a {
   background-size: cover !important;
 }
 
+/* Vertical centering for Bootstrap 3 rows */
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
 /*---------------------------------------
     Preloader section              
 -----------------------------------------*/
