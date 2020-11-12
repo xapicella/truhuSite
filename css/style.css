@@ -469,7 +469,7 @@ footer {
 	text-align: center;
 }
 
-hr {
+#plsFtrs hr {
 	border: 3px solid #00aaff;
 	border-radius: 5px;
 	width:50%;
@@ -527,7 +527,6 @@ hr {
 /*---------------------------------------------
 		Testimonials Section
 ---------------------------------------------*/
-
 #testimonials {
   /*padding: 100px 0px;*/
   position: relative;
@@ -539,6 +538,12 @@ hr {
 
 #testimonials h1 {
 	text-align: center;
+}
+
+#testimonials hr {
+	border: 3px solid #66ccff;
+	border-radius: 5px;
+	width: 10%;
 }
 
 @media (max-width: 992px) {
@@ -557,14 +562,6 @@ hr {
   z-index: 10;
   position: relative;
   max-width: 100%;
-  margin-bottom: 40px;
-}
-
-.quoteBox h4 {
-  margin-top: 0px;
-  font-size: 22px;
-  color: #ffffff;
-  margin-bottom: 25px;
 }
 
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
