@@ -571,15 +571,16 @@ footer {
 	Story Section
 -------------------------------------- */
 #story {
-	background: url('../images/teambreak.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;'
+	background: url('../images/green_blue.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
 	padding-top: 20rem;
 	padding-bottom: 5rem;
+	color: #ffffff;
 }
 
-#story .colBlock {
-	background: #ffffff/*rgba(161, 161, 161, 0.42)*/;
-}
+/*#story .colBlock {
+	background: rgba(255, 255, 255, 0.42);
+}*/
 
 .storyHead {
 	display: block;
