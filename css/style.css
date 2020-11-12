@@ -571,11 +571,11 @@ footer {
 	Story Section
 -------------------------------------- */
 #story {
-	background: url('../images/green_blue.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/geometric.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 20rem;
 	padding-bottom: 5rem;
-	color: #ffffff;
+	color: #101010;
 }
 
 /*#story .colBlock {
