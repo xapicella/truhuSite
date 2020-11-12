@@ -650,8 +650,17 @@ footer {
 	font-weight: 300;
 }
 
-#mission {
+#mission p {
 	color: #ffffff;
+}
+
+#mission h3 {
+	color: #ffffff;
+	text-align: center; 
+	font-size: 28px;
+}
+
+#mission {
 	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 5rem;
