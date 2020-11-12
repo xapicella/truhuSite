@@ -556,10 +556,12 @@ footer {
 #story h1,
 #story3 h1,
 #story4 h1,
+#story5 h1,
 #vision h1,
 #mission h1,
 #mission3 h1,
 #mission4 h1,
+#mission5 h1,
 #founders h1 { 
 	font-weight: 600;
 	text-align: center;
@@ -568,6 +570,7 @@ footer {
 #story p,
 #story3 p,
 #story4 p,
+#story5 p,
 #vision p,
 #founders p { 
 	font-size: 18px;
@@ -584,7 +587,7 @@ footer {
 	Story Section
 -------------------------------------- */
 #story {
-	background: url('../images/light_blue.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/hexagon.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 10rem;
 	padding-bottom: 5rem;
@@ -593,10 +596,6 @@ footer {
 #story h1 {
 	color: #101010;
 }
-	
-/*#story .colBlock {
-	background: rgba(255, 255, 255, 0.42);
-}*/
 
 .signature {
 	max-height: 100px;
@@ -628,6 +627,20 @@ footer {
 }
 
 #story4 h1 {
+	color: #101010;
+}
+
+/* --------------------------------------
+	Story Section
+-------------------------------------- */
+#story5 {
+	background: url('../images/light_blue.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+}
+
+#story5 h1 {
 	color: #101010;
 }
 
@@ -719,6 +732,54 @@ footer {
 }
 
 #mission3 {
+	background: url('../images/team_in.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+/* --------------------------------------
+	Mission 4 Section
+-------------------------------------- */
+#mission4 h1 {
+	color: #ffffff;
+}
+
+#mission4 p {
+	color: #ffffff;
+}
+
+#mission4 h3 {
+	color: #ffffff;
+	text-align: center; 
+	font-size: 32px;
+}
+
+#mission4 {
+	background: url('../images/team_in.jpg') 50% 0 repeat-y fixed;
+	background-position: center center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+/* --------------------------------------
+	Mission 5 Section
+-------------------------------------- */
+#mission5 h1 {
+	color: #ffffff;
+}
+
+#mission5 p {
+	color: #ffffff;
+}
+
+#mission5 h3 {
+	color: #ffffff;
+	text-align: center; 
+	font-size: 32px;
+}
+
+#mission5 {
 	background: url('../images/team_in.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 5rem;
