@@ -579,18 +579,15 @@ footer {
 	background-position: center center;
 	padding-top: 20rem;
 	padding-bottom: 5rem;
-	color: #101010;
 }
 
+#story h1 {
+	color: #101010;
+}
+	
 /*#story .colBlock {
 	background: rgba(255, 255, 255, 0.42);
 }*/
-
-.storyHead {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 .signature {
 	max-height: 100px;
