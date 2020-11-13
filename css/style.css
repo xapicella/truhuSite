@@ -823,8 +823,7 @@ footer {
 	Founders Section
 -------------------------------------- */
 #founders {
-	background: url('../images/geometric.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
+	background: #82959e;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
