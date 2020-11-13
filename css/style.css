@@ -612,7 +612,7 @@ footer {
 	Story Section
 -------------------------------------- */
 #story {
-	background: url('../images/light_blue.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/hands_in.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 10rem;
 	padding-bottom: 5rem;
@@ -742,8 +742,7 @@ footer {
 }
 
 #mission {
-	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
+	background: #101010;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
