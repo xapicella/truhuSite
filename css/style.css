@@ -611,7 +611,7 @@ footer {
 	Story Section
 -------------------------------------- */
 #story {
-	background: url('../images/hands_in.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/hexagon.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 10rem;
 	padding-bottom: 5rem;
@@ -645,7 +645,7 @@ footer {
 	Story Section
 -------------------------------------- */
 #story4 {
-	background: url('../images/light_blue.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 10rem;
 	padding-bottom: 5rem;
@@ -701,55 +701,17 @@ footer {
 }
 
 /* --------------------------------------
-	Vision Section
--------------------------------------- */
-#vision {
-	color: #ffffff;
-	background: url('../images/paper.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-#vision .colBlock {
-	background: #66ccff/*rgba(161, 161, 161, 0.42)*/;
-}
-
-/* --------------------------------------
-	Mission 1 Section
+	Mission Section
 -------------------------------------- */
 #mission h1 {
-	color: #ffffff;
+	color: #101010;
 }
 
 #mission p {
-	color: #ffffff;
-}
-
-#mission h3 {
-	color: #ffffff;
-	text-align: center; 
-	font-size: 32px;
-}
-
-#mission {
-	background: #101010;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-/* --------------------------------------
-	Mission 3 Section
--------------------------------------- */
-#mission3 h1 {
 	color: #101010;
 }
 
-#mission3 p {
-	color: #101010;
-}
-
-#mission3 h2 {
+#mission h2 {
 	color: #101010;
 	text-align: center; 
 	font-size: 28px;
@@ -764,62 +726,6 @@ footer {
 	font-size: 25px;
 	margin-left: 5px;
 	margin-right: 5px;
-}
-
-
-#mission3 {
-	background: url('../images/hands_in.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-/* --------------------------------------
-	Mission 4 Section
--------------------------------------- */
-#mission4 h1 {
-	color: #101010;
-}
-
-#mission4 p {
-	color: #101010;
-}
-
-#mission4 h3 {
-	color: #ffffff;
-	text-align: center; 
-	font-size: 32px;
-}
-
-#mission4 {
-	background: url('../images/hands_in.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-/* --------------------------------------
-	Mission 5 Section
--------------------------------------- */
-#mission5 h1 {
-	color: #ffffff;
-}
-
-#mission5 p {
-	color: #ffffff;
-}
-
-#mission5 h3 {
-	color: #ffffff;
-	text-align: center; 
-	font-size: 32px;
-}
-
-#mission5 {
-	background: url('../images/team_in.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
 }
 
 /* --------------------------------------
