@@ -589,6 +589,7 @@ footer {
 	color: #101010;
 	line-height: 27px;
 	padding-bottom: 10px;
+	font-weight: 500;
 }
 
 #story3 hr,
@@ -635,6 +636,7 @@ footer {
 #story3 h1 {
 	color: #101010;
 }
+
 
 /* --------------------------------------
 	Story Section
