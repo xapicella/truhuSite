@@ -573,11 +573,7 @@ footer {
 #story3 h1,
 #story4 h1,
 #story5 h1,
-#vision h1,
 #mission h1,
-#mission3 h1,
-#mission4 h1,
-#mission5 h1,
 #founders h1 { 
 	text-align: center;
 }
@@ -586,7 +582,6 @@ footer {
 #story3 p,
 #story4 p,
 #story5 p,
-#vision p,
 #founders p { 
 	font-size: 18px;
 	color: #101010;
@@ -595,8 +590,10 @@ footer {
 	font-weight: 500;
 }
 
+#story hr,
 #story3 hr,
-#mission3 hr,
+#story4 hr,
+#mission hr,
 #founders hr {
 	border: 4px solid #101010;
 	border-radius: 5px;
@@ -610,6 +607,12 @@ footer {
 /* --------------------------------------
 	Story Section
 -------------------------------------- */
+
+.signature {
+	max-height: 100px;
+	max-width: 400px;
+}
+
 #story {
 	background: url('../images/hexagon.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
@@ -617,18 +620,6 @@ footer {
 	padding-bottom: 5rem;
 }
 
-#story h1 {
-	color: #101010;
-}
-
-.signature {
-	max-height: 100px;
-	max-width: 400px;
-}
-
-/* --------------------------------------
-	Story Section
--------------------------------------- */
 #story3 {
 	background: url('../images/abstractB2.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
@@ -636,21 +627,15 @@ footer {
 	padding-bottom: 5rem;
 }
 
-#story3 h1 {
-	color: #101010;
-}
-
-
-/* --------------------------------------
-	Story Section
--------------------------------------- */
 #story4 {
-	background: url('../images/.jpg') 50% 0 repeat-y fixed;
+	background: url('../images/abstractW1.jpg') 50% 0 repeat-y fixed;
 	background-position: center center;
 	padding-top: 10rem;
 	padding-bottom: 5rem;
 }
 
+#story h1,
+#story3 h1,
 #story4 h1 {
 	color: #101010;
 }
