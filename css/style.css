@@ -610,7 +610,12 @@ footer {
 }
 
 #pull-quote {
+	text-align: center;
 	color: #101010;
+}
+
+#quoteIcon {
+	font-size: 30px
 }
 
 .signature {
