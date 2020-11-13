@@ -591,6 +591,14 @@ footer {
 	padding-bottom: 10px;
 }
 
+#story3 hr,
+#mission3 hr,
+#founders hr {
+	border: 3px solid #101010;
+	border-radius: 5px;
+	width:50%;
+}
+
 .colBlock {
 	background: #ffffff;
 }
@@ -615,7 +623,7 @@ footer {
 }
 
 #quoteIcon {
-	font-size: 30px
+	font-size: 30px;
 }
 
 .signature {
