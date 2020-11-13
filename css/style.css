@@ -592,11 +592,16 @@ footer {
 }
 
 #story3 hr,
-#mission3 hr,
-#founders hr {
-	border: 4px solid #00aaff;
+#mission3 hr {
+	border: 4px solid #66ccff;
 	border-radius: 5px;
-	width:50%;
+	width:20%;
+}
+
+#founders hr {
+	border: 4px solid #ffffff;
+	border-radius: 5px;
+	width:20%;
 }
 
 .colBlock {
