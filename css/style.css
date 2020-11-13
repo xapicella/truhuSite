@@ -810,5 +810,10 @@ footer {
   #intro, #pulsHero {
     height: 100vh;
   }
+	
+	#plsFtrs img {
+		max-height: 250px;
+		max-width: 300px;
+}
 
 }
