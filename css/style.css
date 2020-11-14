@@ -468,8 +468,9 @@ darker fb blue: #254a79
 	color: #ffffff;	
 }
 
-#plsPerksTop .btn,
-#plsPerksBtm .btn {
+#plsPerksTop .btn-danger,
+#plsPerksBtm .btn-danger {
+	color: transparent;
 	top-margin: 5rem;
 }
 
