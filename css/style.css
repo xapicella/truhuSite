@@ -449,6 +449,7 @@ bluestar blue: #82959e
 too dark blue: #04378a
 saturated fb blue: #004fb5
 darker fb blue: #254a79 
+less dark fb blue: #2a5489
 ---------------------------*/
 
 #plsPerksTop,
@@ -458,7 +459,6 @@ darker fb blue: #254a79
 	text-align: center;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-}
 }
 
 #plsPerksTop h5,
@@ -470,7 +470,7 @@ darker fb blue: #254a79
 
 #plsPerksTop .btn-danger,
 #plsPerksBtm .btn-danger {
-	color: transparent;
+	color: #254a79;
 	top-margin: 5rem;
 }
 
@@ -493,7 +493,7 @@ darker fb blue: #254a79
 
 #plsFtrs h1,
 #plsFtrs h2 {
-	color: #254a79;
+	color: #2a5489;
 	text-align: center;
 }
 
