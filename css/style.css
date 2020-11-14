@@ -451,31 +451,21 @@ saturated fb blue: #004fb5
 darker fb blue: #254a79 
 ---------------------------*/
 
-#plsPerksTop {
-	color: #66ccff;
-	background: #254a79;
-}
-
-#plsPerksBtm {
-	color: #101010;
-	background: #004fb5;
-}
-
-#plsPerksTop h5,
-#plsPerksTop .section-title {
-	color: #ffffff;	
-}
-
-#plsPerksBtm h5, 
-#plsPerksBtm .section-title {
-	color: #ffffff;	
-}
-
 #plsPerksTop,
 #plsPerksBtm {
+	color: #66ccff;
+	background: #254a79;
 	text-align: center;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+}
+}
+
+#plsPerksTop h5,
+#plsPerksBtm h5, 
+#plsPerksTop .section-title,
+#plsPerksBtm .section-title {
+	color: #ffffff;	
 }
 
 #plsPerksTop .btn,
@@ -785,8 +775,8 @@ darker fb blue: #254a79
   }
 	
 	#plsFtrs img {
-		max-height: 600px;
-		max-width: 300px;
+		max-height: 800px;
+		max-width: 450px;
 }
 
 }
