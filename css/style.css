@@ -507,24 +507,9 @@ less dark fb blue: #2a5489
 	font-weight: 600;
 }
 
-#plsFtrs hr {
-	color: #00aaff;
-	border: 3px solid;
-	border-radius: 3px;
-	width: 20%;
-}
-
 #plsFtrs p {
 	color: #101010;
 	font-size: 16px;
-}
-
-.zpat-break hr {
-	color: #00aaff;
-	border: 1px solid;
-	width: 50%;
-	margin-bottom: 5rem;
-	margin-top: 5rem;
 }
 
 #plsFtrs img {
@@ -533,6 +518,21 @@ less dark fb blue: #2a5489
 	margin-right: auto;
 	max-height: 600px;
 	max-width: 700px;
+}
+
+.zpat-headings hr {
+	color: #00aaff;
+	border: 3px solid;
+	border-radius: 3px;
+	width: 20%;
+}
+
+.zpat-break hr {
+	color: #00aaff;
+	border: 1px solid;
+	width: 50%;
+	margin-bottom: 5rem;
+	margin-top: 5rem;
 }
 
 
