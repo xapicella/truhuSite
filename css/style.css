@@ -614,8 +614,6 @@ footer {
 }
 
 #story {
-	background: url('../images/hexagon.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
 	padding-top: 10rem;
 	padding-bottom: 5rem;
 }
