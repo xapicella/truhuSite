@@ -574,18 +574,12 @@ darker fb blue: #254a79
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 
 #story h1,
-#story3 h1,
-#story4 h1,
-#story5 h1,
 #mission h1,
 #founders h1 { 
 	text-align: center;
 }
 
 #story p,
-#story3 p,
-#story4 p,
-#story5 p,
 #founders p { 
 	font-size: 18px;
 	color: #101010;
@@ -595,8 +589,6 @@ darker fb blue: #254a79
 }
 
 #story hr,
-#story3 hr,
-#story4 hr,
 #mission hr,
 #founders hr {
 	border: 4px solid #101010;
@@ -622,38 +614,9 @@ darker fb blue: #254a79
 	padding-bottom: 5rem;
 }
 
-#story3 {
-	padding-top: 10rem;
-	padding-bottom: 5rem;
-}
-
-#story4 {
-	background: url('../images/abstractW1.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
-	padding-top: 10rem;
-	padding-bottom: 5rem;
-}
-
-#story h1,
-#story3 h1,
-#story4 h1 {
+#story h1 {
 	color: #101010;
 }
-
-/* --------------------------------------
-	Story Section
--------------------------------------- */
-#story5 {
-	background: url('../images/light_blue.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;
-	padding-top: 10rem;
-	padding-bottom: 5rem;
-}
-
-#story5 h1 {
-	color: #101010;
-}
-
 
 /**** Story Demo ****/
 .flexy {
@@ -748,7 +711,7 @@ darker fb blue: #254a79
 /* Add some padding inside the card container */
 .cardBlock {
 	background: #ffffff;
-  padding: 2px 16px;
+	padding: 2px 16px;
 }
 
 .social-icon:hover {
@@ -762,7 +725,6 @@ darker fb blue: #254a79
   p {
 		font-size: 13px;
 	}
-	
 	
 	.quoteBox,
 	.card,
