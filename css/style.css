@@ -450,27 +450,38 @@ footer {
 /*---------------------------------------
    Pulse Perks Sections              
 -----------------------------------------*/
-/* bluestar blue: #82959e */
-/* too dark blue: #04378a */
-/* dark fb blue: #004fb5 */
+/* ------ Color Options ------
+bluestar blue: #82959e
+too dark blue: #04378a
+saturated fb blue: #004fb5
+darker fb blue: #254a79 
+---------------------------*/
 
-#plsPerksTop,
-#plsPerksBtm {
+#plsPerksTop {
 	color: #66ccff;
-	background: #004fb5;
-	text-align: center;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	background: #254a79;
 }
 
-#plsPerksTop .section-title,
+#plsPerksBtm {
+	color: #101010;
+	background: #004fb5;
+}
+
+#plsPerksTop h5,
+#plsPerksTop .section-title {
+	color: #ffffff;	
+}
+
+#plsPerksBtm h5, 
 #plsPerksBtm .section-title {
 	color: #ffffff;	
 }
 
-#plsPerksTop h5,
-#plsPerksBtm h5 {
-	color: #ffffff;	
+#plsPerksTop,
+#plsPerksBtm {
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
 #plsPerksTop .btn,
