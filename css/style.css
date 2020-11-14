@@ -515,8 +515,12 @@ darker fb blue: #254a79
 	font-size: 16px;
 }
 
-.big-row-break {
-	margin-top: 15rem
+.zpat-break hr {
+	color: #00aaff;
+	border: 1px solid;
+	width: 50%;
+	margin-bottom: 5rem;
+	margin-top: 5rem;
 }
 
 #plsFtrs img {
