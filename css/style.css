@@ -471,7 +471,11 @@ less dark fb blue: #2a5489
 #plsPerksTop .btn-danger,
 #plsPerksBtm .btn-danger {
 	color: #254a79;
-	top-margin: 5rem;
+}
+
+#plsPerksTop .btn-danger:hover,
+#plsPerksBtm .btn-danger:hover {
+	color: #66ccff;
 }
 
 .row-break {
