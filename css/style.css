@@ -448,10 +448,47 @@ footer {
 }
 
 /*---------------------------------------
+   Pulse Perks Sections              
+-----------------------------------------*/
+/* bluestar blue: #82959e */
+/* too dark blue: #04378a */
+/* dark fb blue: #004fb5 */
+
+#plsPerksTop,
+#plsPerksBtm {
+	color: #66ccff;
+	background: #004fb5;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#plsPerksTop .section-title,
+#plsPerksBtm .section-title {
+	color: #ffffff;	
+}
+
+#plsPerksTop h5,
+#plsPerksBtm h5 {
+	color: #ffffff;	
+}
+
+#plsPerksTop .btn,
+#plsPerksBtm .btn {
+	top-margin: 5rem;
+}
+
+.row-break {
+	margin-top: 5rem;
+}
+
+#iconPrk {
+	font-size: 38px;
+}
+
+/*---------------------------------------
    Pulse Features Section              
 -----------------------------------------*/
-/* toodarkblue: #04378a */
-/* dark truhu blue: #004fb5 */
 
 #plsFtrs {
 	padding-top: 5rem;
@@ -494,38 +531,6 @@ footer {
 	max-width: 700px;
 }
 
-/*---------------------------------------
-   Pulse Perks Section              
------------------------------------------*/
-/* bluestar color: #82959e */
-
-#plsPerks {
-	color: #66ccff;
-	background: #004fb5;
-	text-align: center;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-#plsPerks .section-title {
-	color: #ffffff;	
-}
-
-#plsPerks h5 {
-	color: #ffffff;	
-}
-
-.row-break {
-	margin-top: 5rem;
-}
-
-#plsPerks .btn {
-	top-margin: 5rem;
-}
-
-#iconPrk {
-	font-size: 38px;
-}
 
 /*---------------------------------------------
 		Testimonials Section
