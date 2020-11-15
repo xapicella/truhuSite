@@ -71,19 +71,44 @@ a {
 }
 
 .btn-danger {
-    background: #66ccff;
-    border-color: transparent;
+	color: #ffffff;
+	background: #66ccff;
+	border-color: transparent;
 }
 
 .btn-danger:hover {
-  background: transparent;
-  border-color: #66ccff;
-  color: #66ccff;
+	color: #66ccff;
+	background: transparent;
+	border-color: #66ccff;
 }
 
 .btn-blocked { 
 	opacity: 0.6;
 	cursor: not-allowed;
+}
+
+.demo-navbtn {
+	color: #ffffff;
+	background: #66ccff;
+	border-color: transparent;
+}
+
+.demo-navbtn:hover {
+	color: #66ccff;
+	background: transparent;
+	border-color: #66ccff;
+}
+
+.login-btn {
+	color: #ffffff;
+	background: #00de0b;
+	border-color: transparent;
+}
+
+.login-btn:hover {
+	background: transparent;
+	border-color: #00de0b;
+	color: #00de0b;	
 }
 
 #intro .btn, #products .btn, #about .btn,
