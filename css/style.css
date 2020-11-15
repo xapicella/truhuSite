@@ -66,8 +66,8 @@ a {
 	font-weight: 600;
 	letter-spacing: 1px;
 	font-size: 16px;
-	padding: 14px 42px;
-	margin-top: 42px;
+	/*padding: 14px 42px;
+	margin-top: 42px;*/
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 	border-radius: 100px;
