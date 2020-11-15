@@ -88,29 +88,29 @@ a {
 }
 
 .demo-navbtn {
-	color: #ffffff;
-	background: #66ccff;
-	border-color: transparent;
+	color: #66ccff;
+	background: transparent;
+	border-color: #66ccff;
 	margin-left: 10px;
 }
 
 .demo-navbtn:hover {
-	color: #66ccff;
-	background: transparent;
-	border-color: #66ccff;
+	color: #ffffff;
+	background: #66ccff;
+	border-color: transparent;
 }
 
 .login-btn {
-	color: #ffffff;
-	background: #00de0b;
-	border-color: transparent;
-margin-left: 5px;
+	color: #00de0b;
+	background: transparent;
+	border-color: #00de0b;
+	margin-left: 10px;
 }
 
 .login-btn:hover {
-	background: transparent;
-	border-color: #00de0b;
-	color: #00de0b;	
+	background: #00de0b;
+	border-color: transparent;
+	color: #ffffff;	
 }
 
 #intro .btn, #products .btn, #about .btn,
