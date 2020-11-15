@@ -91,6 +91,8 @@ a {
 	color: #ffffff;
 	background: #66ccff;
 	border-color: transparent;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .demo-navbtn:hover {
@@ -103,6 +105,7 @@ a {
 	color: #ffffff;
 	background: #00de0b;
 	border-color: transparent;
+	margin-left: 20px;
 }
 
 .login-btn:hover {
