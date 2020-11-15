@@ -57,9 +57,8 @@ a {
     padding-bottom: 12px;
 }
 
-/*#intro .btn, #pulsHero .btn,
-#products .btn, #about */
-.btn {
+#intro .btn, #products .btn, #about .btn,
+#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn {
 	background: transparent;
 	border: 2px solid #ffffff;
 	border-radius: 0px;
@@ -74,23 +73,14 @@ a {
 	border-radius: 100px;
 }
 
-.navbar-btn {
-	
-	background: #66ccff;
-	border-color: transparent;
-	padding: 0px 0px;
-	margin-top: 0px;
-}
-
-.btn-danger {
+#intro .btn-danger, #products .btn-danger, #about .btn-danger,
+#pulsHero .btn-danger, #plsPerksTop .btn-danger, #plsPerksBtm .btn-danger {
     background: #66ccff;
     border-color: transparent;
 }
 
-/*#intro .btn-danger:hover,
-#pulsHero .btn-danger:hover,
-#products */
-.btn-danger:hover {
+#intro .btn-danger:hover, #products .btn-danger:hover, #about .btn-danger:hover,
+#pulsHero .btn-danger:hover, #plsPerksTop .btn-danger:hover, #plsPerksBtm .btn-danger:hover {
   background: transparent;
   border-color: #66ccff;
   color: #66ccff;
