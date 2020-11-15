@@ -783,9 +783,9 @@ less dark fb blue: #2a5489
     height: 100vh;
   }
 	
-	#plsFtrs img {
-		max-height: 800px;
-		max-width: 450px;
+#plsFtrs img {
+	max-height: 800px;
+	max-width: 400px;
 }
 
 }
