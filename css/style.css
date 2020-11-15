@@ -57,8 +57,7 @@ a {
     padding-bottom: 12px;
 }
 
-/*#intro .btn, #products .btn, #about .btn,
-#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm */.btn {
+.btn {
 	background: transparent;
 	border: 2px solid #ffffff;
 	border-radius: 0px;
@@ -66,11 +65,15 @@ a {
 	font-weight: 600;
 	letter-spacing: 1px;
 	font-size: 16px;
-	padding: 10px 35px;
-	margin-top: 42px;*/
+	padding: 7px 35px;
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 	border-radius: 100px;
+}
+
+#intro .btn, #products .btn, #about .btn,
+#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn {
+	margin-top: 42px;
 }
 
 #intro .btn-danger, #products .btn-danger, #about .btn-danger,
