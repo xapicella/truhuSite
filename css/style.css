@@ -65,25 +65,18 @@ a {
 	font-weight: 600;
 	letter-spacing: 1px;
 	font-size: 16px;
-	padding: 7px 35px;
+	padding: 14px 42px;
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 	border-radius: 100px;
 }
 
-#intro .btn, #products .btn, #about .btn,
-#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn {
-	margin-top: 42px;
-}
-
-#intro .btn-danger, #products .btn-danger, #about .btn-danger,
-#pulsHero .btn-danger, #plsPerksTop .btn-danger, #plsPerksBtm .btn-danger {
+.btn-danger {
     background: #66ccff;
     border-color: transparent;
 }
 
-#intro .btn-danger:hover, #products .btn-danger:hover, #about .btn-danger:hover,
-#pulsHero .btn-danger:hover, #plsPerksTop .btn-danger:hover, #plsPerksBtm .btn-danger:hover {
+.btn-danger:hover {
   background: transparent;
   border-color: #66ccff;
   color: #66ccff;
@@ -92,6 +85,11 @@ a {
 .btn-blocked { 
 	opacity: 0.6;
 	cursor: not-allowed;
+}
+
+#intro .btn, #products .btn, #about .btn,
+#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn {
+	margin-top: 42px;
 }
 
 .parallax-section {
