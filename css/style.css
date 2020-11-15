@@ -178,7 +178,8 @@ a {
 	vertical-align: middle;
 }
 
-.custom-navbar .nav li a {
+.custom-navbar .nav li a,
+.custom-navbar .nav li button {
 	color: #66ccff;
 	font-size: 16px;
 	font-weight: 700;
