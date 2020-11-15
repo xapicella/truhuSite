@@ -57,8 +57,8 @@ a {
     padding-bottom: 12px;
 }
 
-#intro .btn, #products .btn, #about .btn,
-#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn {
+/*#intro .btn, #products .btn, #about .btn,
+#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm */.btn {
 	background: transparent;
 	border: 2px solid #ffffff;
 	border-radius: 0px;
