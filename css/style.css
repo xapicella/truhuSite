@@ -118,8 +118,13 @@ a {
 }
 
 #intro .btn, #products .btn, #about .btn,
+#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn,
+footer .btn {
+	padding: 20px 20px;
+}
+
+#intro .btn, #products .btn, #about .btn,
 #pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn {
-	padding: 10px 48px;
 	margin-top: 42px;
 }
 
