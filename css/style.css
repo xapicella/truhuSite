@@ -312,9 +312,22 @@ footer {
 /*---------------------------------------
     Products Section              
 -----------------------------------------*/
+#products h5,
+#products .section-title {
+	color: #ffffff;	
+}
+
+#products .btn-danger {
+	color: #254a79;
+}
+
+#products.btn-danger:hover {
+	color: #66ccff;
+}
+
 #products {
-    background: #222;
-    color: #ffffff;
+    background: #254a79;
+    color: #66ccff;;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
