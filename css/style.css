@@ -775,8 +775,8 @@ less dark fb blue: #2a5489
 		margin-bottom: 45px;
 	}
 	
-demo-navbtn {
-	margin-left: 5px;
+login-btn {
+	margin-left: 10px;
 }
 
   .custom-navbar .navbar-brand {
@@ -833,7 +833,7 @@ demo-navbtn {
 	
 #plsFtrs img {
 	max-height: 800px;
-	max-width: 380px;
+	max-width: 350px;
 }
 
 }
