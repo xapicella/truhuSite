@@ -500,7 +500,12 @@ footer p {
 	color: #66ccff
 }
 
+#pulsHero h1 {
+	color: #254a79;
+}
+
 #pulsHero p {
+	text-shadow: 2px 2px #101010;
 	font-size: 24px;
 }
 
