@@ -652,10 +652,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 	text-align: center;
 }
 
-#benefitsGrid h2 {
-	text-align: right;
-}
-
 .grid-big h2 { 
 	text-align: center;
 }
@@ -666,6 +662,10 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 .lite-col {
 	background: #cceeff;
+}
+
+.lite-col h2 {
+	text-align:right;
 }
 
 .grid-small {
