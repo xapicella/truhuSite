@@ -75,13 +75,13 @@ a {
 	border-radius: 100px;
 }
 
-.btn-danger {
+.btn-main {
 	color: #ffffff;
 	background: #66ccff;
 	border-color: transparent;
 }
 
-.btn-danger:hover {
+.btn-main:hover {
 	color: #66ccff;
 	background: transparent;
 	border-color: #66ccff;
@@ -497,16 +497,17 @@ footer p {
 
 #pulsHero h2 {
 	font-size: 42px;
-	color: #66ccff
+	color: #66ccff;
+	text-shadow: 2px 2px #ffffff;
 }
 
 #pulsHero h1 {
 	color: #254a79;
+	text-shadow: 2px 2px #ffffff;
 }
 
-#pulsHero p {
-	text-shadow: 2px 2px #101010;
-	font-size: 24px;
+#pulsHero h4 {
+	text-shadow: 2px 2px #254a79;
 }
 
 /*---------------------------------------
