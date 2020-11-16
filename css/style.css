@@ -499,16 +499,10 @@ footer p {
 #pulsHero h2 {
 	font-size: 42px;
 	color: #66ccff;
-	text-shadow: 2px 2px #ffffff;
 }
 
 #pulsHero h1 {
 	color: #254a79;
-	text-shadow: 2px 2px #ffffff;
-}
-
-#pulsHero h4 {
-	text-shadow: 2px 2px #254a79;
 }
 
 /*---------------------------------------
@@ -520,7 +514,7 @@ too dark blue: #04378a
 saturated fb blue: #004fb5
 darker fb blue: #254a79 
 less dark fb blue: #2a5489
----------------------------*/
+--------------------------- */
 
 #plsPerksTop,
 #plsPerksBtm {
