@@ -644,13 +644,16 @@ Testimonials Section ** Used for Prtnrs + Prods
 	You and Your Client Grid 
 -------------------------------------- */
 #benefitsGrid {
-	
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
 
 #benefitsGrid .section-title { 
 	text-align: center;
+}
+
+.dark-col {
+	background: #999;
 }
 
 .grid-small {
