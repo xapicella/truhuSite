@@ -652,6 +652,10 @@ Testimonials Section ** Used for Prtnrs + Prods
 	text-align: center;
 }
 
+.grid-small {
+	display: none;
+}
+
 @media (max-width: 980px) {
 	
 	.grid-big {
@@ -663,7 +667,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 	}
 	
 }
-
 
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 
