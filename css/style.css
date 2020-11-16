@@ -363,11 +363,11 @@ footer p {
 	color: #ffffff;	
 }
 
-#products .btn-danger {
+#products .btn-main {
 	color: #254a79;
 }
 
-#products.btn-danger:hover {
+#products .btn-main:hover {
 	color: #66ccff;
 }
 
@@ -431,12 +431,14 @@ footer p {
 	text-align: center;
 }
 
-#about .btn-danger {
+#about .btn-main {
     background: #101010;
     border-color: transparent;
+	margin-top: 35px;
+	display: inline-block;	
 }
 
-#about .btn-danger:hover {
+#about .btn-main:hover {
   background: #66ccff;
   border-color: transparent;
   color: #101010;
@@ -463,9 +465,8 @@ footer p {
   margin-bottom: 25px;
 }
 
-.ptnrBox .btn-danger {
-  margin-top: 35px;
-  display: inline-block;	
+.ptnrBox .btn-main {
+  
 }
 
 /* -------------------------------------- Pulse Page Styles -------------------------------------- */
