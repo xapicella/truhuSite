@@ -590,14 +590,14 @@ less dark fb blue: #2a5489
 
 .zpat-headings hr {
 	color: #00aaff;
-	border: 3px solid;
+	border: 2px solid;
 	border-radius: 3px;
 	width: 20%;
 }
 
 .zpat-break hr {
 	color: #00aaff;
-	border: 1px solid;
+	border: 0.5px solid;
 	width: 50%;
 	margin-bottom: 5rem;
 	margin-top: 5rem;
@@ -609,11 +609,11 @@ less dark fb blue: #2a5489
 ---------------------------------------------*/
 #testimonials {
   /*padding: 100px 0px;*/
-  position: relative;
-  z-index: 9;
+	position: relative;
+	z-index: 9;
 	color: #101010;
 	padding-top: 5rem;
-  padding-bottom: 5rem;
+	padding-bottom: 5rem;
 }
 
 #testimonials h1 {
@@ -622,8 +622,8 @@ less dark fb blue: #2a5489
 }
 
 #testimonials hr {
-	border: 3px solid #66ccff;
-	border-radius: 5px;
+	border: 2px solid #66ccff;
+	border-radius: 3px;
 	width: 10%;
 }
 
@@ -659,8 +659,8 @@ less dark fb blue: #2a5489
 #story hr,
 #mission hr,
 #founders hr {
-	border: 4px solid #101010;
-	border-radius: 5px;
+	border: 2px solid #101010;
+	border-radius: 3px;
 	width:20%;
 }
 
