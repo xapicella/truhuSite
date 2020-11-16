@@ -662,11 +662,6 @@ Testimonials Section ** Used for Prtnrs + Prods
     text-align: left;
 }
 
-/*#pulsHero {
- 	text-shadow: 2px 2px #101010;
-	color: #ffffff;
-}*/
-
 #benHero h2 {
 	font-size: 42px;
 	color: #66ccff;
@@ -675,12 +670,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 #benHero h1 {
 	color: #ffffff;
 }
-/*	text-shadow: 2px 2px #ffffff;
-}
-
-#benHero h4 {
-	text-shadow: 2px 2px #254a79;
-}*/
 
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 #story h1,
@@ -726,36 +715,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 #story h1 {
 	color: #101010;
-}
-
-/**** Story Demo ****/
-.flexy {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-#story2 h1 {
-	font-size: 1.75rem;
-	margin: 0 0 0.75rem 0;
-}
-
-/* Pattern styles */
-#story2 .container {
-	display: flex;
-}
-
-#story2 .left-half {
-	flex: 5;
-	background: url('../images/teambreak.jpg') 50% 0 repeat-y fixed;
-	background-position: center center;'
-	padding-top: 20rem;
-	padding-bottom: 5rem;
-}
-
-#story2 .right-half {
-	background-color: #fffffe;
-	flex: 7;
 }
 
 /* --------------------------------------
