@@ -681,56 +681,8 @@ Testimonials Section ** Used for Prtnrs + Prods
 #benHero h4 {
 	text-shadow: 2px 2px #254a79;
 }*/
-/* --------------------------------------
-	You and Your Client Grid 
--------------------------------------- */
-#benefitsGrid {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-#benefitsGrid .section-title {
-	text-align: center;
-}
-
-.grid-big h2 { 
-	text-align: center;
-}
-
-.dark-col {
-	background: #e3e3e3;
-}
-
-.lite-col {
-	background: #cceeff;
-}
-
-.lite-col h2 {
-	text-align:right;
-}
-
-.grid-small {
-	display: none;
-}
-
-@media(max-width: 980px) {
-	
-	#benefitsGrid h3 { 
-		text-align: center;
-	}
-	
-	.grid-big {
-		display: none;
-	}
-	
-	.grid-small {
-		display: inline;
-	}
-	
-}
 
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
-
 #story h1,
 #mission h1,
 #founders h1 { 
@@ -951,3 +903,51 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 }
+
+/* --------------------------------------
+	You and Your Client Grid 
+-------------------------------------- */
+/*#benefitsGrid {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#benefitsGrid .section-title {
+	text-align: center;
+}
+
+.grid-big h2 { 
+	text-align: center;
+}
+
+.dark-col {
+	background: #e3e3e3;
+}
+
+.lite-col {
+	background: #cceeff;
+}
+
+.lite-col h2 {
+	text-align:right;
+}
+
+.grid-small {
+	display: none;
+}
+
+@media(max-width: 980px) {
+	
+	#benefitsGrid h3 { 
+		text-align: center;
+	}
+	
+	.grid-big {
+		display: none;
+	}
+	
+	.grid-small {
+		display: inline;
+	}
+	
+}*/
