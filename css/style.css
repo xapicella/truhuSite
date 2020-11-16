@@ -664,6 +664,10 @@ Testimonials Section ** Used for Prtnrs + Prods
 	background: #e3e3e3;
 }
 
+.lite-col {
+	background: #cceeff;
+}
+
 .grid-small {
 	display: none;
 }
