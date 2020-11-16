@@ -648,7 +648,8 @@ Testimonials Section ** Used for Prtnrs + Prods
 	padding-bottom: 5rem;
 }
 
-#benefitsGrid .section-title { 
+#benefitsGrid .section-title,
+.grid-big { 
 	text-align: center;
 }
 
