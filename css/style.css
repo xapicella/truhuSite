@@ -58,7 +58,7 @@ a {
   text-align: center;
 }
 
-#overview h3, #products h3, #partners h3, #about h3 {
+#overview h3, #products h3, #partners h3, #ptnrTypes h3 {
     padding-bottom: 12px;
 }
 
@@ -118,13 +118,13 @@ a {
 	color: #ffffff;	
 }
 
-#intro .btn, #products .btn, #about .btn,
+#intro .btn, #products .btn, #ptnrTypes .btn,
 #pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn,
 footer .btn {
 	padding: 20px 20px;
 }
 
-#intro .btn, #products .btn, #about .btn,
+#intro .btn, #products .btn, #ptnrTypes .btn,
 #pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn {
 	margin-top: 42px;
 }
@@ -407,14 +407,10 @@ footer p {
 	margin-bottom: 5rem;
 }
 
-#iconPa {
-	font-size: 48px;
-}
-
 /*---------------------------------------------
-		About Partners Section
+	Partner Types Section
 ---------------------------------------------*/
-#about {
+#ptnrTypes {
 	background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
 	background-size: cover;
 	background-position: center center;
@@ -423,25 +419,31 @@ footer p {
 	padding-bottom: 5rem;
 }
 
-#about h1 {
+#ptnrTypes h1 {
 	text-align: center;
 }
 
-#about h3 {
+#ptnrTypes h3 {
+	color: #254a79;
 	text-align: center;
 }
 
-#about .btn-main {
-    background: #101010;
+#ptnrTypes .btn-main {
+    background: #254a79;
     border-color: transparent;
 	margin-top: 35px;
 	display: inline-block;	
 }
 
-#about .btn-main:hover {
+#ptnrTypes .btn-main:hover {
   background: #66ccff;
   border-color: transparent;
-  color: #101010;
+  color: #254a79;
+}
+
+#iconPa {
+	color: #254a79;
+	font-size: 48px;
 }
 
 .ptnrBox {
@@ -461,12 +463,8 @@ footer p {
 
 .ptnrBox h4 {
   margin-top: 0px;
-  color: #1e1e1e;
+  color: #101010;
   margin-bottom: 25px;
-}
-
-.ptnrBox .btn-main {
-  
 }
 
 /* -------------------------------------- Pulse Page Styles -------------------------------------- */
