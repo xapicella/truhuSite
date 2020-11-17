@@ -663,6 +663,12 @@ Testimonials Section ** Used for Prtnrs + Prods
 	margin-bottom: 15px;
 	
 }
+
+#benMore h1 {
+	text-align: center;
+	color: #2a5489;
+}
+
 /* -------------------------------------- Benefits Page Styles -------------------------------------- */
 /*---------------------------------------
     Pulse Hero Section              
