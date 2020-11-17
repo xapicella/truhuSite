@@ -61,6 +61,17 @@ a {
     padding-bottom: 12px;
 }
 
+hr {
+	color: #00aaff;
+	border: 2px solid;
+	border-radius: 3px;
+	width: 20%;
+}
+
+em {
+	color: #2a5489;
+}
+
 .btn {
 	background: transparent;
 	border: 2px solid #ffffff;
@@ -587,13 +598,6 @@ less dark fb blue: #2a5489
 	margin-right: auto;
 	max-height: 600px;
 	max-width: 700px;
-}
-
-.zpat-headings hr {
-	color: #00aaff;
-	border: 2px solid;
-	border-radius: 3px;
-	width: 20%;
 }
 
 .zpat-break hr {
