@@ -713,8 +713,8 @@ Testimonials Section ** Used for Prtnrs + Prods
 	border-color: #254a79;
 }
 
-.btn-second {
-	color: transparent;
+.btn-second:hover {
+	color: #ffffff;
 	background: #254a79;
 	border-color: transparent;
 }
