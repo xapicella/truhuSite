@@ -707,6 +707,18 @@ Testimonials Section ** Used for Prtnrs + Prods
 	text-align: center;
 }
 
+.btn-second {
+	color: #254a79;
+	background: transparent;
+	border-color: #254a79;
+}
+
+.btn-second {
+	color: transparent;
+	background: #254a79;
+	border-color: transparent;
+}
+
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 #story h1,
 #mission h1,
