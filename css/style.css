@@ -87,6 +87,16 @@ a {
 	border-color: #66ccff;
 }
 
+.btn-default {
+	margin-right: 12px;
+}
+
+.btn-default:hover {
+	background: #ffffff;
+	color: #333333;
+	border-color: transparent;
+}
+
 .btn-blocked { 
 	opacity: 0.6;
 	cursor: not-allowed;
@@ -119,13 +129,14 @@ a {
 }
 
 #intro .btn, #products .btn, #ptnrTypes .btn,
-#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn,
-footer .btn {
+#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn, 
+#benFtrs .btn, footer .btn {
 	padding: 20px 20px;
 }
 
 #intro .btn, #products .btn, #ptnrTypes .btn,
-#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn {
+#pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn,
+#benFtrs .btn {
 	margin-top: 42px;
 }
 
@@ -332,16 +343,6 @@ footer p {
           align-items: center;
     height: 100vh;
     text-align: center;
-}
-
-#intro .btn-default {
-	margin-right: 12px;
-}
-
-#intro .btn-default:hover {
-	background: #ffffff;
-	color: #333333;
-	border-color: transparent;
 }
 
 #intro h3 {
