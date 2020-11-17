@@ -769,6 +769,12 @@ Testimonials Section ** Used for Prtnrs + Prods
 	color: #2a5489;
 }
 
+#benMore hr {
+	color: #2a5489;
+	border: 0.5px solid;
+	width: 100%;
+}
+
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 #story h1,
 #mission h1,
