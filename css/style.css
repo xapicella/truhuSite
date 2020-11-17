@@ -668,7 +668,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 #benHero h1 {
-	color: #ffffff;
+	color: #254a79;
 }
 
 /*---------------------------------------
@@ -686,6 +686,14 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 #benFtrs h3 {
+	font-size: 36px;
+	color: #2a5489;
+	text-align: center;
+	font-weight: 600;
+}
+
+#benFtrs h4 {
+	font-size: 18px;
 	color: #101010;
 	text-align: center;
 	font-weight: 600;
