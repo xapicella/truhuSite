@@ -645,7 +645,7 @@ Testimonials Section ** Used for Prtnrs + Prods
     Pulse Hero Section              
 -----------------------------------------*/
 #benHero {
-    background: url('../../images/pulsHeroAlt.jpg') 50% 0 repeat-y fixed;
+    background: url('../../images/benHero.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
