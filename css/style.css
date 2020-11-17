@@ -130,13 +130,13 @@ a {
 
 #intro .btn, #products .btn, #ptnrTypes .btn,
 #pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn, 
-#benFtrs .btn, footer .btn {
+#benHero .btn, #benFtrs .btn, footer .btn {
 	padding: 20px 20px;
 }
 
 #intro .btn, #products .btn, #ptnrTypes .btn,
 #pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn,
-#benFtrs .btn {
+#benHero .btn, #benFtrs .btn {
 	margin-top: 42px;
 }
 
