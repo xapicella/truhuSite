@@ -664,17 +664,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 	
 }
 
-#benMore { 
-	background: #e8e8e8;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-#benMore h1 {
-	text-align: center;
-	color: #2a5489;
-}
-
 /* -------------------------------------- Benefits Page Styles -------------------------------------- */
 /*---------------------------------------
     Pulse Hero Section              
@@ -730,7 +719,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 #benFtrs h4 {
 	font-size: 22px;
-	color: #101010;
+	color: #2a5489;
 	font-weight: 600;
 }
 
@@ -763,6 +752,17 @@ Testimonials Section ** Used for Prtnrs + Prods
 	color: #ffffff;
 	background: #254a79;
 	border-color: transparent;
+}
+
+#benMore { 
+	background: #e8e8e8;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#benMore h1 {
+	text-align: center;
+	color: #2a5489;
 }
 
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
