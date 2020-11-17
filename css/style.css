@@ -670,6 +670,10 @@ Testimonials Section ** Used for Prtnrs + Prods
 	color: #ffffff;
 }
 
+.btn-break {
+	text-align: center;
+}
+
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 #story h1,
 #mission h1,
