@@ -754,13 +754,13 @@ Testimonials Section ** Used for Prtnrs + Prods
 	text-align: center;
 }
 
-.btn-main { 
+#benFtrs .btn-main { 
 	color: #ffffff;
 	background: #00aaff;
 	border-color: transparent;
 }
 
-.btn-main:hover {
+#benFtrs .btn-main:hover {
 	color: #00aaff;
 	background: transparent;
 	border-color: #00aaff;
