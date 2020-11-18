@@ -774,10 +774,17 @@ Testimonials Section ** Used for Prtnrs + Prods
 	color: #2a5489;
 }
 
+#benMore h5 {
+	font-weight: 600;
+	text-size: 18px;
+}
+
 #benMore hr {
 	color: #2a5489;
 	border: 0.5px solid;
 	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
