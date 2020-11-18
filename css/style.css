@@ -913,7 +913,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 
 @media (max-width: 980px) {
-
 	
 	.quoteBox,
 	.card,
@@ -934,15 +933,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 		height: 65vh; 
 	}
 
-	/*#video iframe {
-		margin-top: 42px;
-	}*/
-
-  #contact .contact_detail {
-  background: #ffffff;
-  padding: 10rem 3rem 10rem 5rem;
-}
-
 }
 
 @media (max-width: 768px) {
@@ -951,19 +941,16 @@ Testimonials Section ** Used for Prtnrs + Prods
     line-height: 20px;
   }
 
-  #overview img,
-  #products .col-md-4 {
-    padding-top: 32px;
-  }
+	#overview img,
+	#products .col-md-4,
+	footer .btn {
+		padding-top: 32px;
+	}
 
   .nav-tabs > li > a {
     font-size: 13px;
   }
 	
-	.about-working-hours {
-      border-left: 0;
-      padding: 22px 0 0 0;
-	}
 
 }
 
