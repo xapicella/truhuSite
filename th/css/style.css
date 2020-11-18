@@ -484,7 +484,7 @@ footer p {
     Pulse Hero Section              
 -----------------------------------------*/
 #pulsHero {
-    background: url('../../images/pulsHero.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/pulsHero.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -677,7 +677,7 @@ Testimonials Section ** Used for Prtnrs + Prods
     Benefits Hero Section              
 -----------------------------------------*/
 #benHero {
-    background: url('../../images/benHero.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/benHero.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
