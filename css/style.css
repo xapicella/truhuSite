@@ -540,7 +540,10 @@ less dark fb blue: #2a5489
 	font-size: 22px;
 	font-weight: 600;
 }
-	
+
+#plsPerksTop b {
+	font-size: 28px;
+}
 
 #plsPerksTop h5,
 #plsPerksBtm h5, 
