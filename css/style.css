@@ -708,7 +708,11 @@ Testimonials Section ** Used for Prtnrs + Prods
   padding-bottom: 5rem;
 }
 
-#benFtrs h1,
+#benFtrs h1 {
+	color: #00aaff;
+	text-align: center;
+}
+
 #benFtrs h2 {
 	color: #2a5489;
 	text-align: center;
