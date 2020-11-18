@@ -956,9 +956,12 @@ Testimonials Section ** Used for Prtnrs + Prods
   }
 
 	#overview img,
-	#products .col-md-4,
-	footer .btn {
+	#products .col-md-4 {
 		padding-top: 32px;
+	}
+	
+	footer .btn {
+		margin-top: 32px;
 	}
 
   .nav-tabs > li > a {
