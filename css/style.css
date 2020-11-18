@@ -670,7 +670,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 /* -------------------------------------- Benefits Page Styles -------------------------------------- */
 /*---------------------------------------
-    Pulse Hero Section              
+    Benefits Hero Section              
 -----------------------------------------*/
 #benHero {
     background: url('../../images/benHero.jpg') 50% 0 repeat-y fixed;
@@ -758,8 +758,13 @@ Testimonials Section ** Used for Prtnrs + Prods
 	border-color: transparent;
 }
 
+/* --------------------------------------
+	More Section
+-------------------------------------- */
+
 #benMore { 
 	background: #b6e5fc/*e8e8e8*/;
+	color: 101010;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
@@ -797,10 +802,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 	border: 2px solid #101010;
 	border-radius: 3px;
 	width:20%;
-}
-
-.colBlock {
-	background: #ffffff;
 }
 
 /* --------------------------------------
@@ -956,61 +957,13 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 @media (max-width: 760px) {
 
-  #intro, #pulsHero {
-    height: 100vh;
-  }
-	
-#plsFtrs img {
-	max-height: 800px;
-	max-width: 300px;
-}
-
-}
-
-/* --------------------------------------
-	You and Your Client Grid 
--------------------------------------- */
-/*#benefitsGrid {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-#benefitsGrid .section-title {
-	text-align: center;
-}
-
-.grid-big h2 { 
-	text-align: center;
-}
-
-.dark-col {
-	background: #e3e3e3;
-}
-
-.lite-col {
-	background: #cceeff;
-}
-
-.lite-col h2 {
-	text-align:right;
-}
-
-.grid-small {
-	display: none;
-}
-
-@media(max-width: 980px) {
-	
-	#benefitsGrid h3 { 
-		text-align: center;
+	#intro, #pulsHero {
+		height: 100vh;
 	}
-	
-	.grid-big {
-		display: none;
+
+	#plsFtrs img {
+		max-height: 800px;
+		max-width: 300px;
 	}
-	
-	.grid-small {
-		display: inline;
-	}
-	
-}*/
+
+}
