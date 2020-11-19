@@ -264,6 +264,10 @@ b {
 	color: #00de0b;
 }
 
+.active {
+	color: #00de0b;
+}
+
 .custom-navbar .navbar-toggle {
 	color: #ddd;
 	border: none;
