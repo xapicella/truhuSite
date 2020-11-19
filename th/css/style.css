@@ -259,15 +259,21 @@ b {
 	background-color: transparent;
 }
 
-.custom-navbar .nav li.active > a {
-	background-color: transparent;
-	color: #00de0b;
-}
-
-.active {
+.nav.custom-navbar > li.active a{
+  background-color: transparent;
 	color: #00de0b;
 	text-decoration: underline;
 }
+
+/*.custom-navbar .nav li.active > a {
+	background-color: transparent;
+	color: #00de0b;
+}*/
+
+/*.active {
+	color: #00de0b;
+	text-decoration: underline;
+}*/
 
 .custom-navbar .navbar-toggle {
 	color: #ddd;
