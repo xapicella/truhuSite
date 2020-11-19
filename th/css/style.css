@@ -259,7 +259,7 @@ b {
 	background-color: transparent;
 }
 
-.nav.custom-navbar > li.active a{
+.nav.navbar-nav > li.active a {
   background-color: transparent;
 	color: #00de0b;
 	text-decoration: underline;
