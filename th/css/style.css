@@ -5,6 +5,8 @@ body {
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	overflow-x: hidden;
+}
 
 }
 /*---------------------------------------
