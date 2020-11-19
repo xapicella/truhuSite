@@ -572,6 +572,8 @@ less dark fb blue: #2a5489
 	margin-top: 5rem;
 }
 
+@media
+
 #iconPrk {
 	font-size: 38px;
 }
@@ -958,9 +960,9 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 @media (max-width: 768px) {
 
-  .custom-navbar .navbar-brand {
+  /*.custom-navbar .navbar-brand {
     line-height: 20px;
-  }
+  }*/
 
 	#overview img,
 	#products .col-md-4 {
@@ -971,9 +973,9 @@ Testimonials Section ** Used for Prtnrs + Prods
 		margin-top: 32px;
 	}
 
-  .nav-tabs > li > a {
+/*  .nav-tabs > li > a {
     font-size: 13px;
-  }
+  }*/
 	
 
 }
