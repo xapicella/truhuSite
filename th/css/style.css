@@ -286,7 +286,7 @@ b {
     border-color: transparent;
 }
 
-@media(min-width:768px) {
+@media(min-width:991px) {
     
 	.custom-navbar {
 		padding: 20px 0;
