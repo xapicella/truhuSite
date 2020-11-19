@@ -304,24 +304,12 @@ b {
 	
 }
 
-.nav.navbar-nav > li.active a {
-  background-color: transparent;
-	color: #00de0b;
-	text-decoration: underline;
-}
-
 .current { 
 	background-color: transparent;
 	color: #00de0b;
 	text-decoration: underline;
 }
 	
-.current hr {
-	color: #00de0b;
-	margin-top: 2px;
-	margin-bottom: 0px;
-}
-
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
