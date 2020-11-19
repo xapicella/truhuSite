@@ -337,28 +337,6 @@ footer p {
 	color: #ffffff;
 }
 
-/* Back top */
-.go-top {
-  background-color: #222;
-  bottom: 2em;
-  right: 2em;
-  color: #ffffff;
-  font-size: 32px;
-  display: none;
-  position: fixed;
-  text-decoration: none;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  transition: all 0.4s ease-in-out;
-}
-
-.go-top:hover {
-    background: #66ccff/*#00de0b*/;
-    color: #ffffff;
-}
-
 /*--------------------------------------- Home Page Styles -----------------------------------------*/ 
 /*---------------------------------------
     Home Hero Section              
@@ -560,9 +538,14 @@ less dark fb blue: #2a5489
 	padding-bottom: 5rem;
 }
 
-#plsPerksTop h3,
-#plsPerksBtm h3 {
+#plsPerksTop h3 {
 	color: #ffffff;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+#plsPerksBtm h3 {
+	color: #66ccff;
 	font-size: 22px;
 	font-weight: 600;
 }
@@ -576,6 +559,7 @@ less dark fb blue: #2a5489
 #plsPerksTop hr {
 	margin-top: 2px;
 	color: #66ccff;
+	margin-bottom: 20px;
 }
 
 #plsPerksTop h5,
@@ -595,8 +579,6 @@ less dark fb blue: #2a5489
 #plsPerksBtm .btn-danger:hover {
 	color: #66ccff;
 }
-
-.
 
 .row-break {
 	margin-top: 5rem;
