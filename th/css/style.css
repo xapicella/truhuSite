@@ -266,6 +266,7 @@ b {
 
 .active {
 	color: #00de0b;
+	text-decoration: underline;
 }
 
 .custom-navbar .navbar-toggle {
