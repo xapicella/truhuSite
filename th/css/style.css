@@ -555,12 +555,20 @@ less dark fb blue: #2a5489
 
 #plsPerksTop h3,
 #plsPerksBtm h3 {
+	color: #ffffff;
 	font-size: 22px;
 	font-weight: 600;
 }
 
 #plsPerksTop b {
-	font-size: 28px;
+	color: #66ccff;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+#plsPerksTop hr {
+	margin-top: 2px;
+	color: #66ccff;
 }
 
 #plsPerksTop h5,
@@ -568,6 +576,7 @@ less dark fb blue: #2a5489
 #plsPerksTop .section-title,
 #plsPerksBtm .section-title {
 	color: #ffffff;	
+	font-size: 18px;
 }
 
 #plsPerksTop .btn-danger,
@@ -579,6 +588,8 @@ less dark fb blue: #2a5489
 #plsPerksBtm .btn-danger:hover {
 	color: #66ccff;
 }
+
+.
 
 .row-break {
 	margin-top: 5rem;
