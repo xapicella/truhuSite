@@ -265,6 +265,13 @@ b {
 	text-decoration: underline;
 }
 
+.current { 
+	background-color: transparent;
+	color: #00de0b;
+	text-decoration: underline;
+}
+	
+
 /*.custom-navbar .nav li.active > a {
 	background-color: transparent;
 	color: #00de0b;
