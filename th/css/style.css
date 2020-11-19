@@ -572,7 +572,11 @@ less dark fb blue: #2a5489
 	margin-top: 5rem;
 }
 
-@media
+@media(max-width: 770px) {
+	#plsPerksBtm .row-break {
+		margin-top: 0rem;
+	}
+}
 
 #iconPrk {
 	font-size: 38px;
