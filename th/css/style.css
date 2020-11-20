@@ -411,6 +411,11 @@ footer p {
 
 #partners img {
   margin-top: 18px;
+	display: block;
+	max-height: 70px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #partners h3 {
