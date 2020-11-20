@@ -99,16 +99,6 @@ b {
 	border-color: #66ccff;
 }
 
-.btn-default {
-	margin-right: 12px;
-}
-
-.btn-default:hover {
-	background: #ffffff;
-	color: #333333;
-	border-color: transparent;
-}
-
 .btn-blocked { 
 	opacity: 0.6;
 	cursor: not-allowed;
@@ -331,7 +321,7 @@ footer p {
     Home Hero Section              
 -----------------------------------------*/
 #intro {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/intro.jpg') 50% 0 repeat-y fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/intro.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -349,8 +339,20 @@ footer p {
 }
 
 #intro h1 {
-	color: #254a79;
-	text-shadow: 0.5px 0.5px #ffffff;
+	color: #ffffff;
+}
+
+#intro .btn-second {
+	background: transparent;
+	color: #ffffff;
+	border-color: #ffffff;
+	margin-right: 12px;
+}
+
+#intro .btn-second:hover {
+	background: #ffffff;
+	color: #101010;
+	border-color: transparent;
 }
 
 .introCTA {
