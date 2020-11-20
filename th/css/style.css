@@ -30,6 +30,7 @@ h4 {
 }
 
 h5 {
+	font-size: 18px;
 	letter-spacing: 1px;
 	padding-top: 10px;
 }
@@ -362,7 +363,7 @@ footer p {
 /*---------------------------------------
     Products Section              
 -----------------------------------------*/
-#products h5{
+#products h5 {
 	color: #ffffff;	
 }
 
@@ -555,7 +556,6 @@ less dark fb blue: #2a5489
 #plsPerksTop .section-title,
 #plsPerksBtm .section-title {
 	color: #ffffff;	
-	font-size: 18px;
 }
 
 #plsPerksTop .btn-danger,
