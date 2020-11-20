@@ -348,8 +348,8 @@ footer p {
     text-align: center;
 }
 
-#intro h3 {
-  letter-spacing: 2px;
+#intro h1 {
+  text-shadow: 1px 1px #254a79;
 }
 
 /*---------------------------------------
