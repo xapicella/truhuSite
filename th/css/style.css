@@ -954,11 +954,18 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 @media (max-width: 991px) {
 	
-	#intro,
-	#pulseHero,
-	#benHero {
-		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));	
+	#intro {
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/intro.jpg') 50% 0 repeat-y fixed;
 	}
+	
+	#pulseHero {
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/pulsHero.jpg') 50% 0 repeat-y fixed;
+	}
+	
+	#benHero {
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/benHero.jpg') 50% 0 repeat-y fixed;	
+	}
+	
 	.quoteBox,
 	.card,
 	.ptnrBox {
