@@ -995,15 +995,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 	#intro, #pulsHero {
 		height: 100vh;
 	}
-
-	#plsFtrs img {
-		max-height: 800px;
-		max-width: 300px;
-	}
 	
-	#plsFtrs img {
-		max-height: 800px;
-		max-width: 300px;
-	}
 
 }
