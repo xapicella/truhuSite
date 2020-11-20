@@ -349,7 +349,8 @@ footer p {
 }
 
 #intro h1 {
-  text-shadow: 1px 1px #254a79;
+	color: #254a79;
+	/*text-shadow: 1px 1px #254a79;*/
 }
 
 /*---------------------------------------
