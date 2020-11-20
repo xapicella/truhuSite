@@ -212,7 +212,7 @@ b {
 
 /* Controls nav styles upon collapse (which is now permanent) */
 .custom-navbar.top-nav-collapse {
-	background: #ffffff;
+	background: rgba(234, 234, 234, 0.85);
 	box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 	padding: 0;
 }
@@ -250,7 +250,10 @@ b {
 	background-color: transparent;
 }
 
-
+#iconNav {
+	color: #101010;
+	font-size: 20px;
+}
 	
 /*.custom-navbar .nav li.active > a {
 	background-color: transparent;
@@ -263,7 +266,6 @@ b {
 }*/
 
 .custom-navbar .navbar-toggle {
-	color: #0000ff;
 	border: none;
 	padding-top: 20px;
 }
@@ -288,7 +290,7 @@ b {
 	/* Controls nav styles upon collapse (which is now permanent) 
 	Now placed in mobile as well in case I decide to make it not permanent on a page or two*/
 	.custom-navbar.top-nav-collapse {
-		background: #ffffff;
+		background: rgba(234, 234, 234, 0.85);
 		box-shadow: 0 2px 2px -2px rgba(0,0,0,.5);
 		padding: 0;
 	}
