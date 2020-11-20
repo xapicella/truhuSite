@@ -212,7 +212,7 @@ b {
 
 /* Controls nav styles upon collapse (which is now permanent) */
 .custom-navbar.top-nav-collapse {
-	background: rgba(234, 234, 234, 0.85);
+	background: rgba(200, 200, 200, 0.85);
 	box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 	padding: 0;
 }
@@ -290,7 +290,7 @@ b {
 	/* Controls nav styles upon collapse (which is now permanent) 
 	Now placed in mobile as well in case I decide to make it not permanent on a page or two*/
 	.custom-navbar.top-nav-collapse {
-		background: rgba(234, 234, 234, 0.85);
+		background: rgba(200, 200, 200, 0.85);
 		box-shadow: 0 2px 2px -2px rgba(0,0,0,.5);
 		padding: 0;
 	}
