@@ -299,7 +299,7 @@ b {
 	Now placed in mobile as well in case I decide to make it not permanent on a page or two*/
 	.custom-navbar.top-nav-collapse {
 		background: #ffffff;
-		box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+		box-shadow: 0 2px 2px -2px rgba(0,0,0,.5);
 		padding: 0;
 	}
 	
