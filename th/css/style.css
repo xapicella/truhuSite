@@ -842,12 +842,12 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 #story p,
-#founders h5 { 
-	font-size: 18px;
+#mission p { 
+	font-size: 20px;
 	color: #101010;
 	line-height: 27px;
 	padding-bottom: 10px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 #story hr,
