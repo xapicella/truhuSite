@@ -344,13 +344,13 @@ footer p {
      -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-    height: 100vh;
+    height: 70vh;
     text-align: center;
 }
 
 #intro h1 {
 	color: #254a79;
-	text-shadow: 1px 1px #ffffff;
+	text-shadow: 0.5px 0.5px #ffffff;
 }
 
 .introCTA {
