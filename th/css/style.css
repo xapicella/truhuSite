@@ -299,8 +299,13 @@ footer {
 	padding-bottom: 5rem;
 }
 
+
 footer h1 {
 	margin-bottom: 30px;
+}
+
+footer p {
+	color: #ffffff;
 }
 
 footer .btn { 
@@ -319,11 +324,11 @@ footer br {
 	text-align: right;
 }	
 
-.legal-links {
+.legal-link {
 	color: #ffffff;
 }
 
-.legal-links:hover {
+.legal-link:hover {
 	color: #66ccff;
 }
 
