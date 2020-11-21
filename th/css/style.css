@@ -299,12 +299,32 @@ footer {
 	padding-bottom: 5rem;
 }
 
-footer p {
-	color: #ffffff;
+footer h1 {
+	margin-bottom: 30px;
+}
+
+footer .btn { 
+	margin-top: 15px;
 }
 
 footer br {
-		display: none;
+	display: none;
+}
+
+.L-ftr {
+	text-align: left;
+}
+
+.R-ftr {
+	text-align: right;
+}	
+
+.legal-links {
+	color: #ffffff;
+}
+
+.legal-links:hover {
+	color: #66ccff;
 }
 
 @media(min-width:411px) {
