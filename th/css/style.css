@@ -703,7 +703,7 @@ Testimonials Section ** Used for Prtnrs + Prods
     Benefits Hero Section              
 -----------------------------------------*/
 #benHero {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/benHero.jpg') 50% 0 repeat-y fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/benHero.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
