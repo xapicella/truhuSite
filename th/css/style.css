@@ -266,7 +266,7 @@ b {
     border-color: transparent;
 }
 
-@media(max-width:991px) {
+/*@media(max-width:991px) {
     
 	.custom-navbar {
 		padding: 20px 0;
@@ -282,7 +282,7 @@ b {
 		padding: 0;
 	}
 	
-}
+}*/
 
 .current { 
 	text-decoration: underline;
@@ -295,21 +295,17 @@ footer {
 	color: #ffffff;
 	background: #254a79;
 	background-attachment: fixed;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 
 footer h1 {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 footer p {
 	color: #ffffff;
-}
-
-footer .btn { 
-	margin-top: 15px;
 }
 
 footer br {
@@ -335,6 +331,10 @@ footer br {
 @media(max-width:411px) {
 	footer br {
 		display: inline;
+	}
+	
+	footer .btn { 
+		margin-top: 15px;
 	}
 }
 
