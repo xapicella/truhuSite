@@ -303,6 +303,16 @@ footer p {
 	color: #ffffff;
 }
 
+footer br {
+		display: none;
+}
+
+@media(min-width:411px) {
+	footer br {
+		display: inline;
+	}
+}
+
 /*--------------------------------------- Home Page Styles -----------------------------------------*/ 
 /*---------------------------------------
     Home Hero Section              
