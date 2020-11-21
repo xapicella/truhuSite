@@ -631,12 +631,6 @@ less dark fb blue: #2a5489
 	color: #101010;
 }
 
-#plsFtrs img {
-	display: block;
-	margin-left: 25px;
-	margin-right: 25px;
-}
-
 .zpat-break hr {
 	color: #00aaff;
 	border: 0.5px solid;
@@ -930,6 +924,10 @@ Testimonials Section ** Used for Prtnrs + Prods
 #founders h1 {
 	color: #101010;
 	text-align: center;
+}
+
+#founders hr {
+	margin-bottom: 2rem;
 }
 
 .card {
