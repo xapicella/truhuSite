@@ -257,7 +257,7 @@ b {
 
 .custom-navbar .navbar-toggle {
 	border: none;
-	/*padding-top: 20px;*/
+	padding-top: 20px;
 	background-color: transparent;
 }
 
@@ -312,14 +312,6 @@ footer br {
 	display: none;
 }
 
-/*.L-ftr {
-	text-align: left;
-}
-
-.R-ftr {
-	text-align: right;
-}*/	
-
 .legal-link {
 	color: #ffffff;
 }
@@ -333,9 +325,6 @@ footer br {
 		display: inline;
 	}
 	
-	footer .btn { 
-		margin-top: 15px;
-	}
 }
 
 /*--------------------------------------- Home Page Styles -----------------------------------------*/ 
