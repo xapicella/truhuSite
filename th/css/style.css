@@ -64,6 +64,7 @@ a {
 
 hr {
 	color: #00aaff;
+	background-color: #00aaff;
 	border: 2px solid;
 	border-radius: 3px;
 	width: 20%;
@@ -516,11 +517,6 @@ footer br {
     text-align: right;
 }
 
-/*#pulsHero {
- 	text-shadow: 2px 2px #101010;
-	color: #ffffff;
-}*/
-
 #pulsHero h2 {
 	font-size: 42px;
 	color: #66ccff;
@@ -571,6 +567,7 @@ less dark fb blue: #2a5489
 #plsPerksTop hr {
 	margin-top: 4px;
 	color: #66ccff;
+	background-color: #66ccff;
 	margin-bottom: 4px;
 }
 
@@ -633,6 +630,7 @@ less dark fb blue: #2a5489
 
 .zpat-break hr {
 	color: #00aaff;
+	background-color: #00aaff;
 	border: 0.5px solid;
 	width: 50%;
 	margin-bottom: 5rem;
@@ -663,7 +661,9 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 #testimonials hr {
-	border: 2px solid #66ccff;
+	border: 2px solid;
+	color: #66ccff;
+	background-color: #66ccff;
 	border-radius: 3px;
 	width: 10%;
 }
@@ -842,6 +842,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 #benMore hr {
 	color: #2a5489;
+	background-color: #2a5489;
 	border: 0.5px solid;
 	width: 100%;
 	margin-top: 5px;
@@ -867,7 +868,9 @@ Testimonials Section ** Used for Prtnrs + Prods
 #story hr,
 #mission hr,
 #founders hr {
-	border: 2px solid #101010;
+	border: 2px solid;
+	color: #101010;
+	background-color: #101010;
 	border-radius: 3px;
 	width:20%;
 }
@@ -875,7 +878,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 /* --------------------------------------
 	Story Section
 -------------------------------------- */
-
 .signature {
 	max-height: 100px;
 	max-width: 400px;
