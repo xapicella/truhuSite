@@ -639,6 +639,11 @@ less dark fb blue: #2a5489
 	margin-top: 5rem;
 }
 
+@media(max-width: 768px) {
+	#plsFtrs img {
+		margin-top: 1rem;
+	}
+}
 
 /*---------------------------------------------
 Testimonials Section ** Used for Prtnrs + Prods
