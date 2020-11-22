@@ -352,23 +352,31 @@ footer br {
 /*---------------------------------------
     Home Hero Section              
 -----------------------------------------*/
-#intro {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/intro.jpg') 50% 0 repeat-y scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-     -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-    height: 100vh;
-    text-align: center;
-	iosFix: "true";
+@media(max-width: 2200px) {
+	#intro {
+		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/intro.jpg') 50% 0 repeat-y scroll;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center center;
+		color: #ffffff;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		  align-items: center;
+		height: 100vh;
+		text-align: center;
+
+	}
+}
+
+@media(max-width: 991px) {
+	#intro {
+		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/intro.jpg');
+	}
 }
 
 #intro h1 {
