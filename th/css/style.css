@@ -785,14 +785,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 	font-size: 18px;
 }
 
-/*#benFtrs img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-height: 600px;
-	max-width: 500px;
-}*/
-
 .btn-break {
 	text-align: center;
 }
@@ -819,6 +811,12 @@ Testimonials Section ** Used for Prtnrs + Prods
 	color: #ffffff;
 	background: #2a5489;
 	border-color: transparent;
+}
+
+@media(max-width: 768px) {
+	#benFtrs img {
+		margin-bottom: 2rem;
+	}
 }
 
 /* --------------------------------------
