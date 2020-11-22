@@ -568,7 +568,7 @@ less dark fb blue: #2a5489
 	margin-top: 4px;
 	color: #66ccff;
 	background-color: #66ccff;
-	margin-bottom: 4px;
+	margin-bottom: 8px;
 }
 
 #plsPerksTop h5,
@@ -592,7 +592,7 @@ less dark fb blue: #2a5489
 	margin-top: 5rem;
 }
 
-@media(max-width: 770px) {
+@media(max-width: 768px) {
 	#plsPerksBtm .row-break {
 		margin-top: 0rem;
 	}
@@ -605,7 +605,6 @@ less dark fb blue: #2a5489
 /*---------------------------------------
    Pulse Features Section              
 -----------------------------------------*/
-
 #plsFtrs {
 	padding-top: 5rem;
   padding-bottom: 5rem;
@@ -710,7 +709,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 		height: 450px;
 	}
 	#quoteBox {
-		height: 650px;
+		height: 750px;
 	}
 }
 
@@ -988,10 +987,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/benHero.jpg') 50% 0 repeat-y fixed;	
 	}
 	
-	.quoteBox,
-	.benQuoteBox,
-	.card,
-	.ptnrBox {
+	.quoteBox, .benQuoteBox, .card, .ptnrBox {
 		margin-bottom: 45px;
 	}
 	
@@ -999,37 +995,20 @@ Testimonials Section ** Used for Prtnrs + Prods
 		margin-left: 10px;
 	}
 
-	/*.custom-navbar .nav li a {
-		font-size: 14px;
-		line-height: 20px;
-	}*/
-
 	#intro, #pulsHero {
 		height: 65vh; 
 	}
-
 }
 
 @media (max-width: 768px) {
 
-  /*.custom-navbar .navbar-brand {
-    line-height: 20px;
-  }*/
-
-	#overview img,
-	#products .col-md-4 {
+	#overview img {
 		padding-top: 32px;
 	}
 	
 	footer .btn {
 		margin-top: 32px;
 	}
-
-/*  .nav-tabs > li > a {
-    font-size: 13px;
-  }*/
-	
-
 }
 
 @media (max-width: 760px) {
@@ -1037,6 +1016,4 @@ Testimonials Section ** Used for Prtnrs + Prods
 	#intro, #pulsHero {
 		height: 100vh;
 	}
-	
-
 }
