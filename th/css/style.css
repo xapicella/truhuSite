@@ -482,7 +482,7 @@ footer br {
     Pulse Hero Section              
 -----------------------------------------*/
 #pulsHero {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/pulsHero.jpg') 50% 0 repeat-y scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pulsHero.jpg') 50% 0 repeat-y scroll;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -612,7 +612,7 @@ less dark fb blue: #2a5489
 .zpat-break hr {
 	color: #00aaff;
 	background-color: #00aaff;
-	border: 0.5px solid;
+	border: 1.5px solid;
 	width: 50%;
 	margin-bottom: 5rem;
 	margin-top: 5rem;
@@ -700,7 +700,8 @@ Testimonials Section ** Used for Prtnrs + Prods
     Benefits Hero Section              
 -----------------------------------------*/
 #benHero {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/benHero.jpg') 50% 0 repeat-y scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/benHero.jpg') 50% 0 repeat-y;
+	background-attachment: scroll;	
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
