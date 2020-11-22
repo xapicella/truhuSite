@@ -686,7 +686,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 
-@media(max-width: 500px) {
+@media (max-width: 768px) {
 	#benQuoteBox {
 		height: 450px;
 	}
