@@ -207,7 +207,7 @@ b {
 .custom-navbar {
 	margin-bottom: 0;
 	background-color: #fffff;
-	max-height: 80px;
+	max-height: 100%;
 }
 
 /* Controls nav styles upon collapse (which is now permanent) */
