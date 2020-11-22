@@ -725,12 +725,12 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 
-@media (max-width: 768px) {
-	#benQuoteBox {
+@media (max-width: 991px) {
+	.benQuoteBox {
 		height: 450px;
 	}
-	#quoteBox {
-		height: 650px;
+	.quoteBox {
+		height: 600px;
 	}
 }
 
