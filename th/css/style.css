@@ -267,24 +267,6 @@ b {
     border-color: transparent;
 }
 
-/*@media(max-width:991px) {
-    
-	.custom-navbar {
-		padding: 20px 0;
-		border-bottom: 0;
-		background: 0 0; 
-	}
-	
-	/* Controls nav styles upon collapse (which is now permanent) 
-	Now placed in mobile as well in case I decide to make it not permanent on a page or two*/
-	.custom-navbar.top-nav-collapse {
-		background: #254a79/*rgba(200, 200, 200, 0.85)*/;
-		box-shadow: 0 2px 2px -2px rgba(0,0,0,.5);
-		padding: 0;
-	}
-	
-}*/
-
 .current { 
 	text-decoration: underline;
 }
@@ -704,12 +686,12 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 
-@media(max-width: 451px) {
+@media(max-width: 500px) {
 	#benQuoteBox {
 		height: 450px;
 	}
 	#quoteBox {
-		height: 750px;
+		height: 650px;
 	}
 }
 
