@@ -641,7 +641,7 @@ less dark fb blue: #2a5489
 
 @media(max-width: 768px) {
 	#plsFtrs img {
-		margin-top: 1rem;
+		margin-top: 2rem;
 	}
 }
 
@@ -669,7 +669,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 .quoteBox {
-	height: 600px;
+	height: 550px;
   border-radius: 5px;
   padding: 30px 30px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
@@ -702,6 +702,16 @@ Testimonials Section ** Used for Prtnrs + Prods
 	margin-right: auto;
 	margin-bottom: 15px;
 	
+}
+
+
+@media(max-width: 451px) {
+	#benQuoteBox {
+		height: 450px;
+	}
+	#quoteBox {
+		height: 650px;
+	}
 }
 
 /* -------------------------------------- Benefits Page Styles -------------------------------------- */
@@ -979,6 +989,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 	}
 	
 	.quoteBox,
+	.benQuoteBox,
 	.card,
 	.ptnrBox {
 		margin-bottom: 45px;
