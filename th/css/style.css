@@ -371,21 +371,18 @@ footer br {
 		  align-items: center;
 }
 
-#intro h1,
-#intro-mobile h1 {
+#intro h1 {
 	color: #ffffff;
 }
 
-#intro .btn-second,
-#intro-mobile .btn-second {
+#intro .btn-second {
 	background: transparent;
 	color: #ffffff;
 	border-color: #ffffff;
 	margin-right: 12px;
 }
 
-#intro .btn-second:hover,
-#intro-mobile .btn-second:hover {
+#intro .btn-second:hover {
 	background: #ffffff;
 	color: #101010;
 	border-color: transparent;
@@ -393,6 +390,29 @@ footer br {
 
 .introCTA {
 	margin-top: 50px;
+}
+
+@media(max-width: 991px) {
+	
+	#intro {
+		text-align: center;
+	}
+	
+	#intro h1 {
+		color: #254a79;
+	}
+	
+	#intro .btn-second {
+		background: transparent;
+		color: #254a79;
+		border-color: #254a79;
+	}
+
+	#intro .btn-second:hover {
+		background: #254a79;
+		color: #ffffff;
+		border-color: transparent;
+	}
 }
 
 /*---------------------------------------
@@ -531,45 +551,48 @@ footer br {
 /*---------------------------------------
     Pulse Hero Section              
 -----------------------------------------*/
-#pulsHero {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pulsHero.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-     -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-    height: 100vh;
-    text-align: right;
+@media(min-width: 992px) {
+	#pulsHero {
+	    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pulsHero.jpg') 50% 0 repeat-y fixed;
+	    -webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center center;
+	    color: #ffffff;
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	     display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-align: center;
+	     -webkit-align-items: center;
+	      -ms-flex-align: center;
+		  align-items: center;
+	    height: 100vh;
+	    text-align: right;
+	}
 }
 
-#puls-hero-mobile {
-	background: #ffffff;
-	padding-top: 10rem;
-	padding-bottom: 10rem;
-}
-
-#pulsHero h2,
-#puls-hero-mobile h2 {
+#pulsHero h2 {
 	font-size: 42px;
 	color: #66ccff;
 }
 
-
-#pulsHero p,
-#puls-hero-mobile p {
-	color: #101010;
+#pulsHero h1 {
+	color: #254a79;
 }
 
-#pulsHero h1,
-#puls-hero-mobile h1 {
-	color: #254a79;
+@media(max-width: 991px) {
+	
+	#pulsHero {
+		text-align: right;
+	}
+	
+	#pulsHero h1 {
+		color: #254a79;
+	}
+	
+	#pulsHero h4 {
+		color: #101010;
+	}
 }
 
 /*---------------------------------------
@@ -763,38 +786,45 @@ Testimonials Section ** Used for Prtnrs + Prods
 /*---------------------------------------
     Benefits Hero Section              
 -----------------------------------------*/
-#benHero {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/benHero.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-     -webkit-align-items: center;
-      -ms-flex-align: center;
-	  align-items: center;
-    height: 100vh;
-    text-align: left;
+@media(min-width: 992px) { 
+	#benHero {
+	    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/benHero.jpg') 50% 0 repeat-y fixed;
+	    -webkit-background-size: cover;
+	    background-size: cover;
+	    background-position: center center;
+	    color: #ffffff;
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	     display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-align: center;
+	     -webkit-align-items: center;
+	      -ms-flex-align: center;
+		  align-items: center;
+	    height: 100vh;
+	    text-align: left;
+	}
 }
-
-#ben-hero-mobile {
-	background: #c7c7c7;
-}
-
-#benHero h2,
-#ben-hero-mobile h2 {
+	
+#benHero h2 {
 	font-size: 42px;
 	color: #66ccff;
 }
 
-#benHero h1,
-#ben-hero-mobile h1 {
+#benHero h1 {
 	font-size: 36px;
 	color: #ffffff;
+}
+
+@media(max-width: 991px) {
+	
+	#benHero {
+		text-align: left;
+	}
+	
+	#benHero h1 {
+		color: #254a79;
+	}
 }
 
 /*---------------------------------------
@@ -1033,16 +1063,10 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 @media (max-width: 991px) {
 	
-	#intro {
-		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/intro.jpg') 50% 0 repeat-y fixed;
-	}
-	
-	#pulseHero {
-		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/pulsHero.jpg') 50% 0 repeat-y fixed;
-	}
-	
-	#benHero {
-		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/benHero.jpg') 50% 0 repeat-y fixed;	
+	#intro, #pulseHero, #benHero {
+		background: #ffffff;
+		padding-top: 10rem;
+		padding-bottom: 10rem;
 	}
 	
 	.quoteBox, .benQuoteBox, .card, .ptnrBox {
