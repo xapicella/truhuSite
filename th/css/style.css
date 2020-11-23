@@ -1060,10 +1060,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 	login-btn {
 		margin-left: 10px;
 	}
-
-	#intro, #pulsHero {
-		height: 65vh; 
-	}
 }
 
 @media (max-width: 768px) {
