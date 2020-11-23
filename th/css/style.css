@@ -1094,10 +1094,3 @@ Testimonials Section ** Used for Prtnrs + Prods
 		margin-top: 32px;
 	}
 }
-
-@media (max-width: 760px) {
-
-	#intro, #pulsHero {
-		height: 100vh;
-	}
-}
