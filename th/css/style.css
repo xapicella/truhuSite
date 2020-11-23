@@ -388,10 +388,6 @@ footer br {
 	border-color: transparent;
 }
 
-.introCTA {
-	margin-top: 50px;
-}
-
 @media(max-width: 991px) {
 	
 	#intro h1 {
