@@ -374,7 +374,7 @@ footer br {
 
 @media(max-width: 991px) {
 	#intro {
-		background-color: #c7c7c7; 
+		background: #c7c7c7; 
 	}
 }
 
@@ -479,7 +479,7 @@ footer br {
 
 @media(max-width: 991px) {
 	#ptnrTypes {
-		background-color: #b6e5fc;
+		background: #b6e5fc;
 	}
 }
 
@@ -775,7 +775,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 @media(max-width: 991px) {
 	#benHero {
-		background-color: #c7c7c7;
+		background: #c7c7c7;
 	}
 }
 
