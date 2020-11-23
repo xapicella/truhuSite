@@ -352,23 +352,24 @@ footer br {
 /*---------------------------------------
     Home Hero Section              
 -----------------------------------------*/
-
-#intro {
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/intro.jpg') 50% 0 repeat-y fixed;
-	-webkit-background-size: cover;
-	background-size: cover;
-	height: 100vh;
-	text-align: center;
-	background-position: center center;
-	color: #ffffff;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	     -webkit-align-items: center;
-	      -ms-flex-align: center;
-		  align-items: center;
+@media(min-width: 992px) {
+	#intro {
+		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/intro.jpg') 50% 0 repeat-y fixed;
+		-webkit-background-size: cover;
+		background-size: cover;
+		height: 100vh;
+		text-align: center;
+		background-position: center center;
+		color: #ffffff;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		     -webkit-align-items: center;
+		      -ms-flex-align: center;
+			  align-items: center;
+	}
 }
 
 #intro h1 {
@@ -389,13 +390,13 @@ footer br {
 }
 
 .hero-break hr {
+	margin-top: 5rem;
 	color: #254a79;
 	background-color: #254a79;
 	border: 2px solid;
 	border-radius: 3px;
-	width: 100%;
+	width: 95%;
 }
-
 
 @media(max-width: 991px) {
 	
