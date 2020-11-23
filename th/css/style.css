@@ -550,18 +550,26 @@ footer br {
 }
 
 #puls-hero-mobile {
-	background: #c7c7c7;
+	background: #b6e5fc;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
 
 #pulsHero h2,
 #puls-hero-mobile h2 {
 	font-size: 42px;
-	color: #66ccff;
+	color: #00de0b;
+}
+
+
+#pulsHero p,
+#puls-hero-mobile p {
+	color: #101010;
 }
 
 #pulsHero h1,
-#puls-hero-mobile h1{
-	color: #ffffff;
+#puls-hero-mobile h1 {
+	color: #254a79;
 }
 
 /*---------------------------------------
