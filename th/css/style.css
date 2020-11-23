@@ -440,8 +440,13 @@ footer br {
 /*---------------------------------------
     Products Section              
 -----------------------------------------*/
+#products h3 {
+	font-size: 28px;
+}
+
 #products h5 {
 	color: #ffffff;	
+	font-size: 20px;
 }
 
 #products .btn-main {
