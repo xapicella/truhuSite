@@ -352,7 +352,7 @@ footer br {
 /*---------------------------------------
     Home Hero Section              
 -----------------------------------------*/
-@media (min-width: 992px) and (max-width: 2200px) {
+@media(min-width: 992px) {
 	#intro {
 		background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/intro.jpg') 50% 0 repeat-y fixed;
 		-webkit-background-size: cover;
