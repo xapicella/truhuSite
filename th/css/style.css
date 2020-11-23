@@ -421,9 +421,21 @@ footer br {
    Overview  section              
 -----------------------------------------*/
 #overview {
-	padding-top: 10rem;
-  padding-bottom: 10rem;
+	padding-top: 5rem;
+  padding-bottom: 5rem;
 }
+
+#overview h3 {
+	color: #254a79;
+	font-size: 28px;
+}
+
+#overview p {
+	font-size: 20px;
+	color: #101010;
+	line-height: 27px;
+}
+	
 
 /*---------------------------------------
     Products Section              
