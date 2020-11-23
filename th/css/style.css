@@ -118,14 +118,14 @@ b {
 }
 
 .login-btn {
-	color: #00de0b;
+	color: #8cc63e;
 	background: transparent;
-	border-color: #00de0b;
+	border-color: #8cc63e;
 	margin-left: 10px;
 }
 
 .login-btn:hover {
-	background: #00de0b;
+	background: #8cc63e;
 	border-color: transparent;
 	color: #ffffff;	
 }
@@ -240,7 +240,7 @@ b {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #00de0b;
+    color: #8cc63e;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
