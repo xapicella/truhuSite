@@ -394,10 +394,6 @@ footer br {
 
 @media(max-width: 991px) {
 	
-	#intro {
-		text-align: center;
-	}
-	
 	#intro h1 {
 		color: #254a79;
 	}
@@ -581,10 +577,6 @@ footer br {
 }
 
 @media(max-width: 991px) {
-	
-	#pulsHero {
-		text-align: right;
-	}
 	
 	#pulsHero h1 {
 		color: #254a79;
@@ -817,10 +809,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 @media(max-width: 991px) {
-	
-	#benHero {
-		text-align: left;
-	}
 	
 	#benHero h1 {
 		color: #254a79;
@@ -1063,10 +1051,10 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 @media (max-width: 991px) {
 	
-	#intro, #pulseHero, #benHero {
+	#intro, #pulsHero, #benHero {
+		text-align: center;
 		background: #ffffff;
 		padding-top: 10rem;
-		padding-bottom: 10rem;
 	}
 	
 	.quoteBox, .benQuoteBox, .card, .ptnrBox {
