@@ -72,7 +72,7 @@ hr {
 b {
 	color: #00aaff;
 	font-weight: 600;
-}
+}	
 
 .btn {
 	background: transparent;
@@ -1073,6 +1073,12 @@ Testimonials Section ** Used for Prtnrs + Prods
 	}
 }
 
+@media(min-width: 768px) {
+	.hide-nonmobile { 
+		display: none;
+	}
+}
+
 
 @media (max-width: 991px) {
 	
@@ -1091,7 +1097,11 @@ Testimonials Section ** Used for Prtnrs + Prods
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+	
+	.hide-mobile { 
+		display: none;
+	}
 
 	#overview img {
 		padding-top: 32px;
