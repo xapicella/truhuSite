@@ -1073,6 +1073,12 @@ Testimonials Section ** Used for Prtnrs + Prods
 	}
 }
 
+@media(min-width: 992px) {
+	.hide-comp { 
+		display: none;
+	}
+}
+
 @media(min-width: 768px) {
 	.hide-nonmobile { 
 		display: none;
@@ -1081,6 +1087,10 @@ Testimonials Section ** Used for Prtnrs + Prods
 
 
 @media (max-width: 991px) {
+	
+	.hide-tablet {
+		display: none;
+	}
 	
 	#intro, #pulsHero, #benHero {
 		text-align: center;
