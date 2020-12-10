@@ -203,12 +203,6 @@ b {
 /*---------------------------------------
     Navigation Links section              
 -----------------------------------------*/
-.navbar {
-	background: #254a79;
-	box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
-	color: #66ccff;
-}
-
 .custom-navbar {
 	margin-bottom: 0;
 	background-color: #fffff;
