@@ -266,6 +266,7 @@ b {
 
 .current { 
 	text-decoration: underline;
+	color: #8cc63e;
 }
 
 @media (max-width: 991px) {
