@@ -7,7 +7,7 @@ $(window).load(function(){
 
 /* Mobile Navigation
     -----------------------------------------------*/
-
+document.getElementById("CurrentYear").innerHTML = new Date().getFullYear();
 
 /*$(window).scroll(function() {
 		if ($(".navbar").offset().top > 30) {
