@@ -130,7 +130,7 @@ b {
 	color: #ffffff;	
 }
 
-#intro .btn, #products .btn, #ptnrTypes .btn,
+#backBtn, #intro .btn, #products .btn, #ptnrTypes .btn,
 #pulsHero .btn, #plsPerksTop .btn, #plsPerksBtm .btn, 
 #benHero .btn, #benFtrs .btn, footer .btn {
 	padding: 20px 20px;
