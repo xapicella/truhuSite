@@ -29,9 +29,8 @@ h4 {
 }
 
 h5 {
-	font-size: 18px;
-	letter-spacing: 1px;
-	padding-top: 10px;
+	font-weight: 600;
+	text-size: 14px;
 }
 
 p {
@@ -769,6 +768,11 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 /* -------------------------------------- Benefits Page Styles -------------------------------------- */
+#benHero, #benFtrs, #scrollProds h5 {
+	color: #00aaff;
+}
+
+
 /*---------------------------------------
     Benefits Hero Section              
 -----------------------------------------*/
@@ -814,7 +818,7 @@ Testimonials Section ** Used for Prtnrs + Prods
 -----------------------------------------*/
 #benFtrs {
 	padding-top: 5rem;
-  padding-bottom: 5rem;
+	padding-bottom: 5rem;
 }
 
 #benFtrs h1 {
@@ -835,7 +839,6 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 #benFtrs h4 {
-	font-size: 22px;
 	color: #2a5489;
 	font-weight: 600;
 }
@@ -848,68 +851,10 @@ Testimonials Section ** Used for Prtnrs + Prods
 	font-size: 18px;
 }
 
-.btn-break {
-	text-align: center;
-}
-
-#benFtrs .btn-main { 
-	color: #ffffff;
-	background: #00aaff;
-	border-color: transparent;
-}
-
-#benFtrs .btn-main:hover {
-	color: #00aaff;
-	background: transparent;
-	border-color: #00aaff;
-}
-
-.btn-second {
-	color: #2a5489;
-	background: transparent;
-	border-color: #2a5489;
-}
-
-.btn-second:hover {
-	color: #ffffff;
-	background: #2a5489;
-	border-color: transparent;
-}
-
 @media(max-width: 768px) {
 	#benFtrs img {
 		margin-bottom: 2rem;
 	}
-}
-
-/* --------------------------------------
-	More Section
--------------------------------------- */
-
-#benMore { 
-	background: #b6e5fc/*e8e8e8*/;
-	color: 101010;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-}
-
-#benMore h1 {
-	text-align: center;
-	color: #2a5489;
-}
-
-#benMore h5 {
-	font-weight: 600;
-	text-size: 18px;
-}
-
-#benMore hr {
-	color: #2a5489;
-	background-color: #2a5489;
-	border: 0.5px solid;
-	width: 100%;
-	margin-top: 5px;
-	margin-bottom: 5px;
 }
 
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
