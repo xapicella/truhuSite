@@ -853,6 +853,27 @@ Testimonials Section
 	background-size: cover;
 	background-image: url('https://photos.google.com/photo/AF1QipORUL3p428A-l87t7r3JlPMyiEknqpbStQGZnsK');
 }
+
+.text-container {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	color: #ffffff;
+}
+.text-container .subtitle { 
+	opacity: 0;
+	font-size: 30px; 
+}
+.text-container .title { 
+	opacity: 0;
+	font-size: 80px; margin: -20px 0;
+}
+ 
 /* -------------------------------------- About Us Page Styles -------------------------------------- */
 #story h1,
 #mission h1,
