@@ -138,7 +138,8 @@
 ============================== -->
 <section id="scroll-img">        
 	<div class="container-noBS">
-		<div class="image-container">
+		<div class="image-container"></div>
+		<div class="text-container">
 			<div class="scroll-txt">
 				<h4>Pulse Surveys: Understand how employees are doing.</h4> 
 				<p>Get business insight into what’s really going on&mdash;like if employees are engaged, motivated, or isolated&mdash;to improve productivity and reduce turnover.<p>
@@ -245,7 +246,11 @@
 ============================== -->
 <script> 
 	// Images asset
-	const prodImages = {'https://photos.google.com/photo/AF1QipORUL3p428A-l87t7r3JlPMyiEknqpbStQGZnsK','https://photos.google.com/photo/AF1QipPvFJQt1mUPB9a2_YkFz0wZnVZEGS9cTtXp4pEe','https://photos.google.com/photo/AF1QipN9F7mOqr23PHFtTn8YstlOukBxAtUuXhZqIHO0'}
+	const prodImages = {
+		1: 'https://photos.google.com/photo/AF1QipORUL3p428A-l87t7r3JlPMyiEknqpbStQGZnsK',
+		2: 'https://photos.google.com/photo/AF1QipPvFJQt1mUPB9a2_YkFz0wZnVZEGS9cTtXp4pEe',
+		3: 'https://photos.google.com/photo/AF1QipN9F7mOqr23PHFtTn8YstlOukBxAtUuXhZqIHO0'
+	}
 	
 	// Global variable to control the scrolling behavior
 	const step = 30; // For each 30px, change an image
