@@ -697,7 +697,7 @@ less dark fb blue: #2a5489
 }
 
 /*---------------------------------------------
-Testimonials Section ** Used for Prtnrs + Prods
+Testimonials Section
 ---------------------------------------------*/
 #testimonials {
   /*padding: 100px 0px;*/
@@ -739,29 +739,8 @@ Testimonials Section ** Used for Prtnrs + Prods
 	
 }
 
-.benQuoteBox {
-	height: 400px;
-  border-radius: 5px;
-  padding: 30px 30px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-}
-
-.benQuoteBox img {
-	z-index: 10;
-	position: relative;
-	max-height: 100px;
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 15px;
-	
-}
-
 
 @media (max-width: 991px) {
-	.benQuoteBox {
-		height: 450px;
-	}
 	.quoteBox {
 		height: 650px;
 	}
@@ -832,9 +811,8 @@ Testimonials Section ** Used for Prtnrs + Prods
 }
 
 #benFtrs h3 {
-	font-size: 28px;
+	font-size: 26px;
 	color: #2a5489;
-	text-align: center;
 	font-weight: 600;
 }
 
