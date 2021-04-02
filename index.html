@@ -15,35 +15,31 @@
 	<link rel="stylesheet" href="style.css">
 	
 	<style>
-		.card {
-			position: relative;
-			width: 50%;
-		}
-
-		/* Make the image responsive */
-		.card img {
+		.btn-to, .btn-ss {
 			width: 100%;
-			height: auto;
+			border-width: 2px;
 		}
-
-		/* Style the button and place it in the middle of the container/image */
-		.card .btn {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%);
-			background-color: #555;
-			color: white;
-			font-size: 16px;
-			padding: 12px 24px;
-			border: none;
-			cursor: pointer;
-			border-radius: 5px;
+		
+		.btn-to {
+			background-color: #1798C1;
+			border-color: #1798C1;
+			color: #ffffff;
 		}
-
-		.card .btn:hover {
-			background-color: black;
+		
+		.btn-to:hover {
+			background-color: #ffffff;
+			color: #1798C1;
+		}
+		
+		.btn-ss {
+			background-color: #8CC63E;
+			border-color: #8CC63E;
+			color: #ffffff;
+		}
+		
+		.btn-ss:hover {
+			background-color: #ffffff;
+			color: #8CC63E;
 		}
 	</style>
 	
@@ -114,13 +110,13 @@
 			<div class="card">
 				<div class="col-md-4 offset-md-2">
 					<img src="images/turnover-home_lg.png">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">View More</button>
+					<button class="btn btn-to my-2 my-sm-0" type="submit">View More</button>
 				</div>
 			</div>
 			<div class="card">
 				<div class="col-md-4">
 					<img src="images/survey-score-home_lg.png">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">View More</button>
+					<button class="btn btn-ss my-2 my-sm-0" type="submit">View More</button>
 				</div>
 			</div>
 		</div>
