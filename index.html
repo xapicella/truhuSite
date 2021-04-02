@@ -13,6 +13,40 @@
 	============================== -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
+	
+	<style>
+		.card {
+			position: relative;
+			width: 50%;
+		}
+
+		/* Make the image responsive */
+		.card img {
+			width: 100%;
+			height: auto;
+		}
+
+		/* Style the button and place it in the middle of the container/image */
+		.card .btn {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			background-color: #555;
+			color: white;
+			font-size: 16px;
+			padding: 12px 24px;
+			border: none;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+
+		.card .btn:hover {
+			background-color: black;
+		}
+	</style>
+	
 </head>
 <body>
 <!-- =========================
