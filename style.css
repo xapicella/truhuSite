@@ -11,9 +11,8 @@ section {
 	padding-bottom: 2rem;
 }
 
-.navbar a {
+.dropdown a, .nav-item a {
 	font-size: 24px;
-	font-weight: 500;
 	color: #101010;
 }
 
@@ -27,6 +26,7 @@ section {
 }
 
 .btn-top {
+	font-size: 24px;
 	color: #2AC0FF;
 	border-width: 2px;
 	border-color: #2AC0FF;
