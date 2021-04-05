@@ -16,13 +16,13 @@ section {
 	padding-bottom: 2rem;
 }
 
-.btn-outline-success {
+.btn-top {
 	color: #2AC0FF;
 	border-width: 2px;
 	border-color: #2AC0FF;
 }
 
-.btn-outline-success:hover {
+.btn-top:hover {
 	color: #ffffff;
 	background-color: #2AC0FF;
 }
