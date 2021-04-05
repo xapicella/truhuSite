@@ -1,9 +1,13 @@
 img {
-  width: 100%;
+	width: 100%;
+}
+
+.fas {
+	display: inline;
 }
 
 section {
-  background-color: #F4F4FC;
+	background-color: #F4F4FC;
 	padding-bottom: 2rem;
 }
 
