@@ -11,6 +11,10 @@ section {
 	padding-bottom: 2rem;
 }
 
+.dropdown a {
+	color: #101010;
+}
+
 .row {
 	padding-top: 2rem;
 }
