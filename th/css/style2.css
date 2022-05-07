@@ -829,7 +829,7 @@ a.dropdown-toggle:not(:focus) {
 	line-height: 10px !important;
 }
 
-@media screen and (max-width:992px)	{
+@media screen and (max-width:991px)	{
 	.navbar-collapse { 
 		background-color: #254a79;
 		width: 100% !important;
@@ -851,9 +851,12 @@ a.dropdown-toggle:not(:focus) {
 		height: 325px;
 	}
 }
-@media screen and (max-width:992px)	{
+@media screen and (max-width:991px)	{
 	#hero-partners h1 {
 		padding-bottom: 0;
+	}
+	#hero-partners p {
+		font-size: 26px;
 	}
 }
 
