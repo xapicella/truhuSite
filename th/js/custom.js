@@ -24,11 +24,7 @@ $(document).ready(function() {
         }
     });
 
-    // Hide mobile menu after clicking on a link 
-    $('.navbar-collapse a').click(function(){
-        $(".navbar-collapse").collapse('hide');
-    });
-
+    
     // Parallax section
     /*function initParallax() {
         $('#intro').parallax("100%", 0.1);
