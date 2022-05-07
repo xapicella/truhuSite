@@ -834,10 +834,25 @@ a.dropdown-toggle:not(:focus) {
 	}
 } 
 
-#compnanies-love-truhu h4 {
+#hero-partners h4 {
 	padding-top: 5rem;
 	color: #101010;
 	font-weight: 100 !important;
+}
+
+#hero-partners h1 {
+	padding-bottom: 250px;
+}
+
+@media screen and (min-width: 992px) {
+	#hero-partners .divider {
+		height: 325px;
+	}
+}
+@media screen and (max-width:992px)	{
+	#hero-partners h1 {
+		padding-bottom: 0;
+	}
 }
 
 #logo-grid .frame {  
