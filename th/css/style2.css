@@ -21,6 +21,13 @@ grey2 #FAFAFA - pale
 green #8CC63E
 *****************************************/
 
+/* Get rid of blurry images? */
+img {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
 /* ------------- */
 body {
 background: #ffffff;
