@@ -21,12 +21,13 @@ grey2 #FAFAFA - pale
 green #8CC63E
 *****************************************/
 
-/* Get rid of blurry images? */
+/* Get rid of blurry images?
 img {
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
-}
+} */
 
 /* ------------- */
 body {
