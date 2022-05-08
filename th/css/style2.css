@@ -813,6 +813,10 @@ section#hero-banner {
 @media (max-width:991px) {
 	.navbar .container {
 		background-color:#254a79;
+		box-shadow: #101010;
+	}
+	.navbar-collapse.collapse.in {
+		border: none !important;
 	}
 }
 .dropdown-menu {
@@ -982,6 +986,9 @@ img {
 .signature {
 	max-height: 100px;
 	max-width: 400px;
+	text-align: left;
+	margin-left: 0;
+	margin-right: auto;
 }
 
 #story {
@@ -1072,10 +1079,110 @@ img {
 /* -------------------------------------- News Listing and Article Styles -------------------------------------- */
 
 #newsTiles {
-	padding-top: 10rem;
-	padding-bottom: 25rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 #newsTiles .section-title {
 	text-align: center;
+}
+/* ************
+
+   Video Cards
+
+************* */
+
+#vids {
+	margin-top: 2rem;
+}
+
+.vid-card {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+	.vid-card img {
+		height: 250px;
+		width: 100%;
+		object-fit: cover;
+	}
+
+
+.vid-card {
+	margin-top: 10px;
+	position: relative;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+	.vid-card:hover {
+		-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+	}
+
+	.vid-card .vid-card-content {
+		padding: 10px;
+		text-align: center;
+		background-color: #f1f1f1;
+	}
+
+		.vid-card .vid-card-content .vid-card-category {
+			color: #337AB7;
+			font-size: 16px;
+			font-weight: 500;
+		}
+
+		.vid-card .vid-card-content .vid-card-title {
+			color: #101010;
+			font-size: 20px;
+			font-weight: 200;
+		}
+
+		.vid-card .no-fill-im {
+			object-fit: contain;
+		}
+
+/*------------------------------- News styles -------------------------------*/
+/* Container holding the image and the text */
+.imBox {
+	position: relative;
+}
+
+	.imBox h3 {
+		text-align: center;
+		color: white;
+		text-transform: uppercase;
+		margin: 20px;
+		font-size: 28px;
+		letter-spacing: 1px;
+	}
+
+/* Centered text */
+.centered {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	background-color: rgba(102, 204, 255, 0.8); /*rgba(37, 74, 121, 0.8);*/
+}
+
+.news-body {
+	margin-top: 1rem;
+}
+
+	.news-body h4 {
+		font-weight: 500;
+	}
+
+@media (max-width: 991px) {
+	.imBox h3 {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 767px) {
+	.imBox h3 {
+		font-size: 16px;
+	}
 }
