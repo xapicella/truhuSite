@@ -31,10 +31,10 @@ img {
 
 /* ------------- */
 body {
-background: #ffffff;
-font-family: 'Helvetica', 'Arial', sans-serif;
-font-style: normal;
-font-weight: 400;
+	background: #ffffff;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: 400;
 }
 .white, .white li  {
 	color: #fff !important;
