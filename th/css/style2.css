@@ -388,9 +388,10 @@ Navigation Links section
 	transition: all 0.4s ease-in-out;
 }
 
-@media screen and (max-height: 991px) {
+@media (min-height: 991px) {
 	.custom-navbar .nav li a {
 		line-height: 10px;
+		width: 100%;
 	}
 }
 
@@ -898,13 +899,6 @@ img {
 	#logo-grid .frame {
 		height: 150px;
 		padding: 20px;
-	}
-}
-
-@media screen and (max-width:992px)	{
-	#logo-grid .frame {
-		height: 100px;
-		padding: 10px;
 	}
 }
 
