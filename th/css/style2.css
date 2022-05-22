@@ -1089,6 +1089,11 @@ img {
 #newsTiles {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+	background-color: #F2FAFF;
+}
+
+#newsTiles h2 {
+	color: #101010;
 }
 
 #newsTiles .section-title {
