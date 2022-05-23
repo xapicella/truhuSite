@@ -1199,3 +1199,7 @@ img {
 		font-size: 16px;
 	}
 }
+
+.contact-links a {
+	color: #66ccff !important;
+}
