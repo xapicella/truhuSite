@@ -487,6 +487,7 @@ footer {
 	padding-top: 5em;
 	padding-bottom: 1em;
 }
+
 .legal-link {
 color: #ffffff;
 }
@@ -781,9 +782,6 @@ SECTION: Testimonials
 	}
 }
 
-
-
-
 /*--------------------------------------- Home Page Styles -----------------------------------------*/
 /*---------------------------------------
 Home Hero Section              
@@ -902,6 +900,10 @@ section#prod-banner {
 	color: #717171;
 }
 
+.prod-footer .copyright {
+	padding-top: 4rem;
+}
+
 /*---------------------------------------
 SECTION: Testimonials              
 -----------------------------------------*/
@@ -911,11 +913,12 @@ SECTION: Testimonials
     padding: 50px;
     box-shadow: 0 0 10px 3px rgb(0 0 0 / 16%);
 }
+
 .img-overlay:hover {
 	box-shadow: 0 0 5px 3px rgb(0 0 0 / 10%);
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 991px) {
 	.img-overlay {
 		padding: 40px;
 	}
