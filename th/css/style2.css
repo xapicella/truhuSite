@@ -817,6 +817,111 @@ section#hero-banner {
 }
 
 /* Xander stylings */
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+/* Product */
+section#prod-banner {
+	background:#254a79 no-repeat center bottom / cover;
+	background:center bottom / cover no-repeat #254a79;
+	height: auto;
+	color: #ffffff;
+	padding: 40px;
+    margin-top: 70px;
+}
+.divider {
+	height: 40px;
+}
+@media screen and (min-width:992px)	{
+	#prod-banner {
+		color: #ffffff;
+		margin-top: 72px;
+	}
+	.divider {
+		height: 350px;
+	}
+} 
+@media screen and (max-width:375px){
+	section#prod-banner {
+		padding: 0;
+	}
+}
+
+#prod-approach {
+	padding-bottom: 0;
+}
+
+.prod-img-row {
+	padding-top: 6rem;
+}
+#prod-approach p {
+	font-size: 20px;
+}
+
+#prod-approach .TH-accent-header {
+	font-size: 48px;
+}
+
+#prod-approach .img-prods {
+	padding: 2rem 2rem 0 2rem;
+	z-index: -1;
+}
+
+#prod-approach .img-overlay {
+	position: relative;
+	bottom: 12rem;
+	z-index: 3;
+	width: 80%;
+	margin: auto;
+}
+
+#prod-approach .img-overlay p {
+	margin: 0;
+}
+
+@media screen and (max-width:712px){
+	#prod-approach {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
+#prod-pulse h1,
+#prod-pr h1 {
+	font-size: 42px;
+	color: #101010;
+	font-weight: 200;
+}
+
+#prod-pulse h3,
+#prod-pr h3 {
+	font-weight: 700;
+	color: #717171;
+}
+
+/*---------------------------------------
+SECTION: Testimonials              
+-----------------------------------------*/
+.img-overlay {
+    background: #fff;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 16%);
+}
+.img-overlay:hover {
+	box-shadow: 0 0 5px 3px rgb(0 0 0 / 10%);
+}
+
+@media screen and (max-width:500px) {
+	.img-overlay {
+		padding: 40px;
+	}
+}
+
+/* Not Product */
 
 @media (max-width:991px) {
 	.navbar .container {
