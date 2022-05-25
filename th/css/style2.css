@@ -1296,6 +1296,7 @@ section#about-banner {
 		margin-top: 72px;
 	}
 } 
+
 @media screen and (max-width:375px){
 	section#about-banner {
 		padding: 0;
@@ -1360,10 +1361,6 @@ section#about-banner {
 	#founders h1 {
 		color: #101010;
 		text-align: center;
-	}
-
-	#founders hr {
-		margin-bottom: 2rem;
 	}
 
 .card {
@@ -1432,4 +1429,72 @@ section#about-banner {
 	.page-footer .footerDivider {
 		display: none;
 	}
+}
+
+#broker-banner h1 {
+	color: #254a79;
+	font-weight: 200;
+	font-size: 38px;
+}
+
+section#broker-banner {
+	background: #ffffff url('../images/bg-swirl-graphic-blue.svg') no-repeat center center / cover;
+	background:center center / cover no-repeat #ffffff url('../images/bg-swirl-graphic-blue.svg');
+	height: auto;
+	padding: 90px 40px 60px 40px;
+    margin-top: 80px;
+}
+
+@media screen and (min-width:992px)	{
+	#broker-banner {
+		color: #ffffff;
+		margin-top: 72px;
+	}
+} 
+
+#th-checklist {
+	padding: 3rem 0;
+}
+
+#th-checklist h5 {
+	text-align: center !important;
+}
+
+#th-checklist hr  {
+	border: 1px solid;
+	color: #66ccff;
+	background-color: #66ccff;
+}
+
+#th-checklist .fa-li {
+	color: #66ccff;
+}
+
+#th-checklist {
+	background-color: #f2faff;
+}
+
+#broker-help li {
+	margin-bottom: 10px;
+}
+
+#broker-quotes .testimonial-box {
+	padding: 4rem;
+}
+
+.broker-footer .copyright {
+	padding-top: 6rem;
+}
+
+#th-checklist h3 {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.hp-list li {
+	font-size: 22px;
+}
+
+#hp-amplify {
+	background-color: #F2FAFF;
 }
