@@ -1432,9 +1432,13 @@ section#about-banner {
 }
 
 #broker-banner h1 {
-	color: #254a79;
-	font-weight: 200;
-	font-size: 38px;
+	color: #101010;
+	font-weight: 600;
+	font-size: 48px;
+}
+
+#broker-banner p {
+	font-size: 20px;
 }
 
 section#broker-banner {
@@ -1490,6 +1494,34 @@ section#broker-banner {
 	text-align: center;
 	padding-bottom: 2rem;
 }
+
+
+
+#hp-banner h1 {
+	color: #101010;
+	font-weight: 600;
+	font-size: 48px;
+}
+
+#hp-banner h2 {
+	color: #101010;
+	font-size: 28px;
+}
+
+section#hp-banner {
+	background: #ffffff url('../images/bg-swirl-graphic-blue.svg') no-repeat center center / cover;
+	background:center center / cover no-repeat #ffffff url('../images/bg-swirl-graphic-blue.svg');
+	height: auto;
+	padding: 90px 40px 60px 40px;
+    margin-top: 80px;
+}
+
+@media screen and (min-width:992px)	{
+	#hp-banner {
+		color: #ffffff;
+		margin-top: 72px;
+	}
+} 
 
 .hp-list li {
 	font-size: 22px;
