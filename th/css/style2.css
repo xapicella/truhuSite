@@ -869,7 +869,9 @@ section#prod-banner {
 }
 
 #prod-approach .img-prods {
-	padding: 2rem 2rem 0 2rem;
+	margin: 2rem 2rem 0 2rem;
+	border-radius: 15px;
+	box-shadow: 0 0 10px 3px rgb(0 0 0 / 16%);
 	z-index: -1;
 }
 
@@ -887,8 +889,8 @@ section#prod-banner {
 
 .img-overlay {
     background: #fff;
-    border-radius: 30px;
-    padding: 50px;
+    border-radius: 20px;
+    padding: 15px;
     box-shadow: 0 0 10px 3px rgb(0 0 0 / 16%);
 }
 
