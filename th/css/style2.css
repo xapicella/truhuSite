@@ -877,7 +877,7 @@ section#prod-banner {
 
 #prod-approach .img-overlay {
 	position: relative;
-	bottom: 12rem;
+	bottom: 8rem;
 	z-index: 3;
 	width: 80%;
 	margin: auto;
@@ -898,12 +898,12 @@ section#prod-banner {
 	box-shadow: 0 0 5px 3px rgb(0 0 0 / 10%);
 }
 
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
 	.img-overlay {
 		padding: 20px;
-		bottom: 4rem;
+		bottom: 8rem !important;
 		z-index: 3;
-		width: 90%;
+		width: 90% !important;
 		margin: 0;
 	}
 
