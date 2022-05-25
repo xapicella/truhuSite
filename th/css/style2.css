@@ -1311,3 +1311,103 @@ img {
 .contact-links a {
 	color: #66ccff !important;
 }
+
+/*------------------------------- About Us styles -------------------------------*/
+/*---------------------------------------
+About Hero Section              
+-----------------------------------------*/
+section#about-banner {
+	background:#254a79 url('../images/bg-swirl-graphic-white.svg') no-repeat center bottom / cover;
+	background:center bottom / cover no-repeat #254a79 url('../images/bg-swirl-graphic-white.svg');
+	height: auto;
+	color: #ffffff;
+	padding: 80px 40px;
+    margin-top: 70px;
+}
+
+@media screen and (min-width:992px)	{
+	#about-banner {
+		color: #ffffff;
+		margin-top: 72px;
+	}
+} 
+@media screen and (max-width:375px){
+	section#about-banner {
+		padding: 0;
+	}
+}
+
+#meet-the-team h1 {
+	font-size: 38px;
+	color: #101010;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 60px;
+}
+
+#meet-the-team h3 {
+	font-size: 22px;
+	color: #101010;
+	font-weight: 700;
+}
+
+.tg-header {
+	font-size: 32px;
+	padding: 1.5rem 0 1rem 0;
+}
+
+.tg-header a{
+	color: #1798C1;
+}
+
+.tg-card {
+	margin-bottom: 50px;
+	display: table;
+	background-color: #F2FAFF;
+    box-shadow: 0 0 5px 3px rgb(0 0 0 / 10%);
+}
+.tg-card:hover {
+	box-shadow: 0 0 10px 3px rgb(0 0 0 / 16%);
+}
+
+
+	.tg-card img {
+		height: 250px;
+		max-width: none;
+		width: 250px;
+	}
+
+	.tg-card .tg-card-body {
+		padding: 15px 20px 10px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+@media (max-width: 768px) {
+
+	h1 {
+		font-size: 20px !important;
+	}
+
+	.tg-card .tg-card-body {
+		display: block;
+		text-align: center;
+	}
+
+	.tg-card img {
+		display: block;
+		width: 200px;
+		height: 200px;
+		max-width: 100% !important;
+	}
+
+	.tg-header {
+		font-size: 22px;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
+
+	.page-footer .footerDivider {
+		display: none;
+	}
+}
