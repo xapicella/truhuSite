@@ -901,9 +901,18 @@ section#prod-banner {
 @media screen and (max-width: 991px) {
 	.img-overlay {
 		padding: 20px;
+		bottom: 4rem;
+		z-index: 3;
+		width: 90%;
+		margin: 0;
 	}
+
+	.img-overlay p {
+		font-size: 16px !important;
+	}
+
 	.img-prods {
-		
+		margin: 0;
 	}
 }
 
