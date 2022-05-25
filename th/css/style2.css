@@ -1343,6 +1343,10 @@ section#about-banner {
 	box-shadow: 0 0 10px 3px rgb(0 0 0 / 16%);
 }
 
+.tg-card p { 
+	font-size: 20px;
+}
+
 
 	.tg-card img {
 		height: 250px;
