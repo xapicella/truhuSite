@@ -1546,3 +1546,9 @@ section#hp-banner {
 #hp-amplify {
 	background-color: #F2FAFF;
 }
+
+@media screen and (max-width:991px) {
+	.footer-img { 
+		padding-bottom: 3rem;
+	}	
+}
