@@ -869,7 +869,7 @@ section#prod-banner {
 }
 
 #prod-approach .img-prods {
-	margin: 2rem 2rem 0 2rem;
+	margin: 2rem 0;
 	border-radius: 15px;
 	box-shadow: 0 0 10px 3px rgb(0 0 0 / 16%);
 	z-index: -1;
@@ -889,7 +889,7 @@ section#prod-banner {
 
 .img-overlay {
     background: #fff;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 15px;
     box-shadow: 0 0 10px 3px rgb(0 0 0 / 16%);
 }
@@ -900,7 +900,10 @@ section#prod-banner {
 
 @media screen and (max-width: 991px) {
 	.img-overlay {
-		padding: 40px;
+		padding: 20px;
+	}
+	.img-prods {
+		
 	}
 }
 
