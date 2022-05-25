@@ -398,7 +398,7 @@ Navigation Links section
 
 @media (min-height: 991px) {
 	.custom-navbar .nav li a {
-		line-height: 10px;
+		line-height: 40px;
 		width: 100%;
 	}
 }
