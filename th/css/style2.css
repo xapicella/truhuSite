@@ -852,6 +852,9 @@ section#prod-banner {
 
 #prod-approach {
 	padding-bottom: 0;
+	background: #ffffff url('../images/bg-swirl-graphic-blue.svg') no-repeat center center / cover;
+	background:center center / cover no-repeat #ffffff url('../images/bg-swirl-graphic-blue.svg');
+	
 }
 
 .prod-img-row {
@@ -917,6 +920,10 @@ section#prod-banner {
 #prod-pr h3 {
 	font-weight: 700;
 	color: #717171;
+}
+
+#prod-pulse {
+	background-color: #FAFAFA;
 }
 
 .tall-img {
@@ -1352,6 +1359,11 @@ section#about-banner {
 	/* --------------------------------------
 	Founders Section
 -------------------------------------- */
+#meet-the-team h1 {
+	font-size: 48px;
+	font-weight: 200;
+}
+
 #founders {
 	background: #fff;
 	padding-top: 5rem;
