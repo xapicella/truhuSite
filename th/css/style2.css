@@ -1527,6 +1527,9 @@ section#broker-banner {
 	padding-bottom: 2rem;
 }
 
+#th-checklist h5 {
+	font-size: 19px;
+}
 
 
 #hp-banner h1 {
@@ -1586,3 +1589,7 @@ section#hp-banner {
 	font-weight: 200 !important;
 }
 
+#broker-quotes .testimonial-box img {
+	height: 60px;
+	margin: 0 auto;
+}
