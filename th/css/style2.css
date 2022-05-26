@@ -1330,6 +1330,7 @@ section#about-banner {
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 60px;
+	font-size: 48px;
 }
 
 #meet-the-team h3 {
@@ -1377,10 +1378,6 @@ section#about-banner {
 	/* --------------------------------------
 	Founders Section
 -------------------------------------- */
-#meet-the-team h1 {
-	font-size: 48px;
-	font-weight: 200;
-}
 
 #founders {
 	background: #fff;
@@ -1416,7 +1413,7 @@ section#about-banner {
 
 @media (max-width: 768px) {
 
-	h1 {
+	.tg-card h1 {
 		font-size: 20px !important;
 	}
 
@@ -1565,4 +1562,15 @@ section#hp-banner {
 	.footer-img { 
 		padding-bottom: 3rem;
 	}	
+}
+
+@media (max-width: 991px) {
+	h1 {
+		font-size: 36px !important;
+	}
+}
+
+#broker-help li,
+#hp-amplify p {
+	font-weight: 200;
 }
