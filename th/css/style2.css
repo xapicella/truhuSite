@@ -1181,9 +1181,13 @@ img {
 /* -------------------------------------- News Listing and Article Styles -------------------------------------- */
 
 #newsTiles {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 	background-color: #F2FAFF;
+}
+
+#newsTiles h1 {
+	color: #101010;
 }
 
 #newsTiles h2 {
@@ -1574,3 +1578,9 @@ section#hp-banner {
 #hp-amplify p {
 	font-weight: 200;
 }
+
+#meet-the-team h1,
+#newsTiles h1 {
+	font-weight: 200;
+}
+
