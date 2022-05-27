@@ -1554,7 +1554,9 @@ section#about-banner {
 	}
 
 	#founders h3 {
-		font-size: 19px;
+		font-size: 16px;
+		color: #101010;
+		font-weight: 600;
 	}
 
 	#founders p {
