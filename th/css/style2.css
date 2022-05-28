@@ -1512,7 +1512,16 @@ section#about-banner {
 /* Add some padding inside the card container */
 .cardBlock {
 	background: #F2FAFF;
-	padding: 2px 16px;
+	padding: 16px;
+}
+
+.cardBlock h3 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.cardBlock p {
+	margin: 0;
 }
 
 .social-icon:hover {
@@ -1559,9 +1568,18 @@ section#about-banner {
 		font-weight: 600;
 	}
 
+	@media screen and (max-width:430px) {
+		#founders h3 {
+			font-size: 14px;
+		}
+
+		#founders p {
+			font-size: 12px;
+		}
+	}
+
 	#founders p {
-		font-size: 16px;
-		font-weight: 600;
+		font-size: 14px;
 	}
 
 	.page-footer .footerDivider {
