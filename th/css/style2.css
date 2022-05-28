@@ -368,14 +368,13 @@ BUTTONS
 	}
 
 .login-btn, .back-btn {
-	color: #fff;
+	color: #66ccff;
 	background: transparent;
-	border-color: #fff;
-	margin-left: 10px;
+	border-color: #66ccff;
 }
 
 	.login-btn:hover, .login-btn:focus, .back-btn:hover, .back-btn:focus {
-		background: #fff;
+		background: #66ccff;
 		border-color: transparent;
 		color: #254a79;
 	}
@@ -472,6 +471,8 @@ Navigation Links section
 .custom-navbar .navbar-btn {
 	margin-top: 8px;
 	margin-bottom: 8px;
+	line-height: 10px;
+	margin-left: 3rem;
 }
 
 @media (max-width: 991px) {
