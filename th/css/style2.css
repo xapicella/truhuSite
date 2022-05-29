@@ -104,8 +104,8 @@ body {
 		display: none;
 	}
 
-	login-btn {
-		margin-left: 10px;
+	.login-btn, .navbar-btn {
+		margin-left: 10px !important;
 	}
 }
 
@@ -472,7 +472,7 @@ Navigation Links section
 	margin-top: 8px;
 	margin-bottom: 8px;
 	line-height: 10px;
-	margin-left: 3rem;
+	margin-left: 2rem;
 }
 
 @media (max-width: 991px) {
@@ -1724,5 +1724,27 @@ section#hp-banner {
 		height: 50px;
 		margin: 0 auto;
 		padding-bottom: 1rem;
+	}
+
+}
+
+@media (max-width: 768px) {
+	#hero-banner,
+	#hp-banner, 
+	#broker-banner {
+		padding: 10px !important;
+	}
+
+	#hero-banner h1 {
+		font-size: 30px !important;
+	}
+
+	#hp-banner h1,
+	#broker-banner h1 {
+		font-size: 36px !important;
+	}
+
+	#hero-banner p {
+		font-size: 28px;
 	}
 }
