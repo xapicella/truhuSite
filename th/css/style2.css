@@ -893,8 +893,6 @@ section#hero-banner {
 
 @media screen and (min-width:992px) {
 	#hero-banner {
-		height: 60vh;
-		min-height: 650px;
 		color: #ffffff;
 		margin-top: 72px;
 	}
@@ -1028,6 +1026,7 @@ section#prod-banner {
 	font-size: 42px;
 	color: #101010;
 	font-weight: 200;
+	text-align: center;
 }
 
 #prod-pulse h3,
@@ -1041,7 +1040,7 @@ section#prod-banner {
 }
 
 .tall-img {
-	width: 80%;
+	width: 60%;
 	margin: auto;
 }
 
@@ -1514,15 +1513,45 @@ section#about-banner {
 .cardBlock {
 	background: #F2FAFF;
 	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.quotes-sm .cardBlock {
+	height: 170px;
+}
+
+.quotes-md .cardBlock {
+	height: 190px;
+}
+
+.quotes-lg .cardBlock {
+	height: 210px;
+}
+
+@media (max-width: 390px) {
+	.quotes-sm .cardBlock {
+		height: 210px;
+	}
+
+	.quotes-md .cardBlock {
+		height: 220px;
+	}
+
+	.quotes-lg .cardBlock {
+		height: 240px;
+	}
 }
 
 .cardBlock h3 {
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 0;
 }
 
 .cardBlock p {
 	margin: 0;
+	font-size: 13px !important;
 }
 
 .social-icon:hover {
@@ -1619,6 +1648,7 @@ section#broker-banner {
 
 	#th-checklist h5 {
 		text-align: center !important;
+		font-size: 24px;
 	}
 
 	#th-checklist hr {
@@ -1650,10 +1680,6 @@ section#broker-banner {
 #th-checklist h3 {
 	text-align: center;
 	padding-bottom: 2rem;
-}
-
-#th-checklist h5 {
-	font-size: 19px;
 }
 
 
@@ -1726,6 +1752,18 @@ section#hp-banner {
 		padding-bottom: 1rem;
 	}
 
+}
+
+#hero-banner p {
+	padding-top: 30px;
+}
+
+#hero-banner h1 {
+	font-size: 48px;
+}
+
+#prod-approach {
+	margin-top: 70px;
 }
 
 @media (max-width: 768px) {
