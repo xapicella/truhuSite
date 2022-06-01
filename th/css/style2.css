@@ -1789,13 +1789,13 @@ section#hp-banner {
 }
 
 #broker-quotes .testimonial-box img {
-	height: 65px;
-	margin: 0 auto 2rem auto;
+	height: 75px;
+	margin: 0 auto 1rem auto;
 }
 
 @media (max-width: 991px) {
 	#broker-quotes .testimonial-box img {
-		height: 50px;
+		height: 65px;
 		margin: 0 auto 1rem auto;
 	}
 
