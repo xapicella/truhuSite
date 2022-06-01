@@ -93,7 +93,7 @@ body {
 	}
 }
 
-@media(min-width: 768px) {
+@media(min-width: 769px) {
 	.hide-nonmobile {
 		display: none;
 	}
@@ -109,7 +109,7 @@ body {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.hide-mobile {
 		display: none;
 	}
@@ -1538,7 +1538,7 @@ section#about-banner {
 }
 
 .quotes-lg .cardBlock {
-	height: 210px;
+	height: 220px;
 }
 
 @media (max-width: 640px) {
@@ -1568,7 +1568,7 @@ section#about-banner {
 	}
 
 	.quotes-lg .cardBlock {
-		height: 210px;
+		height: 220px;
 	}
 
 	.cardBlock h3 {
@@ -1586,7 +1586,7 @@ section#about-banner {
 	}
 
 	.quotes-lg .cardBlock {
-		height: 240px;
+		height: 250px;
 	}
 
 	.cardBlock h3 {
@@ -1789,13 +1789,13 @@ section#hp-banner {
 }
 
 #broker-quotes .testimonial-box img {
-	height: 75px;
-	margin: 0 auto 1rem auto;
+	height: 65px;
+	margin: 0 auto 2rem auto;
 }
 
 @media (max-width: 991px) {
 	#broker-quotes .testimonial-box img {
-		height: 65px;
+		height: 55px;
 		margin: 0 auto 1rem auto;
 	}
 
@@ -1832,4 +1832,20 @@ section#hp-banner {
 	#hero-banner p {
 		font-size: 28px;
 	}
+}
+
+	#prod-pulse h1,
+	#prod-pr h1 {
+		margin-bottom: 0;
+	}
+
+
+#prod-pulse h2,
+#prod-pr h2 {
+	font-size: 32px;
+	margin: 2rem;
+	text-align: center;
+	color: #101010;
+	font-weight: 200;
+	padding-bottom: 3rem;
 }
