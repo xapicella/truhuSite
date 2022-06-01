@@ -1518,6 +1518,17 @@ section#about-banner {
 	justify-content: space-between;
 }
 
+	.cardBlock h3 {
+		margin-top: 1rem;
+		margin-bottom: 0;
+		font-size: 16px;
+	}
+
+	.cardBlock p {
+		margin: 0;
+		font-size: 16px !important;
+	}
+
 .quotes-sm .cardBlock {
 	height: 170px;
 }
@@ -1528,6 +1539,41 @@ section#about-banner {
 
 .quotes-lg .cardBlock {
 	height: 210px;
+}
+
+@media (max-width: 640px) {
+	.cardBlock h3 {
+		font-size: 16px;
+	}
+
+	.cardBlock p {
+		font-size: 14px !important;
+	}
+}
+
+@media (max-width: 490px) {
+
+	.cardBlock p {
+		font-size: 13px !important;
+	}
+}
+
+@media (max-width: 440px) {
+	.quotes-sm .cardBlock {
+		height: 170px;
+	}
+
+	.quotes-md .cardBlock {
+		height: 190px;
+	}
+
+	.quotes-lg .cardBlock {
+		height: 210px;
+	}
+
+	.cardBlock h3 {
+		font-size: 14px;
+	}
 }
 
 @media (max-width: 390px) {
@@ -1542,17 +1588,19 @@ section#about-banner {
 	.quotes-lg .cardBlock {
 		height: 240px;
 	}
+
+	.cardBlock h3 {
+		font-size: 13px;
+	}
 }
 
-.cardBlock h3 {
-	margin-top: 1rem;
-	margin-bottom: 0;
+@media (max-width: 368px) {
+	.cardBlock h3,
+	.cardBlock p {
+		font-size: 12px !important;
+	}
 }
 
-.cardBlock p {
-	margin: 0;
-	font-size: 13px !important;
-}
 
 .social-icon:hover {
 	color: #66ccff;
