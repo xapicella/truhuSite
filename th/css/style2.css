@@ -949,9 +949,10 @@ section#prod-banner {
 }
 
 #prod-approach {
-	padding-bottom: 0;
 	background: #ffffff url('../images/bg-swirl-graphic-blue.svg') no-repeat center center / cover;
 	background: center center / cover no-repeat #ffffff url('../images/bg-swirl-graphic-blue.svg');
+	padding-top: 3rem;
+	padding-bottom: 2rem;
 }
 
 .prod-img-row {
@@ -963,7 +964,18 @@ section#prod-banner {
 }
 
 #prod-approach .TH-accent-header {
-	font-size: 48px;
+	font-size: 24px;
+	color: #1798C1;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#prod-approach h2 {
+	color: #254a79;
+}
+
+#prod-approach img {
+	padding: 3rem;
 }
 
 #prod-approach .img-prods {
