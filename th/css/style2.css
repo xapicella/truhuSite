@@ -845,7 +845,7 @@ SECTION: Testimonials
 .testimonial-box {
 	background: #fff;
 	border-radius: 30px;
-	padding: 60px;
+	padding: 40px;
 	box-shadow: 0 0 10px 3px rgb(0 0 0 / 16%);
 	display: flex;
 	flex-direction: column;
@@ -872,6 +872,14 @@ SECTION: Testimonials
 	.testimonial-box {
 		padding: 40px;
 	}
+}
+
+.testimonial-box p {
+	font-size: 20px;
+}
+
+.testimonial-box .small {
+	font-size: 16px;
 }
 
 /*--------------------------------------- Home Page Styles -----------------------------------------*/
@@ -913,6 +921,11 @@ section#hero-banner {
 	display: inline-block;
 	vertical-align: middle;
 	float: none;
+}
+
+#hero-banner p {
+	font-size: 28px;
+	
 }
 
 /* ----------------
@@ -961,6 +974,13 @@ section#prod-banner {
 
 #prod-approach p {
 	font-size: 20px;
+}
+
+#prod-approach h1 {
+	font-size: 40px;
+	color: #1798C1;
+	padding-bottom: 0;
+	margin-bottom: 20px;
 }
 
 #prod-approach .TH-accent-header {
@@ -1033,22 +1053,40 @@ section#prod-banner {
 	}
 }
 
+#prod-pulse {
+	padding-top: 3rem;
+}
+
 #prod-pulse h1,
 #prod-pr h1 {
 	font-size: 42px;
 	color: #101010;
 	font-weight: 200;
 	text-align: center;
+	padding-bottom: 4rem;
 }
 
 #prod-pulse h3,
 #prod-pr h3 {
 	font-weight: 700;
-	color: #717171;
+	color: #1798C1;
 }
 
 #prod-pulse {
 	background-color: #FAFAFA;
+}
+
+.zp-list .fa-li {
+	color: #66ccff;
+}
+
+.zp-list li {
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+
+#prod-pulse .row { 
+	padding-top: 2rem;
 }
 
 .tall-img {
@@ -1675,6 +1713,10 @@ section#about-banner {
 	.page-footer .footerDivider {
 		display: none;
 	}
+}
+
+#th-careers {
+	background-color: #F2FAFF;
 }
 
 #broker-banner h1 {
