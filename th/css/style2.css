@@ -916,7 +916,6 @@ section#hero-banner {
 	}
 }
 
-/* Xander stylings */
 .vcenter {
 	display: inline-block;
 	vertical-align: middle;
@@ -926,6 +925,11 @@ section#hero-banner {
 #hero-banner p {
 	font-size: 28px;
 	
+}
+
+#home-integrations h3 {
+	color: #1798c1;
+	font-weight: 700;
 }
 
 /* ------------------------------ Product Page Styles ------------------------------ */
@@ -1089,7 +1093,7 @@ section#prod-banner {
 
 #prod-integrations {
 	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-bottom: 3rem;
 }
 
 #prod-integrations h3 {
