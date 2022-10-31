@@ -916,15 +916,29 @@ section#hero-banner {
 	}
 }
 
+#hero-banner p {
+	padding-top: 30px;
+	font-size: 28px;
+}
+
+#hero-banner p {
+	padding-top: 30px;
+	font-size: 28px;
+	text-align: center;
+}
+
+#hero-banner h1 {
+	font-size: 48px;
+}
+
+#hero-banner a {
+	text-align: center !important;
+}
+
 .vcenter {
 	display: inline-block;
 	vertical-align: middle;
 	float: none;
-}
-
-#hero-banner p {
-	font-size: 28px;
-	
 }
 
 #home-integrations h3 {
@@ -1868,14 +1882,6 @@ section#hp-banner {
 
 }
 
-#hero-banner p {
-	padding-top: 30px;
-}
-
-#hero-banner h1 {
-	font-size: 48px;
-}
-
 #prod-approach {
 	margin-top: 70px;
 }
@@ -1887,8 +1893,9 @@ section#hp-banner {
 		padding: 10px !important;
 	}
 
-	#hero-banner h1 {
-		font-size: 30px !important;
+	#hero-banner p {
+		font-size: 20px;
+		text-align: left;
 	}
 
 	#hp-banner h1,
