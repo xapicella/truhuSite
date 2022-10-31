@@ -946,6 +946,10 @@ section#hero-banner {
 	font-weight: 700;
 }
 
+img.img-home-footer {
+	padding: 3rem;
+}
+
 /* ------------------------------ Product Page Styles ------------------------------ */
 section#prod-banner {
 	background: #254a79 no-repeat center bottom / cover;
