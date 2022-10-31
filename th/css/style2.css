@@ -1044,12 +1044,7 @@ section#prod-banner {
 	}
 }
 
-@media screen and (max-width:712px) {
-	#prod-approach {
-		padding-left: 4rem;
-		padding-right: 4rem;
-	}
-}
+
 
 #prod-pulse {
 	padding-top: 3rem;
@@ -1092,19 +1087,19 @@ section#prod-banner {
 	margin: auto;
 }
 
-#th-integrations {
+#prod-integrations {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
 
-#th-integrations h3 {
-	color: #101010;
+#prod-integrations h3 {
+	color: #1798c1;
 	text-align: center;
 	font-weight: 700;
 	font-size: 24px;
 }
 
-#th-integrations img {
+#prod-integrations img {
 	max-height: 73.5px;
 }
 
