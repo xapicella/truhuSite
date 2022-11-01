@@ -939,6 +939,33 @@ section#hero-banner {
 	color: #66ccff;
 }
 
+#th-whitepaper {
+	background: url('../images/blue_man.png') no-repeat center top / cover;
+	background: center top / cover no-repeat url('../images/blue_man.png');
+	padding-top: 9rem;
+	padding-bottom: 9rem;
+}
+
+#th-whitepaper h2 {
+	color: #ffffff;
+	line-height: 42px;
+}
+
+#th-whitepaper a {
+	background-color: #8cc63e;
+	border-color: #8CC63E;
+}
+
+#th-whitepaper a:hover {
+	color: #8CC63E;
+	background-color: #254a79;
+}
+
+.percent-block {
+	background-color: #8CC63E;
+	padding: 3px 12px;
+}
+
 .vcenter {
 	display: inline-block;
 	vertical-align: middle;
