@@ -935,6 +935,10 @@ section#hero-banner {
 	text-align: center !important;
 }
 
+#th-summary .fa-li {
+	color: #66ccff;
+}
+
 .vcenter {
 	display: inline-block;
 	vertical-align: middle;
