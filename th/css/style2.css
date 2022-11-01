@@ -977,6 +977,12 @@ section#hero-banner {
 	font-weight: 700;
 }
 
+#home-integrations .hide-nonmobile {
+	padding-bottom: 3rem;
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
 img.img-home-footer {
 	padding: 3rem;
 }
