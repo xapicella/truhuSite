@@ -1873,6 +1873,10 @@ section#broker-banner {
 	font-size: 28px;
 }
 
+#hp-banner img {
+	padding-right: 60px;
+}
+
 section#hp-banner {
 	background: #ffffff url('../images/bg-swirl-graphic-blue.svg') no-repeat center center / cover;
 	background: center center / cover no-repeat #ffffff url('../images/bg-swirl-graphic-blue.svg');
