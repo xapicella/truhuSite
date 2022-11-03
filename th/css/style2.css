@@ -939,6 +939,15 @@ section#hero-banner {
 	color: #66ccff;
 }
 
+#th-approach {
+	text-align: center;
+	background: #FAFAFA;
+}
+
+#th-approach a {
+	text-align: center;
+}
+
 #th-whitepaper {
 	background: url('../images/blue_man.png') no-repeat center top / cover;
 	background: center top / cover no-repeat url('../images/blue_man.png');
