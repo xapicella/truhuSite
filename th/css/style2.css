@@ -882,10 +882,15 @@ SECTION: Testimonials
 	font-size: 16px;
 }
 
+.padded-img img {
+	padding: 4rem;
+}
+
 /*--------------------------------------- Home Page Styles -----------------------------------------*/
 /*---------------------------------------
 Home Hero Section              
 -----------------------------------------*/
+
 section#hero-banner {
 	background: #254a79 url('../images/bg-swirl-graphic-white.svg') no-repeat center bottom / cover;
 	background: center bottom / cover no-repeat #254a79 url('../images/bg-swirl-graphic-white.svg');
@@ -937,6 +942,11 @@ section#hero-banner {
 
 #th-summary .fa-li {
 	color: #66ccff;
+}
+
+#th-summary {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 #th-approach {
