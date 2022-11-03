@@ -944,6 +944,44 @@ section#hero-banner {
 	background: #FAFAFA;
 }
 
+#th-approach h2 {
+	margin-bottom: 1rem;
+}
+
+#th-approach h3 {
+	color: #101010;
+	font-size: 24px;
+}
+
+#th-approach .prod-icon {
+	font-size: 40px;
+	color: #1798C1;
+}
+
+#th-approach .prod-blocks {
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+}
+
+#th-approach .testimonial-box {
+	padding: 20px;
+	margin-bottom: 3rem;
+}
+
+#th-approach .quote {
+	margin: 0;
+	color: #1798C1;
+	font-weight: 700;
+}
+
+#th-approach .small {
+	margin: 0;
+	color: #101010;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 14px;
+}
+
 #th-approach a {
 	text-align: center;
 }
@@ -958,6 +996,7 @@ section#hero-banner {
 #th-whitepaper h2 {
 	color: #ffffff;
 	line-height: 42px;
+	margin-top: 10px;
 }
 
 #th-whitepaper a {
@@ -969,6 +1008,17 @@ section#hero-banner {
 	color: #8CC63E;
 	background-color: #254a79;
 }
+
+#th-whitepaper h5 {
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #8CC63E;
+} 
+
+#th-whitepaper p {
+	font-size: 24px;
+	color: #ffffff;
+} 
 
 .percent-block {
 	background-color: #8CC63E;
@@ -984,6 +1034,7 @@ section#hero-banner {
 #home-integrations h3 {
 	color: #1798c1;
 	font-weight: 700;
+	margin-top: 10px;
 }
 
 #home-integrations .hide-nonmobile {
@@ -995,6 +1046,11 @@ section#hero-banner {
 img.img-home-footer {
 	padding: 3rem;
 }
+
+#home-integrations h5 {
+	margin-bottom: 0;
+	font-size: 16px;
+} 
 
 /* ------------------------------ Product Page Styles ------------------------------ */
 section#prod-banner {
