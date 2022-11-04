@@ -1931,12 +1931,13 @@ section#broker-banner {
 #hp-banner h1 {
 	color: #101010;
 	font-weight: 600;
-	font-size: 48px;
+	font-size: 42px;
 }
 
 #hp-banner h2 {
 	color: #101010;
-	font-size: 28px;
+	font-size: 32px;
+	font-weight: 700;
 }
 
 section#hp-banner {
