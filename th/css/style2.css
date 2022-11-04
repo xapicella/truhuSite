@@ -997,8 +997,8 @@ section#hero-banner {
 }
 
 #th-whitepaper {
-	background: url('../images/blue_man.png') no-repeat center top / cover;
-	background: center top / cover no-repeat url('../images/blue_man.png');
+	background: url('../images/blue_man.webp') no-repeat center top / cover;
+	background: center top / cover no-repeat url('../images/blue_man.webp');
 	padding-top: 9rem;
 	padding-bottom: 9rem;
 }
@@ -1938,8 +1938,6 @@ section#broker-banner {
 	color: #101010;
 	font-size: 28px;
 }
-
-
 
 section#hp-banner {
 	background: #ffffff url('../images/bg-swirl-graphic-blue.svg') no-repeat center center / cover;
